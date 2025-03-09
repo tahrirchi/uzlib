@@ -5,6 +5,23 @@ from tabulate import tabulate
 
 from run_uzlib import extract_answer, calculate_accuracy
 
+human_baseline = {
+    'model_name': 'Human voters＊',
+    'all': 0.5894,
+    'correct_word': 0.6054,
+    'meaning': 0.5247,
+    'meaning_in_context': 0.5254,
+    'fill_in': 0.5094
+}
+
+random_baseline = {
+    'model_name': 'Random Baseline',
+    'all': 0.25,
+    'correct_word': 0.25,
+    'meaning': 0.25,
+    'meaning_in_context': 0.25,
+    'fill_in': 0.25
+}
 
 def generate_leaderboard():
     if not os.path.exists('artifacts/'):
@@ -54,6 +71,9 @@ def generate_leaderboard():
     df = pd.DataFrame(accuracy_info)
     columns = ['model_name', 'all', 'correct_word', 'meaning', 'meaning_in_context', 'fill_in']
     df = df[columns]
+
+    df = pd.concat([df, pd.DataFrame([human_baseline, random_baseline])], ignore_index=True)
+
     df = df.sort_values(by='all', ascending=False).reset_index(drop=True)
     
     for col in df.columns:
@@ -64,12 +84,13 @@ def generate_leaderboard():
     # df.to_csv("uzlib_leaderboard.csv", index=False)
 
     with open("LEADERBOARD.md", "w") as f:
-        f.write("# UzLiB Benchmark Leaderboard\n\n")
+        f.write("# UzLiB Leaderboard\n\n")
         f.write(tabulate(df.values.tolist(), headers=df.columns, tablefmt="pipe"))
+        f.write("\n\n* Human voters score is not the average of humans doing all the questions but the average of average accurate answers for each question. Also, note that random baseline for humans is 0.4229 due to variable number of options (2-3) in the original questions.")
     print("Leaderboard saved to LEADERBOARD.md")
     
     # Print the leaderboard
-    print("\n=== UzLiB Benchmark Leaderboard ===\n")
+    print("\n=== UzLiB Leaderboard ===\n")
     print(tabulate(df.values.tolist(), headers=df.columns, tablefmt="grid"))
     
     return df

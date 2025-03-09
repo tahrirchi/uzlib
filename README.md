@@ -1,55 +1,93 @@
 # UzLiB - Uzbek Linguistic Benchmark
 
-The Uzbek Linguistic Benchmark (UzLiB) is a benchmark with multiple-choice questions for evaluating linguistic abilities of Large Language Models (LLMs) in Uzbek language.
+[![HuggingFace](https://img.shields.io/badge/🤗%20Dataset-UzLiB-yellow)](https://huggingface.co/datasets/murodbek/uzlib)
+[![GitHub](https://img.shields.io/badge/GitHub-UzLiB-blue)](https://github.com/shopulatov/uzlib)
 
-The source for all questions is collected from selected 4 Telegram channels quizzes: [Orif Tolib](https://t.me/oriftolib), [Тўғри ёзамиз — мутахассис блоги](https://t.me/xatoliklar), [Tahrir.uz📝](https://t.me/tahrir_uz), and [Tahrirchi | Tilmoch](https://t.me/tahrirchi_uz). Then, each question is manually labeled to record correct answer. After that, each question went through categorization, transliteration and deduplication processes.
+UzLiB is a multiple-choice question benchmark for evaluating the linguistic abilities of Large Language Models (LLMs) in the Uzbek language. This benchmark helps measure how well AI models understand correct Uzbek language forms and usage.
 
-Leaderboard is [here](https://github.com/shopulatov/uzlib/blob/main/LEADERBOARD.md).
+## Overview
 
-This repository contains OpenAI API evaluation code, responses from each evaluated model and the benchmark is available in HuggingFace for download [here](https://huggingface.co/datasets/murodbek/uzlib). Raw version lives on [this Google Sheets](https://docs.google.com/spreadsheets/d/1lVJVlNxj37p-3pcCc-rxpD73z_xLPxgKse-ugqC2XRc/edit?usp=sharing).
+- **Question Types**: The benchmark includes questions on correct word choice, word meanings, contextual meanings, and fill-in-the-blank exercises
+- **Question Format**: All questions are multiple-choice with options A, B, C, and D
+- **Data Source**: Questions collected from popular Uzbek language Telegram channels
+- **Current Leaders**: Check the [leaderboard](LEADERBOARD.md) for the latest results
 
-# Reproduction
+## Benchmark Details
 
-First clone this repository and install the requirements:
+UzLiB contains questions sourced from selected Telegram channels that specialize in Uzbek language quizzes:
+- [Orif Tolib](https://t.me/oriftolib)
+- [Тўғри ёзамиз — мутахассис блоги](https://t.me/xatoliklar)
+- [Tahrir.uz📝](https://t.me/tahrir_uz)
+- [Tahrirchi | Tilmoch](https://t.me/tahrirchi_uz)
 
+Each question has been manually labeled with the correct answer and categorized by question type.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- OpenAI API key (for testing with compatible models)
+- Access to models you want to evaluate
+
+### Installation
+
+1. Clone the repository:
 ```bash
-git clone git@github.com:shopulatov/uzlib.git
+git clone https://github.com/shopulatov/uzlib.git
 cd uzlib/
+```
+
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
 ```
 
-Then set-up `.env` file with proper API keys.
-
+3. Set up environment variables:
 ```bash
-mv .env.sample .env
+cp .env.sample .env
+# Edit .env with your API keys
 ```
 
-In order to test specific model, you can run:
+### Running the Benchmark
 
+To test a specific model:
 ```bash
-python run_uzblib.py --model_name MODEL_NAME
+python run_uzlib.py --model_name MODEL_NAME
 ```
 
-Currently, list of testable models are restricted by `MODEL_NAMES` list in [utils.py](https://github.com/shopulatov/uzlib/blob/main/utils.py). However, the script is meant to be hackable. Feel free to include new models and change model providers. 
+Supported models are listed in the `MODEL_NAMES` list in [utils.py](utils.py).
 
-Some models (those from `mistralai` and `behbudiy`) are tested using [vllm](https://vllm.ai)'s OpenAI-Compatible Server with Nvidia A100 GPU instance. [Here](https://docs.vllm.ai/en/latest/getting_started/installation/index.html) is the instructions for setting up the vllm.
+### Using vLLM for Evaluation
 
-Once you set-up you can run the server using:
+For models from `mistralai` and `behbudiy`, we use [vllm](https://vllm.ai)'s OpenAI-Compatible Server:
 
+1. [Install vLLM](https://docs.vllm.ai/en/latest/getting_started/installation/index.html)
+
+2. Start the server for most models:
 ```bash
 vllm serve MODEL_NAME --api-key token-abc123
 ```
 
-except `behbudiy/Llama-3.1-8B-Instuct-Uz` model, in which you should change default chat template:
-
+3. For the `behbudiy/Llama-3.1-8B-Instuct-Uz` model, use this special command:
 ```bash
 vllm serve behbudiy/Llama-3.1-8B-Instuct-Uz --api-key token-abc123 --chat-template "{% for message in messages %}{{'<|begin_of_text|>' if loop.first else ''}}<|start_header_id|>{{ message.role }}<|end_header_id|>\n\n{{ message.content }}\n\n<|eot_id|>{% endfor %}{% if add_generation_prompt %}<|start_header_id|>assistant<|end_header_id|>\n\n{% endif %}"
 ```
 
-# Citation
+### Generating the Leaderboard
+
+After evaluating models, generate an updated leaderboard:
+```bash
+python generate_leaderboard.py
+```
+
+## Extending the Benchmark
+
+You can evaluate new models by adding them to the `MODEL_NAMES` list in `utils.py` and configuring the appropriate client setup.
+
+## Citation
 ```
 @misc{Shopulatov2025UzLiB,
-      title={UzLiB: A benchmark for evaluating Uzbek linguistics}, 
+      title={UzLiB: A benchmark for evaluating LLMs on Uzbek linguistics}, 
       author={Abror Shopulatov},
       year={2025}
       url={https://huggingface.co/datasets/murodbek/uzlib},
@@ -58,5 +96,6 @@ vllm serve behbudiy/Llama-3.1-8B-Instuct-Uz --api-key token-abc123 --chat-templa
 }
 ```
 
-# Contact
-For any questions or issues related to the dataset or code, please contact [ml.muhandis@gmail.com](mailto:ml.muhandis@gmail.com).
+## Contact
+
+For questions or issues related to the dataset or code, please contact [ml.muhandis@gmail.com](mailto:ml.muhandis@gmail.com).
