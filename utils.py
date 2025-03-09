@@ -1,10 +1,11 @@
 import os
 from openai import OpenAI
-from anthropic import Anthropic
 from dotenv import load_dotenv
 
+# Load environment variables from .env file
 load_dotenv()
 
+# List of supported model names
 MODEL_NAMES = [
     "gemini-2.0-pro-exp-02-05",
     "gemini-2.0-flash-001",
@@ -33,6 +34,8 @@ MODEL_NAMES = [
     
     "deepseek-ai/DeepSeek-V3",
 
+    "microsoft/phi-4",
+
     "CohereForAI/c4ai-command-r-plus-08-2024",
     "CohereForAI/c4ai-command-r-08-2024",
     "CohereForAI/c4ai-command-r7b-12-2024",
@@ -43,47 +46,70 @@ MODEL_NAMES = [
     "behbudiy/Mistral-7B-Instruct-Uz",
     "behbudiy/Mistral-Nemo-Instruct-Uz",
     "behbudiy/Llama-3.1-8B-Instuct-Uz",
-
 ]
 
 def get_client(MODEL_NAME):
+    """
+    Get the appropriate OpenAI client for a given model.
+    
+    Args:
+        MODEL_NAME (str): The name of the model to use.
+        
+    Returns:
+        OpenAI: An initialized OpenAI client or None if model is not supported.
+        
+    Raises:
+        KeyError: If required environment variables are missing.
+    """
     if MODEL_NAME not in MODEL_NAMES:
         print(f"{MODEL_NAME} is not supported yet")
         return None
     
-    if "gpt" in MODEL_NAME:
-        client = OpenAI(
-            api_key=os.environ["OPENAI_API_KEY"]
-        )
+    try:
+        if "gpt" in MODEL_NAME:
+            client = OpenAI(
+                api_key=os.environ["OPENAI_API_KEY"]
+            )
 
-    elif "claude" in MODEL_NAME:
-        client = OpenAI(
-              api_key = os.environ["ANTHROPIC_API_KEY"],
-              base_url = "https://api.anthropic.com/v1/"  
-        )
+        elif "claude" in MODEL_NAME:
+            client = OpenAI(
+                api_key=os.environ["ANTHROPIC_API_KEY"],
+                base_url="https://api.anthropic.com/v1/"  
+            )
 
-    elif "gemini" in MODEL_NAME:
-        client = OpenAI(
-              api_key = os.environ["GEMINI_API_KEY"],
-              base_url = "https://generativelanguage.googleapis.com/v1beta/"  
-        )
-    
-    elif "gemma" in MODEL_NAME or "cohere" in MODEL_NAME.lower():
-        client = OpenAI(
-            api_key = os.environ["HUGGINGFACE_API_KEY"],
-            base_url="https://api-inference.huggingface.co/v1/"
-        )
+        elif "gemini" in MODEL_NAME:
+            client = OpenAI(
+                api_key=os.environ["GEMINI_API_KEY"],
+                base_url="https://generativelanguage.googleapis.com/v1beta/"  
+            )
+        
+        elif "gemma" in MODEL_NAME or "cohere" in MODEL_NAME.lower():
+            client = OpenAI(
+                api_key=os.environ["HUGGINGFACE_API_KEY"],
+                base_url="https://api-inference.huggingface.co/v1/"
+            )
+        
+        elif "phi" in MODEL_NAME:
+            client = OpenAI(
+                api_key=os.environ["NEBIUS_API_KEY"],
+                base_url="https://api.studio.nebius.ai/v1/"
+            )
 
-    elif "mistral" in MODEL_NAME or "behbudiy" in MODEL_NAME:
-        client = OpenAI(
-            api_key="token-abc123",
-            base_url="http://localhost:8000/v1",
-        )
+        elif "mistral" in MODEL_NAME or "behbudiy" in MODEL_NAME:
+            # Note: This uses hardcoded values which might need configuration
+            client = OpenAI(
+                api_key="token-abc123",
+                base_url="http://localhost:8000/v1",
+            )
 
-    else:
-        client = OpenAI(
-            api_key=os.environ["TOGETHER_API_KEY"],
-            base_url="https://api.together.xyz/v1",
-        )
+        else:   
+            client = OpenAI(
+                api_key=os.environ["TOGETHER_API_KEY"],
+                base_url="https://api.together.xyz/v1",
+            )
 
-    return client
+        return client
+        
+    except KeyError as e:
+        print(f"Error: {str(e)}")
+        return None

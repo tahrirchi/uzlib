@@ -2,7 +2,9 @@
 
 The Uzbek Linguistic Benchmark (UzLiB) is a benchmark with multiple-choice questions for evaluating linguistic abilities of Large Language Models (LLMs) in Uzbek language.
 
-The source for all questions is collected from selected 4 Telegram channels quizzes: [Orif Tolib](https://t.me/oriftolib), [Тўғри ёзамиз — мутахассис блоги](https://t.me/xatoliklar), [Tahrir.uz📝](https://t.me/tahrir_uz), and [Tahrirchi | Tilmoch](https://t.me/tahrirchi_uz). Then, each question is manually labeled to record correct answer as Telegram does not provide the correct answers for quizzes. After that, each question went through categorization, transliteration and deduplication processes.
+The source for all questions is collected from selected 4 Telegram channels quizzes: [Orif Tolib](https://t.me/oriftolib), [Тўғри ёзамиз — мутахассис блоги](https://t.me/xatoliklar), [Tahrir.uz📝](https://t.me/tahrir_uz), and [Tahrirchi | Tilmoch](https://t.me/tahrirchi_uz). Then, each question is manually labeled to record correct answer. After that, each question went through categorization, transliteration and deduplication processes.
+
+Leaderboard is [here](https://github.com/shopulatov/uzlib/blob/main/LEADERBOARD.md).
 
 This repository contains OpenAI API evaluation code, responses from each evaluated model and the benchmark is available in HuggingFace for download [here](https://huggingface.co/datasets/murodbek/uzlib). Raw version lives on [this Google Sheets](https://docs.google.com/spreadsheets/d/1lVJVlNxj37p-3pcCc-rxpD73z_xLPxgKse-ugqC2XRc/edit?usp=sharing).
 
