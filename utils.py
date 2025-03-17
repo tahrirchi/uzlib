@@ -21,6 +21,8 @@ MODEL_NAMES = [
     "claude-3-5-sonnet-20240620",
     "claude-3-5-haiku-20241022",
     
+    "google/gemma-3-27b-it",
+    "google/gemma-3-12b-it",
     "google/gemma-2-27b-it",
     "google/gemma-2-9b-it",
     
@@ -36,6 +38,7 @@ MODEL_NAMES = [
 
     "microsoft/phi-4",
 
+    "CohereForAI/c4ai-command-a-03-2025",
     "CohereForAI/c4ai-command-r-plus-08-2024",
     "CohereForAI/c4ai-command-r-08-2024",
     "CohereForAI/c4ai-command-r7b-12-2024",
@@ -49,18 +52,6 @@ MODEL_NAMES = [
 ]
 
 def get_client(MODEL_NAME):
-    """
-    Get the appropriate OpenAI client for a given model.
-    
-    Args:
-        MODEL_NAME (str): The name of the model to use.
-        
-    Returns:
-        OpenAI: An initialized OpenAI client or None if model is not supported.
-        
-    Raises:
-        KeyError: If required environment variables are missing.
-    """
     if MODEL_NAME not in MODEL_NAMES:
         print(f"{MODEL_NAME} is not supported yet")
         return None
@@ -82,8 +73,8 @@ def get_client(MODEL_NAME):
                 api_key=os.environ["GEMINI_API_KEY"],
                 base_url="https://generativelanguage.googleapis.com/v1beta/"  
             )
-        
-        elif "gemma" in MODEL_NAME or "cohere" in MODEL_NAME.lower():
+
+        elif "gemma-2" in MODEL_NAME or "cohere" in MODEL_NAME.lower():
             client = OpenAI(
                 api_key=os.environ["HUGGINGFACE_API_KEY"],
                 base_url="https://api-inference.huggingface.co/v1/"
@@ -95,7 +86,7 @@ def get_client(MODEL_NAME):
                 base_url="https://api.studio.nebius.ai/v1/"
             )
 
-        elif "mistral" in MODEL_NAME or "behbudiy" in MODEL_NAME:
+        elif "mistral" in MODEL_NAME or "behbudiy" in MODEL_NAME or "gemma-3" in MODEL_NAME:
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
                 api_key="token-abc123",

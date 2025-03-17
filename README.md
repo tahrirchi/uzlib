@@ -1,7 +1,7 @@
 # UzLiB - Uzbek Linguistic Benchmark
 
-[![HuggingFace](https://img.shields.io/badge/🤗%20Dataset-UzLiB-yellow)](https://huggingface.co/datasets/murodbek/uzlib)
-[![GitHub](https://img.shields.io/badge/GitHub-UzLiB-blue)](https://github.com/shopulatov/uzlib)
+[![HuggingFace](https://img.shields.io/badge/🤗%20Dataset-UzLiB-yellow)](https://huggingface.co/datasets/tahrirchi/uzlib)
+[![GitHub](https://img.shields.io/badge/GitHub-UzLiB-blue)](https://github.com/tahrirchi/uzlib)
 
 UzLiB is a multiple-choice question benchmark for evaluating the linguistic abilities of Large Language Models (LLMs) in the Uzbek language. This benchmark helps measure how well AI models understand correct Uzbek language forms and usage.
 
@@ -20,7 +20,9 @@ UzLiB contains questions sourced from selected Telegram channels that specialize
 - [Tahrir.uz📝](https://t.me/tahrir_uz)
 - [Tahrirchi | Tilmoch](https://t.me/tahrirchi_uz)
 
-Each question has been manually labeled with the correct answer and categorized by question type.
+Each question has been manually labeled with the correct answer and categorized by question type. 
+
+Original and processed versions of the benchmark (along with source and voter counts) are available in [data/](data/) folder.
 
 ## Getting Started
 
@@ -33,7 +35,7 @@ Each question has been manually labeled with the correct answer and categorized 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/shopulatov/uzlib.git
+git clone https://github.com/tahrirchi/uzlib.git
 cd uzlib/
 ```
 
@@ -59,7 +61,7 @@ Supported models are listed in the `MODEL_NAMES` list in [utils.py](utils.py).
 
 ### Using vLLM for Evaluation
 
-For models from `mistralai` and `behbudiy`, we use [vllm](https://vllm.ai)'s OpenAI-Compatible Server:
+For models from `mistralai`, `behbudiy` and `gemma-3` family, we use [vllm](https://vllm.ai)'s OpenAI-Compatible Server:
 
 1. [Install vLLM](https://docs.vllm.ai/en/latest/getting_started/installation/index.html)
 
@@ -90,7 +92,7 @@ You can evaluate new models by adding them to the `MODEL_NAMES` list in `utils.p
       title={UzLiB: A benchmark for evaluating LLMs on Uzbek linguistics}, 
       author={Abror Shopulatov},
       year={2025}
-      url={https://huggingface.co/datasets/murodbek/uzlib},
+      url={https://huggingface.co/datasets/tahrirchi/uzlib},
       note={Accessed: 2025-02-18}, % change this date
       urldate   = {2025-02-18} % change this date
 }
@@ -98,4 +100,4 @@ You can evaluate new models by adding them to the `MODEL_NAMES` list in `utils.p
 
 ## Contact
 
-For questions or issues related to the dataset or code, please contact [ml.muhandis@gmail.com](mailto:ml.muhandis@gmail.com).
+For questions or issues related to the dataset or code, please contact [abror@tilmoch.ai](mailto:abror@tilmoch.ai).

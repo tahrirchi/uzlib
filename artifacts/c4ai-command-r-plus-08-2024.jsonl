@@ -324,3 +324,1538 @@
 {"id": "CW0323", "response": "B) Shuni ham tushunmaysanmi, pandavoqi!", "extracted_answer": "B"}
 {"id": "CW0324", "response": "B) Sog\u02bblik", "extracted_answer": "B"}
 {"id": "CW0325", "response": "B) Sovuq qotmoq", "extracted_answer": "B"}
+{"id": "CW0326", "response": "B", "extracted_answer": "B"}
+{"id": "CW0327", "response": "B", "extracted_answer": "B"}
+{"id": "CW0328", "response": "A", "extracted_answer": "A"}
+{"id": "CW0329", "response": "C\n  \nRaqamlar, o\u02bbz o\u02bbrnida yozilgan muddatni (70 yil) ko\u02bbrsatadi. A versiyasi qo\u02bbshimcha tarjimayi oladi (yoshli). B versiyasi aynan tahqiqot shaklini ko\u02bbrsatishadi.", "extracted_answer": "C"}
+{"id": "CW0330", "response": "B) Sumbul", "extracted_answer": "B"}
+{"id": "CW0331", "response": "B", "extracted_answer": "B"}
+{"id": "CW0332", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "CW0333", "response": "B", "extracted_answer": "B"}
+{"id": "CW0334", "response": "D", "extracted_answer": "D"}
+{"id": "CW0335", "response": "A", "extracted_answer": "A"}
+{"id": "CW0336", "response": "C", "extracted_answer": "C"}
+{"id": "CW0337", "response": "B) Taloto\u02bbp", "extracted_answer": "B"}
+{"id": "CW0338", "response": "A", "extracted_answer": "A"}
+{"id": "CW0339", "response": "B", "extracted_answer": "B"}
+{"id": "CW0340", "response": "D", "extracted_answer": "D"}
+{"id": "CW0341", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "CW0342", "response": "A", "extracted_answer": "A"}
+{"id": "CW0343", "response": "B", "extracted_answer": "B"}
+{"id": "CW0344", "response": "B", "extracted_answer": "B"}
+{"id": "CW0345", "response": "C", "extracted_answer": "C"}
+{"id": "CW0346", "response": "D", "extracted_answer": "D"}
+{"id": "CW0347", "response": "B", "extracted_answer": "B"}
+{"id": "CW0348", "response": "B", "extracted_answer": "B"}
+{"id": "CW0349", "response": "D", "extracted_answer": "D"}
+{"id": "CW0350", "response": "A) To\u02bbg\u02bbralgan piyoz", "extracted_answer": "A"}
+{"id": "CW0351", "response": "B) To\u02bbg\u02bbri qo\u02bbllangan", "extracted_answer": "B"}
+{"id": "CW0352", "response": "B) To\u02bbg\u02bbri yondoshuv", "extracted_answer": "B"}
+{"id": "CW0353", "response": "C) Ikkovi ham to\u2018g\u2018ri", "extracted_answer": "C"}
+{"id": "CW0354", "response": "B", "extracted_answer": "B"}
+{"id": "CW0355", "response": "A", "extracted_answer": "A"}
+{"id": "CW0356", "response": "D", "extracted_answer": "D"}
+{"id": "CW0357", "response": "C\n  \nTosh bilan urib pachaqladi To\u2018g\u2018ri yozilishi mumkin", "extracted_answer": "C"}
+{"id": "CW0358", "response": "A", "extracted_answer": "A"}
+{"id": "CW0359", "response": "C", "extracted_answer": "C"}
+{"id": "CW0360", "response": "A", "extracted_answer": "A"}
+{"id": "CW0361", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "CW0362", "response": "C", "extracted_answer": "C"}
+{"id": "CW0363", "response": "A", "extracted_answer": "A"}
+{"id": "CW0364", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "CW0365", "response": "A\n  \nTuzikmisiz?", "extracted_answer": "A"}
+{"id": "CW0366", "response": "B", "extracted_answer": "B"}
+{"id": "CW0367", "response": "A", "extracted_answer": "A"}
+{"id": "CW0368", "response": "A", "extracted_answer": "A"}
+{"id": "CW0369", "response": "B) Unga gap uqtirish qiyin.", "extracted_answer": "B"}
+{"id": "CW0370", "response": "A", "extracted_answer": "A"}
+{"id": "CW0371", "response": "A", "extracted_answer": "A"}
+{"id": "CW0372", "response": "D", "extracted_answer": "D"}
+{"id": "CW0373", "response": "A", "extracted_answer": "A"}
+{"id": "CW0374", "response": "B) Ustod", "extracted_answer": "B"}
+{"id": "CW0375", "response": "C", "extracted_answer": "C"}
+{"id": "CW0376", "response": "B", "extracted_answer": "B"}
+{"id": "CW0377", "response": "B", "extracted_answer": "B"}
+{"id": "CW0378", "response": "B) Uydirma", "extracted_answer": "B"}
+{"id": "CW0379", "response": "A", "extracted_answer": "A"}
+{"id": "CW0380", "response": "A", "extracted_answer": "A"}
+{"id": "CW0381", "response": "A", "extracted_answer": "A"}
+{"id": "CW0382", "response": "A", "extracted_answer": "A"}
+{"id": "CW0383", "response": "A", "extracted_answer": "A"}
+{"id": "CW0384", "response": "A", "extracted_answer": "A"}
+{"id": "CW0385", "response": "A", "extracted_answer": "A"}
+{"id": "CW0386", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "CW0387", "response": "A", "extracted_answer": "A"}
+{"id": "CW0388", "response": "B", "extracted_answer": "B"}
+{"id": "CW0389", "response": "B) Xolos", "extracted_answer": "B"}
+{"id": "CW0390", "response": "A) Xar", "extracted_answer": "A"}
+{"id": "CW0391", "response": "B) Xokisor", "extracted_answer": "B"}
+{"id": "CW0392", "response": "C", "extracted_answer": "C"}
+{"id": "CW0393", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "CW0394", "response": "A", "extracted_answer": "A"}
+{"id": "CW0395", "response": "A", "extracted_answer": "A"}
+{"id": "CW0396", "response": "A", "extracted_answer": "A"}
+{"id": "CW0397", "response": "A", "extracted_answer": "A"}
+{"id": "CW0398", "response": "B) Yelpig\u02bbich", "extracted_answer": "B"}
+{"id": "CW0399", "response": "B) Yerga polos to\u02bbshaldi.", "extracted_answer": "B"}
+{"id": "CW0400", "response": "B) Yetkizmoq", "extracted_answer": "B"}
+{"id": "CW0401", "response": "B) Yetkizmoq", "extracted_answer": "B"}
+{"id": "CW0402", "response": "C) Ikkovi ham to\u2018g\u2018ri", "extracted_answer": "C"}
+{"id": "CW0403", "response": "A", "extracted_answer": "A"}
+{"id": "CW0404", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "CW0405", "response": "B", "extracted_answer": "B"}
+{"id": "CW0406", "response": "B", "extracted_answer": "B"}
+{"id": "CW0407", "response": "B", "extracted_answer": "B"}
+{"id": "CW0408", "response": "A", "extracted_answer": "A"}
+{"id": "CW0409", "response": "B", "extracted_answer": "B"}
+{"id": "CW0410", "response": "B) Yutqizmoq", "extracted_answer": "B"}
+{"id": "CW0411", "response": "A) Yuzi burushdi.", "extracted_answer": "A"}
+{"id": "CW0412", "response": "A", "extracted_answer": "A"}
+{"id": "CW0413", "response": "B", "extracted_answer": "B"}
+{"id": "CW0414", "response": "B", "extracted_answer": "B"}
+{"id": "CW0415", "response": "A", "extracted_answer": "A"}
+{"id": "CW0416", "response": "B) Imlo mavzuyidagi savol", "extracted_answer": "B"}
+{"id": "CW0417", "response": "A", "extracted_answer": "A"}
+{"id": "CW0418", "response": "C) Inchunin", "extracted_answer": "C"}
+{"id": "CW0419", "response": "B) Individual shug\u02bbullanmoqchiman", "extracted_answer": "B"}
+{"id": "CW0420", "response": "C", "extracted_answer": "C"}
+{"id": "CW0421", "response": "B) Inshaat", "extracted_answer": "B"}
+{"id": "CW0422", "response": "B", "extracted_answer": "B"}
+{"id": "CW0423", "response": "A", "extracted_answer": "A"}
+{"id": "CW0424", "response": "D) Ismi-sharif", "extracted_answer": "D"}
+{"id": "CW0425", "response": "C", "extracted_answer": "C"}
+{"id": "CW0426", "response": "B", "extracted_answer": "B"}
+{"id": "CW0427", "response": "D", "extracted_answer": "D"}
+{"id": "CW0428", "response": "D) Jangavor harakatlar", "extracted_answer": "D"}
+{"id": "CW0429", "response": "B) Janobi olilari", "extracted_answer": "B"}
+{"id": "CW0430", "response": "D", "extracted_answer": "D"}
+{"id": "CW0431", "response": "D", "extracted_answer": "D"}
+{"id": "CW0432", "response": "C) Junbishga keltirdi", "extracted_answer": "C"}
+{"id": "CW0433", "response": "B", "extracted_answer": "B"}
+{"id": "CW0434", "response": "B", "extracted_answer": "B"}
+{"id": "CW0435", "response": "A", "extracted_answer": "A"}
+{"id": "CW0436", "response": "D", "extracted_answer": "D"}
+{"id": "CW0437", "response": "D) Kelibti", "extracted_answer": "D"}
+{"id": "CW0438", "response": "B", "extracted_answer": "B"}
+{"id": "CW0439", "response": "C) Kisovur", "extracted_answer": "C"}
+{"id": "CW0440", "response": "D) Koeffisiyent", "extracted_answer": "D"}
+{"id": "CW0441", "response": "B", "extracted_answer": "B"}
+{"id": "CW0442", "response": "B", "extracted_answer": "B"}
+{"id": "CW0443", "response": "A", "extracted_answer": "A"}
+{"id": "CW0444", "response": "B) Ko\u02bbzim yo\u02bblingga mahtal", "extracted_answer": "B"}
+{"id": "CW0445", "response": "B", "extracted_answer": "B"}
+{"id": "CW0446", "response": "C) Konstitutsiya", "extracted_answer": "C"}
+{"id": "CW0447", "response": "D", "extracted_answer": "D"}
+{"id": "CW0448", "response": "B", "extracted_answer": "B"}
+{"id": "CW0449", "response": "D", "extracted_answer": "D"}
+{"id": "CW0450", "response": "B", "extracted_answer": "B"}
+{"id": "CW0451", "response": "B", "extracted_answer": "B"}
+{"id": "CW0452", "response": "C) Labirint", "extracted_answer": "C"}
+{"id": "CW0453", "response": "D", "extracted_answer": "D"}
+{"id": "CW0454", "response": "A) Lahcha cho\u02bbg\u02bb", "extracted_answer": "A"}
+{"id": "CW0455", "response": "B) Liq to\u02bbla", "extracted_answer": "B"}
+{"id": "CW0456", "response": "B", "extracted_answer": "B"}
+{"id": "CW0457", "response": "B", "extracted_answer": "B"}
+{"id": "CW0458", "response": "B", "extracted_answer": "B"}
+{"id": "CW0459", "response": "B) Majlisda angliyaliklar, rossiyaliklar va xitoyliklar qatnashdi.", "extracted_answer": "B"}
+{"id": "CW0460", "response": "B", "extracted_answer": "B"}
+{"id": "CW0461", "response": "D", "extracted_answer": "D"}
+{"id": "CW0462", "response": "C) Mana-man degan boylar", "extracted_answer": "C"}
+{"id": "CW0463", "response": "C", "extracted_answer": "C"}
+{"id": "CW0464", "response": "B", "extracted_answer": "B"}
+{"id": "CW0465", "response": "B) Marvon II \u2013 \u201cUmaviylar davlatining\u201d so\u02bbnggi hukmdori.", "extracted_answer": "B"}
+{"id": "CW0466", "response": "B) Marvon II \u2013 \u201cUmaviylar sulolasining\u201d so\u02bbnggi hukmdori.", "extracted_answer": "B"}
+{"id": "CW0467", "response": "C) Mashina boloni", "extracted_answer": "C"}
+{"id": "CW0468", "response": "A", "extracted_answer": "A"}
+{"id": "CW0469", "response": "D) Ma'sul", "extracted_answer": "D"}
+{"id": "CW0470", "response": "A", "extracted_answer": "A"}
+{"id": "CW0471", "response": "B) Matbaa\u02bc", "extracted_answer": "B"}
+{"id": "CW0472", "response": "D", "extracted_answer": "D"}
+{"id": "CW0473", "response": "A", "extracted_answer": "A"}
+{"id": "CW0474", "response": "B", "extracted_answer": "B"}
+{"id": "CW0475", "response": "C) Mazahlamoq", "extracted_answer": "C"}
+{"id": "CW0476", "response": "A", "extracted_answer": "A"}
+{"id": "CW0477", "response": "C) Minggizmoq", "extracted_answer": "C"}
+{"id": "CW0478", "response": "C", "extracted_answer": "C"}
+{"id": "CW0479", "response": "B) Mirzo Ulug\u02bbbek tumani", "extracted_answer": "B"}
+{"id": "CW0480", "response": "C) Mushkil ish", "extracted_answer": "C"}
+{"id": "CW0481", "response": "C", "extracted_answer": "C"}
+{"id": "CW0482", "response": "B) Mo\u02bbg\u02bbullar qo\u02bbshini", "extracted_answer": "B"}
+{"id": "CW0483", "response": "A", "extracted_answer": "A"}
+{"id": "CW0484", "response": "C) Monopoliyaning zarari hammaga yetadi.", "extracted_answer": "C"}
+{"id": "CW0485", "response": "A", "extracted_answer": "A"}
+{"id": "CW0486", "response": "A", "extracted_answer": "A"}
+{"id": "CW0487", "response": "D) Mo\u02bbmiyo", "extracted_answer": "D"}
+{"id": "CW0488", "response": "B", "extracted_answer": "B"}
+{"id": "CW0489", "response": "C) Muvofiqlashtirish", "extracted_answer": "C"}
+{"id": "CW0490", "response": "B", "extracted_answer": "B"}
+{"id": "CW0491", "response": "A", "extracted_answer": "A"}
+{"id": "CW0492", "response": "D) mutaxassis", "extracted_answer": "D"}
+{"id": "CW0493", "response": "C) Mutahassis", "extracted_answer": "C"}
+{"id": "CW0494", "response": "C", "extracted_answer": "C"}
+{"id": "CW0495", "response": "D", "extracted_answer": "D"}
+{"id": "CW0496", "response": "B", "extracted_answer": "B"}
+{"id": "CW0497", "response": "A) Mutolaa ham ehtiyoj.", "extracted_answer": "A"}
+{"id": "CW0498", "response": "C) Muttasil", "extracted_answer": "C"}
+{"id": "CW0499", "response": "B) muvafaqiyat", "extracted_answer": "B"}
+{"id": "CW0500", "response": "A", "extracted_answer": "A"}
+{"id": "CW0501", "response": "C) Natijada, iqtisodiyot biroz o\u02bbnglandi.", "extracted_answer": "C"}
+{"id": "CW0502", "response": "C) Natavon ko\u02bbngilga qo\u02bbtir jomashov", "extracted_answer": "C"}
+{"id": "CW0503", "response": "B", "extracted_answer": "B"}
+{"id": "CW0504", "response": "B", "extracted_answer": "B"}
+{"id": "CW0505", "response": "B", "extracted_answer": "B"}
+{"id": "CW0506", "response": "A", "extracted_answer": "A"}
+{"id": "CW0507", "response": "D) Noxat", "extracted_answer": "D"}
+{"id": "CW0508", "response": "B", "extracted_answer": "B"}
+{"id": "CW0509", "response": "D) Nohang", "extracted_answer": "D"}
+{"id": "CW0510", "response": "A", "extracted_answer": "A"}
+{"id": "CW0511", "response": "C) Non tandirdan uzuldi.", "extracted_answer": "C"}
+{"id": "CW0512", "response": "B", "extracted_answer": "B"}
+{"id": "CW0513", "response": "A", "extracted_answer": "A"}
+{"id": "CW0514", "response": "B", "extracted_answer": "B"}
+{"id": "CW0515", "response": "C", "extracted_answer": "C"}
+{"id": "CW0516", "response": "A) O\u02bbg\u02bbrilik qilgan o\u02bbg\u02bbri bo\u02bbladida!", "extracted_answer": "A"}
+{"id": "CW0517", "response": "D) O\u02bbqituvchilar Navro\u02bbz dahasida tut ko\u02bbchatlarini ekkani aniqlandi.", "extracted_answer": "D"}
+{"id": "CW0518", "response": "B) O\u02bbquvchilarimiz tanlovning Respublika Bosqichiga yo\u02bbl oldi!", "extracted_answer": "B"}
+{"id": "CW0519", "response": "A", "extracted_answer": "A"}
+{"id": "CW0520", "response": "A", "extracted_answer": "A"}
+{"id": "CW0521", "response": "C", "extracted_answer": "C"}
+{"id": "CW0522", "response": "B", "extracted_answer": "B"}
+{"id": "CW0523", "response": "A", "extracted_answer": "A"}
+{"id": "CW0524", "response": "B", "extracted_answer": "B"}
+{"id": "CW0525", "response": "B", "extracted_answer": "B"}
+{"id": "CW0526", "response": "B) O\u02bbziga-o\u02bbzi gapiryaptimi?", "extracted_answer": "B"}
+{"id": "CW0527", "response": "A) Oldin tatqiq qilish kerak, keyin tatbiq.", "extracted_answer": "A"}
+{"id": "CW0528", "response": "B", "extracted_answer": "B"}
+{"id": "CW0529", "response": "C", "extracted_answer": "C"}
+{"id": "CW0530", "response": "A", "extracted_answer": "A"}
+{"id": "CW0531", "response": "C) Orzuyi", "extracted_answer": "C"}
+{"id": "CW0532", "response": "A", "extracted_answer": "A"}
+{"id": "CW0533", "response": "A", "extracted_answer": "A"}
+{"id": "CW0534", "response": "B", "extracted_answer": "B"}
+{"id": "CW0535", "response": "C", "extracted_answer": "C"}
+{"id": "CW0536", "response": "A", "extracted_answer": "A"}
+{"id": "CW0537", "response": "B", "extracted_answer": "B"}
+{"id": "CW0538", "response": "A", "extracted_answer": "A"}
+{"id": "CW0539", "response": "A", "extracted_answer": "A"}
+{"id": "CW0540", "response": "B", "extracted_answer": "B"}
+{"id": "CW0541", "response": "C) Pidagog", "extracted_answer": "C"}
+{"id": "CW0542", "response": "A) Polietilen paketlar", "extracted_answer": "A"}
+{"id": "CW0543", "response": "D", "extracted_answer": "D"}
+{"id": "CW0544", "response": "C) Pavilion", "extracted_answer": "C"}
+{"id": "CW0545", "response": "D", "extracted_answer": "D"}
+{"id": "CW0546", "response": "D", "extracted_answer": "D"}
+{"id": "CW0547", "response": "D", "extracted_answer": "D"}
+{"id": "CW0548", "response": "A) Qanaqa orzuing bor?", "extracted_answer": "A"}
+{"id": "CW0549", "response": "B)", "extracted_answer": "B"}
+{"id": "CW0550", "response": "D", "extracted_answer": "D"}
+{"id": "CW0551", "response": "C", "extracted_answer": "C"}
+{"id": "CW0552", "response": "D", "extracted_answer": "D"}
+{"id": "CW0553", "response": "B", "extracted_answer": "B"}
+{"id": "CW0554", "response": "C) Qor tuxtadimi?", "extracted_answer": "C"}
+{"id": "CW0555", "response": "Qor yog\u2018qanda", "extracted_answer": null}
+{"id": "CW0556", "response": "C", "extracted_answer": "C"}
+{"id": "CW0557", "response": "B", "extracted_answer": "B"}
+{"id": "CW0558", "response": "B) Qurimapti", "extracted_answer": "B"}
+{"id": "CW0559", "response": "B", "extracted_answer": "B"}
+{"id": "CW0560", "response": "C) qurutgich", "extracted_answer": "C"}
+{"id": "CW0561", "response": "B", "extracted_answer": "B"}
+{"id": "CW0562", "response": "B", "extracted_answer": "B"}
+{"id": "CW0563", "response": "B) Rang-ba rang mavzularni qalamga oldi.", "extracted_answer": "B"}
+{"id": "CW0564", "response": "A", "extracted_answer": "A"}
+{"id": "CW0565", "response": "A", "extracted_answer": "A"}
+{"id": "CW0566", "response": "D) Rasmiy diller", "extracted_answer": "D"}
+{"id": "CW0567", "response": "A", "extracted_answer": "A"}
+{"id": "CW0568", "response": "A", "extracted_answer": "A"}
+{"id": "CW0569", "response": "B) Sabzivot", "extracted_answer": "B"}
+{"id": "CW0570", "response": "B", "extracted_answer": "B"}
+{"id": "CW0571", "response": "D) Salovat", "extracted_answer": "D"}
+{"id": "CW0572", "response": "D) Salor kanali", "extracted_answer": "D"}
+{"id": "CW0573", "response": "C", "extracted_answer": "C"}
+{"id": "CW0574", "response": "C) Sonsalorlik", "extracted_answer": "C"}
+{"id": "CW0575", "response": "B", "extracted_answer": "B"}
+{"id": "CW0576", "response": "A", "extracted_answer": "A"}
+{"id": "CW0577", "response": "B) Sazavar bo\u2018ldi", "extracted_answer": "B"}
+{"id": "CW0578", "response": "C", "extracted_answer": "C"}
+{"id": "CW0579", "response": "A", "extracted_answer": "A"}
+{"id": "CW0580", "response": "C", "extracted_answer": "C"}
+{"id": "CW0581", "response": "B) Sendachi? Senda bilim bormi?", "extracted_answer": "B"}
+{"id": "CW0582", "response": "C", "extracted_answer": "C"}
+{"id": "CW0583", "response": "B) Shaharlar-aro avtobus qatnovi", "extracted_answer": "B"}
+{"id": "CW0584", "response": "D) Shaxt o\u2018rnidan turib, yo\u2018lga tushdi.", "extracted_answer": "D"}
+{"id": "CW0585", "response": "B) Shahdam qadam tashlab ishga jo\u02bbnadi.", "extracted_answer": "B"}
+{"id": "CW0586", "response": "C", "extracted_answer": "C"}
+{"id": "CW0587", "response": "D", "extracted_answer": "D"}
+{"id": "CW0588", "response": "D", "extracted_answer": "D"}
+{"id": "CW0589", "response": "B", "extracted_answer": "B"}
+{"id": "CW0590", "response": "A", "extracted_answer": "A"}
+{"id": "CW0591", "response": "A) shaxobcha", "extracted_answer": "A"}
+{"id": "CW0592", "response": "B", "extracted_answer": "B"}
+{"id": "CW0593", "response": "B", "extracted_answer": "B"}
+{"id": "CW0594", "response": "D", "extracted_answer": "D"}
+{"id": "CW0595", "response": "C", "extracted_answer": "C"}
+{"id": "CW0596", "response": "D) Soat nechada?", "extracted_answer": "D"}
+{"id": "CW0597", "response": "C", "extracted_answer": "C"}
+{"id": "CW0598", "response": "B) So\u02bbng o\u02bbqituvchi fikrlarni umumlashtirib esse haqida ma\u02bclumot beradi. bu variant boshqalaridan farqli o\u02bblaroq, majburiy kalit so\u02bbzlarni echimlashga yoki boshqalarini qo\u02bbshimcha qo\u02bbshishga erisha olmagan. Eshsanasi va ijtimoiy fanlar kabi fanni sifatlar bilan aloqadarga keladigan boshqa so\u02bbzlarni qo\u02bbshishga bo'ladi.", "extracted_answer": "B"}
+{"id": "CW0599", "response": "B", "extracted_answer": "B"}
+{"id": "CW0600", "response": "C) Suiiste\u2019mol", "extracted_answer": "C"}
+{"id": "CW0601", "response": "B", "extracted_answer": "B"}
+{"id": "CW0602", "response": "D) Suratni tez suratda chizdi.", "extracted_answer": "D"}
+{"id": "CW0603", "response": "C) Suiqast", "extracted_answer": "C"}
+{"id": "CW0604", "response": "B", "extracted_answer": "B"}
+{"id": "CW0605", "response": "A", "extracted_answer": "A"}
+{"id": "CW0606", "response": "D", "extracted_answer": "D"}
+{"id": "CW0607", "response": "C) Taassurot", "extracted_answer": "C"}
+{"id": "CW0608", "response": "D", "extracted_answer": "D"}
+{"id": "CW0609", "response": "C", "extracted_answer": "C"}
+{"id": "CW0610", "response": "A", "extracted_answer": "A"}
+{"id": "CW0611", "response": "D", "extracted_answer": "D"}
+{"id": "CW0612", "response": "D) Talafot", "extracted_answer": "D"}
+{"id": "CW0613", "response": "D) Talofot", "extracted_answer": "D"}
+{"id": "CW0614", "response": "D) Tannafus tugadimi?", "extracted_answer": "D"}
+{"id": "CW0615", "response": "D) tanavvul", "extracted_answer": "D"}
+{"id": "CW0616", "response": "D) taqazo", "extracted_answer": "D"}
+{"id": "CW0617", "response": "B", "extracted_answer": "B"}
+{"id": "CW0618", "response": "A) Tadqiqot laboratoriyasi", "extracted_answer": "A"}
+{"id": "CW0619", "response": "A) Tazyiq o\u02bbtkazdi.", "extracted_answer": "A"}
+{"id": "CW0620", "response": "A", "extracted_answer": "A"}
+{"id": "CW0621", "response": "C) Tekgan", "extracted_answer": "C"}
+{"id": "CW0622", "response": "C) Tengdoshlari orasida o\u02bbz mavqeyisiga ega.", "extracted_answer": "C"}
+{"id": "CW0623", "response": "D", "extracted_answer": "D"}
+{"id": "CW0624", "response": "D", "extracted_answer": "D"}
+{"id": "CW0625", "response": "B", "extracted_answer": "B"}
+{"id": "CW0626", "response": "B) To\u02bbg\u02bbri yozish mavzusida gaplashamiz.", "extracted_answer": "B"}
+{"id": "CW0627", "response": "D) To\u02bbrtallasi ham shu fikrda ekan.", "extracted_answer": "D"}
+{"id": "CW0628", "response": "B) Toj Mahal", "extracted_answer": "B"}
+{"id": "CW0629", "response": "C) Tolon-taroj", "extracted_answer": "C"}
+{"id": "CW0630", "response": "B", "extracted_answer": "B"}
+{"id": "CW0631", "response": "B) Tong yorishib, quyosh chiqdi.", "extracted_answer": "B"}
+{"id": "CW0632", "response": "D) Toqazo", "extracted_answer": "D"}
+{"id": "CW0633", "response": "B", "extracted_answer": "B"}
+{"id": "CW0634", "response": "D) Senariy", "extracted_answer": "D"}
+{"id": "CW0635", "response": "A", "extracted_answer": "A"}
+{"id": "CW0636", "response": "B", "extracted_answer": "B"}
+{"id": "CW0637", "response": "B", "extracted_answer": "B"}
+{"id": "CW0638", "response": "B", "extracted_answer": "B"}
+{"id": "CW0639", "response": "C) Tutruqsiz", "extracted_answer": "C"}
+{"id": "CW0640", "response": "A) Tutriqsiz", "extracted_answer": "A"}
+{"id": "CW0641", "response": "B", "extracted_answer": "B"}
+{"id": "CW0642", "response": "B", "extracted_answer": "B"}
+{"id": "CW0643", "response": "B) U Birinchi Jahon urushida qatnashgan edi.", "extracted_answer": "B"}
+{"id": "CW0644", "response": "B) U Boburiylar sulolasi vakili edi.", "extracted_answer": "B"}
+{"id": "CW0645", "response": "B) U Bolqon urushi va Birinchi Jahon urushida qatnashgan edi.", "extracted_answer": "B"}
+{"id": "CW0646", "response": "D) \u201cUmrah\u201c ibodati, \u201cUmrah\u201d ziyorati", "extracted_answer": "D"}
+{"id": "CW0647", "response": "C", "extracted_answer": "C"}
+{"id": "CW0648", "response": "A", "extracted_answer": "A"}
+{"id": "CW0649", "response": "D) Ustibosh", "extracted_answer": "D"}
+{"id": "CW0650", "response": "D) Uylarni supirib-sidirdi.", "extracted_answer": "D"}
+{"id": "CW0651", "response": "A) Uyma-uy, rang-barang", "extracted_answer": "A"}
+{"id": "CW0652", "response": "C) U yoqdan bu yoqqa", "extracted_answer": "C"}
+{"id": "CW0653", "response": "C", "extracted_answer": "C"}
+{"id": "CW0654", "response": "D", "extracted_answer": "D"}
+{"id": "CW0655", "response": "B) Uzul-kesil", "extracted_answer": "B"}
+{"id": "CW0656", "response": "B) Uziq-yuluq", "extracted_answer": "B"}
+{"id": "CW0657", "response": "A", "extracted_answer": "A"}
+{"id": "CW0658", "response": "B) Uzzu kun", "extracted_answer": "B"}
+{"id": "CW0659", "response": "A) Vodorod", "extracted_answer": "A"}
+{"id": "CW0660", "response": "A", "extracted_answer": "A"}
+{"id": "CW0661", "response": "C) Vakuum", "extracted_answer": "C"}
+{"id": "CW0662", "response": "D", "extracted_answer": "D"}
+{"id": "CW0663", "response": "C", "extracted_answer": "C"}
+{"id": "CW0664", "response": "D", "extracted_answer": "D"}
+{"id": "CW0665", "response": "C) Haqiqatdan shunday", "extracted_answer": "C"}
+{"id": "CW0666", "response": "B) Xatolarni to\u02bbg\u02bbrilaymiz.", "extracted_answer": "B"}
+{"id": "CW0667", "response": "D", "extracted_answer": "D"}
+{"id": "CW0668", "response": "C) xayrixoh", "extracted_answer": "C"}
+{"id": "CW0669", "response": "C) Hayirli oqshom", "extracted_answer": "C"}
+{"id": "CW0670", "response": "C", "extracted_answer": "C"}
+{"id": "CW0671", "response": "B", "extracted_answer": "B"}
+{"id": "CW0672", "response": "Javob D'dir. Xohlagan variant \"Xoxlagan\" deb yozilishi kerak.", "extracted_answer": "D"}
+{"id": "CW0673", "response": "A", "extracted_answer": "A"}
+{"id": "CW0674", "response": "B", "extracted_answer": "B"}
+{"id": "CW0675", "response": "A", "extracted_answer": "A"}
+{"id": "CW0676", "response": "B", "extracted_answer": "B"}
+{"id": "CW0677", "response": "D) Hudkush", "extracted_answer": "D"}
+{"id": "CW0678", "response": "B) Xushhabar", "extracted_answer": "B"}
+{"id": "CW0679", "response": "A) Yalong\u02bboch iqtisodiyot kitobini o\u02bbqidingizmi?", "extracted_answer": "A"}
+{"id": "CW0680", "response": "C", "extracted_answer": "C"}
+{"id": "CW0681", "response": "D) Yevroosiyo materigi", "extracted_answer": "D"}
+{"id": "CW0682", "response": "D) Yo\u02bbl qoidasi \u2013 umr foydasi.", "extracted_answer": "D"}
+{"id": "CW0683", "response": "A) Yo\u02bbldan o\u02bbtyotib hayoliga keldi.", "extracted_answer": "A"}
+{"id": "CW0684", "response": "A) Yo\u02bbg\u02bbe", "extracted_answer": "A"}
+{"id": "CW0685", "response": "B) Yonilg\u02bbi quyish shahobchasi", "extracted_answer": "B"}
+{"id": "CW0686", "response": "B) yoritg\u02bbich", "extracted_answer": "B"}
+{"id": "CW0687", "response": "D", "extracted_answer": "D"}
+{"id": "CW0688", "response": "A", "extracted_answer": "A"}
+{"id": "CW0689", "response": "D", "extracted_answer": "D"}
+{"id": "CW0690", "response": "C) Zimziyo xona", "extracted_answer": "C"}
+{"id": "CW0691", "response": "A", "extracted_answer": "A"}
+{"id": "CW0692", "response": "A", "extracted_answer": "A"}
+{"id": "CW0693", "response": "C", "extracted_answer": "C"}
+{"id": "CW0694", "response": "A) ...va hokazo", "extracted_answer": "A"}
+{"id": "CW0695", "response": "A) \u201cOltin meros\u201d jamg\u02bbarmasi", "extracted_answer": "A"}
+{"id": "CW0696", "response": "B) \"Taym-menedjment\" mavzusida...", "extracted_answer": "B"}
+{"id": "CW0697", "response": "C) 0dan boshlab", "extracted_answer": "C"}
+{"id": "CW0698", "response": "B", "extracted_answer": "B"}
+{"id": "CW0699", "response": "A", "extracted_answer": "A"}
+{"id": "CW0700", "response": "A", "extracted_answer": "A"}
+{"id": "CW0701", "response": "B) 270 boshga yaqin qo\u2018y", "extracted_answer": "B"}
+{"id": "CW0702", "response": "C) 3-mln. so\u2018m", "extracted_answer": "C"}
+{"id": "CW0703", "response": "C) 5 - 10 ta kitob", "extracted_answer": "C"}
+{"id": "CW0704", "response": "B", "extracted_answer": "B"}
+{"id": "CW0705", "response": "D", "extracted_answer": "D"}
+{"id": "CW0706", "response": "A) Avif", "extracted_answer": "A"}
+{"id": "CW0707", "response": "C) Ahmaq", "extracted_answer": "C"}
+{"id": "CW0708", "response": "A", "extracted_answer": "A"}
+{"id": "CW0709", "response": "B) Albatta", "extracted_answer": "B"}
+{"id": "CW0710", "response": "D) Aloe", "extracted_answer": "D"}
+{"id": "CW0711", "response": "D", "extracted_answer": "D"}
+{"id": "CW0712", "response": "C", "extracted_answer": "C"}
+{"id": "CW0713", "response": "C) Aqlbovar qilmas ish", "extracted_answer": "C"}
+{"id": "CW0714", "response": "A) Aqilli", "extracted_answer": "A"}
+{"id": "CW0715", "response": "C) Arzigulik sabap", "extracted_answer": "C"}
+{"id": "CW0716", "response": "B) Aslzoda", "extracted_answer": "B"}
+{"id": "CW0717", "response": "D) Asqotmoq", "extracted_answer": "D"}
+{"id": "CW0718", "response": "C) Atige", "extracted_answer": "C"}
+{"id": "CW0719", "response": "C) Axborot", "extracted_answer": "C"}
+{"id": "CW0720", "response": "B) Ayibsizlik prizumpsiyasi", "extracted_answer": "B"}
+{"id": "CW0721", "response": "A", "extracted_answer": "A"}
+{"id": "CW0722", "response": "B) Ayuhannos", "extracted_answer": "B"}
+{"id": "CW0723", "response": "B) Batafzil", "extracted_answer": "B"}
+{"id": "CW0724", "response": "A", "extracted_answer": "A"}
+{"id": "CW0725", "response": "B) Baqshida qilmoq", "extracted_answer": "B"}
+{"id": "CW0726", "response": "Baxolash me\u02bczoni qanday?", "extracted_answer": null}
+{"id": "CW0727", "response": "C", "extracted_answer": "C"}
+{"id": "CW0728", "response": "C) Bahis", "extracted_answer": "C"}
+{"id": "CW0729", "response": "D", "extracted_answer": "D"}
+{"id": "CW0730", "response": "D) Balkiy bilarsiz?", "extracted_answer": "D"}
+{"id": "CW0731", "response": "C) Bolan", "extracted_answer": "C"}
+{"id": "CW0732", "response": "C) Bankga bordim", "extracted_answer": "C"}
+{"id": "CW0733", "response": "D", "extracted_answer": "D"}
+{"id": "CW0734", "response": "B", "extracted_answer": "B"}
+{"id": "CW0735", "response": "C) Barchangizga rahmat", "extracted_answer": "C"}
+{"id": "CW0736", "response": "D) Barchangizni tabriklayman", "extracted_answer": "D"}
+{"id": "CW0737", "response": "C) Batafsil", "extracted_answer": "C"}
+{"id": "CW0738", "response": "C", "extracted_answer": "C"}
+{"id": "CW0739", "response": "B", "extracted_answer": "B"}
+{"id": "CW0740", "response": "A) Bayroq hilpirab turibdi", "extracted_answer": "A"}
+{"id": "CW0741", "response": "D) Bexurmatlik qildi", "extracted_answer": "D"}
+{"id": "CW0742", "response": "B", "extracted_answer": "B"}
+{"id": "CW0743", "response": "A", "extracted_answer": "A"}
+{"id": "CW0744", "response": "C", "extracted_answer": "C"}
+{"id": "CW0745", "response": "C", "extracted_answer": "C"}
+{"id": "CW0746", "response": "C", "extracted_answer": "C"}
+{"id": "CW0747", "response": "A", "extracted_answer": "A"}
+{"id": "CW0748", "response": "C) Besh nafar bola", "extracted_answer": "C"}
+{"id": "CW0749", "response": "C", "extracted_answer": "C"}
+{"id": "CW0750", "response": "D", "extracted_answer": "D"}
+{"id": "CW0751", "response": "D) Bibbinoyidek rasm chizar ekansanku!", "extracted_answer": "D"}
+{"id": "CW0752", "response": "C) Bibbinoyi uy", "extracted_answer": "C"}
+{"id": "CW0753", "response": "B", "extracted_answer": "B"}
+{"id": "CW0754", "response": "C) Bilag uzuk", "extracted_answer": "C"}
+{"id": "CW0755", "response": "D) Bilim - kuchtir.", "extracted_answer": "D"}
+{"id": "CW0756", "response": "D", "extracted_answer": "D"}
+{"id": "CW0757", "response": "A) Bir martalik xayvonlar uchun taglik", "extracted_answer": "A"}
+{"id": "CW0758", "response": "A", "extracted_answer": "A"}
+{"id": "CW0759", "response": "D) Bir ho\u02bbplam suv", "extracted_answer": "D"}
+{"id": "CW0760", "response": "A", "extracted_answer": "A"}
+{"id": "CW0761", "response": "B", "extracted_answer": "B"}
+{"id": "CW0762", "response": "D", "extracted_answer": "D"}
+{"id": "CW0763", "response": "A", "extracted_answer": "A"}
+{"id": "CW0764", "response": "A", "extracted_answer": "A"}
+{"id": "CW0765", "response": "C", "extracted_answer": "C"}
+{"id": "CW0766", "response": "C) Boqimanda", "extracted_answer": "C"}
+{"id": "CW0767", "response": "B) Boyaqish", "extracted_answer": "B"}
+{"id": "CW0768", "response": "C", "extracted_answer": "C"}
+{"id": "CW0769", "response": "D", "extracted_answer": "D"}
+{"id": "CW0770", "response": "C", "extracted_answer": "C"}
+{"id": "CW0771", "response": "B", "extracted_answer": "B"}
+{"id": "CW0772", "response": "D", "extracted_answer": "D"}
+{"id": "CW0773", "response": "B) Bo\u2018rxon", "extracted_answer": "B"}
+{"id": "CW0774", "response": "A", "extracted_answer": "A"}
+{"id": "CW0775", "response": "C) Buhgalter", "extracted_answer": "C"}
+{"id": "CW0776", "response": "D", "extracted_answer": "D"}
+{"id": "CW0777", "response": "C) Buyriq", "extracted_answer": "C"}
+{"id": "CW0778", "response": "D) Buyurmoq", "extracted_answer": "D"}
+{"id": "CW0779", "response": "D", "extracted_answer": "D"}
+{"id": "CW0780", "response": "A", "extracted_answer": "A"}
+{"id": "CW0781", "response": "B) Chanqavuz chaldi.", "extracted_answer": "B"}
+{"id": "CW0782", "response": "C) Chongyutkich", "extracted_answer": "C"}
+{"id": "CW0783", "response": "B) Choratrof tinch", "extracted_answer": "B"}
+{"id": "CW0784", "response": "B) Chug\u02bburchiq", "extracted_answer": "B"}
+{"id": "CW0785", "response": "D) Daxshat", "extracted_answer": "D"}
+{"id": "CW0786", "response": "A", "extracted_answer": "A"}
+{"id": "CW0787", "response": "D", "extracted_answer": "D"}
+{"id": "CW0788", "response": "D) Darz ketkan piyola", "extracted_answer": "D"}
+{"id": "CW0789", "response": "A", "extracted_answer": "A"}
+{"id": "CW0790", "response": "B) Das ro\u2018mol", "extracted_answer": "B"}
+{"id": "CW0791", "response": "B) Dastlapgi", "extracted_answer": "B"}
+{"id": "CW0792", "response": "A", "extracted_answer": "A"}
+{"id": "CW0793", "response": "B) Dastxat", "extracted_answer": "B"}
+{"id": "CW0794", "response": "D) Davlat Test Markazi", "extracted_answer": "D"}
+{"id": "CW0795", "response": "A", "extracted_answer": "A"}
+{"id": "CW0796", "response": "D) Davom etdirmoq", "extracted_answer": "D"}
+{"id": "CW0797", "response": "C", "extracted_answer": "C"}
+{"id": "CW0798", "response": "C) Dahmazah", "extracted_answer": "C"}
+{"id": "CW0799", "response": "A", "extracted_answer": "A"}
+{"id": "CW0800", "response": "B) Dermantin", "extracted_answer": "B"}
+{"id": "CW0801", "response": "D) Devol", "extracted_answer": "D"}
+{"id": "CW0802", "response": "C) Din rukunlari", "extracted_answer": "C"}
+{"id": "CW0803", "response": "D)", "extracted_answer": "D"}
+{"id": "CW0804", "response": "D) Jorj", "extracted_answer": "D"}
+{"id": "CW0805", "response": "B", "extracted_answer": "B"}
+{"id": "CW0806", "response": "A) Don-daraksiz", "extracted_answer": "A"}
+{"id": "CW0807", "response": "A) dorilaman", "extracted_answer": "A"}
+{"id": "CW0808", "response": "B", "extracted_answer": "B"}
+{"id": "CW0809", "response": "A", "extracted_answer": "A"}
+{"id": "CW0810", "response": "C", "extracted_answer": "C"}
+{"id": "CW0811", "response": "D", "extracted_answer": "D"}
+{"id": "CW0812", "response": "B", "extracted_answer": "B"}
+{"id": "CW0813", "response": "D", "extracted_answer": "D"}
+{"id": "CW0814", "response": "C) Duplikat", "extracted_answer": "C"}
+{"id": "CW0815", "response": "A) Durrang", "extracted_answer": "A"}
+{"id": "CW0816", "response": "B", "extracted_answer": "B"}
+{"id": "CW0817", "response": "A", "extracted_answer": "A"}
+{"id": "CW0818", "response": "C) Energia manbaalari", "extracted_answer": "C"}
+{"id": "CW0819", "response": "B", "extracted_answer": "B"}
+{"id": "CW0820", "response": "B) Estalik", "extracted_answer": "B"}
+{"id": "CW0821", "response": "B) Eshik taqa-taq yopiq.", "extracted_answer": "B"}
+{"id": "CW0822", "response": "D", "extracted_answer": "D"}
+{"id": "CW0823", "response": "C) \u00abExpert\u00bb kompaniyasi", "extracted_answer": "C"}
+{"id": "CW0824", "response": "D) Fahim-farosat", "extracted_answer": "D"}
+{"id": "CW0825", "response": "D) Falakiyot", "extracted_answer": "D"}
+{"id": "CW0826", "response": "D) Parovon", "extracted_answer": "D"}
+{"id": "CW0827", "response": "B) Farruh, Gulruh", "extracted_answer": "B"}
+{"id": "CW0828", "response": "B) Fasillar kelinchagi", "extracted_answer": "B"}
+{"id": "CW0829", "response": "A", "extracted_answer": "A"}
+{"id": "CW0830", "response": "A) fidoyi", "extracted_answer": "A"}
+{"id": "CW0831", "response": "A", "extracted_answer": "A"}
+{"id": "CW0832", "response": "A) Fikir yurutmoq", "extracted_answer": "A"}
+{"id": "CW0833", "response": "C\n  \nThe correct answer among the given variants is 'C' or 'Filiyal'. The other options are misspelled and do not correspond to the correct word.", "extracted_answer": "C"}
+{"id": "CW0834", "response": "D", "extracted_answer": "D"}
+{"id": "CW0835", "response": "B", "extracted_answer": "B"}
+{"id": "CW0836", "response": "A", "extracted_answer": "A"}
+{"id": "CW0837", "response": "B) Foyiz", "extracted_answer": "B"}
+{"id": "CW0838", "response": "A", "extracted_answer": "A"}
+{"id": "CW0839", "response": "D", "extracted_answer": "D"}
+{"id": "CW0840", "response": "D", "extracted_answer": "D"}
+{"id": "CW0841", "response": "C) Fudbolka", "extracted_answer": "C"}
+{"id": "CW0842", "response": "B", "extracted_answer": "B"}
+{"id": "CW0843", "response": "A", "extracted_answer": "A"}
+{"id": "CW0844", "response": "D) Gapimni tushunmadiyov", "extracted_answer": "D"}
+{"id": "CW0845", "response": "C) Gapning po\u2018skallasi", "extracted_answer": "C"}
+{"id": "CW0846", "response": "D", "extracted_answer": "D"}
+{"id": "CW0847", "response": "A) G\u02bbo\u02bbddaymoq", "extracted_answer": "A"}
+{"id": "CW0848", "response": "B", "extracted_answer": "B"}
+{"id": "CW0849", "response": "C", "extracted_answer": "C"}
+{"id": "CW0850", "response": "B", "extracted_answer": "B"}
+{"id": "CW0851", "response": "B) Gul bargidagi xonqizi", "extracted_answer": "B"}
+{"id": "CW0852", "response": "A", "extracted_answer": "A"}
+{"id": "CW0853", "response": "A", "extracted_answer": "A"}
+{"id": "CW0854", "response": "C) Gumburlomoq", "extracted_answer": "C"}
+{"id": "CW0855", "response": "C) Gumbas", "extracted_answer": "C"}
+{"id": "CW0856", "response": "D", "extracted_answer": "D"}
+{"id": "CW0857", "response": "C", "extracted_answer": "C"}
+{"id": "CW0858", "response": "C) Hadiya", "extracted_answer": "C"}
+{"id": "CW0859", "response": "D", "extracted_answer": "D"}
+{"id": "CW0860", "response": "B) Xal qilmoq", "extracted_answer": "B"}
+{"id": "CW0861", "response": "B) Holovat", "extracted_answer": "B"}
+{"id": "CW0862", "response": "A", "extracted_answer": "A"}
+{"id": "CW0863", "response": "D", "extracted_answer": "D"}
+{"id": "CW0864", "response": "D", "extracted_answer": "D"}
+{"id": "CW0865", "response": "D", "extracted_answer": "D"}
+{"id": "CW0866", "response": "A", "extracted_answer": "A"}
+{"id": "CW0867", "response": "D) Haqiqadan, bu fikringizda jon bor.", "extracted_answer": "D"}
+{"id": "CW0868", "response": "A) Xaqiqiy", "extracted_answer": "A"}
+{"id": "CW0869", "response": "C", "extracted_answer": "C"}
+{"id": "CW0870", "response": "D) Xarajat", "extracted_answer": "D"}
+{"id": "CW0871", "response": "D) Harit", "extracted_answer": "D"}
+{"id": "CW0872", "response": "A", "extracted_answer": "A"}
+{"id": "CW0873", "response": "B", "extracted_answer": "B"}
+{"id": "CW0874", "response": "C", "extracted_answer": "C"}
+{"id": "CW0875", "response": "A", "extracted_answer": "A"}
+{"id": "CW0876", "response": "B", "extracted_answer": "B"}
+{"id": "CW0877", "response": "B", "extracted_answer": "B"}
+{"id": "CW0878", "response": "C) Hayf", "extracted_answer": "C"}
+{"id": "CW0879", "response": "C) Hayifsan", "extracted_answer": "C"}
+{"id": "CW0880", "response": "C", "extracted_answer": "C"}
+{"id": "CW0881", "response": "D) Hayit", "extracted_answer": "D"}
+{"id": "CW0882", "response": "B) Xayol.", "extracted_answer": "B"}
+{"id": "CW0883", "response": "C", "extracted_answer": "C"}
+{"id": "CW0884", "response": "B", "extracted_answer": "B"}
+{"id": "CW0885", "response": "B", "extracted_answer": "B"}
+{"id": "CW0886", "response": "A", "extracted_answer": "A"}
+{"id": "CW0887", "response": "A) Xid", "extracted_answer": "A"}
+{"id": "CW0888", "response": "B) Xijolat", "extracted_answer": "B"}
+{"id": "CW0889", "response": "A", "extracted_answer": "A"}
+{"id": "CW0890", "response": "D", "extracted_answer": "D"}
+{"id": "CW0891", "response": "A", "extracted_answer": "A"}
+{"id": "CW0892", "response": "D) Xirgoyi", "extracted_answer": "D"}
+{"id": "CW0893", "response": "A", "extracted_answer": "A"}
+{"id": "CW0894", "response": "D) Hodim", "extracted_answer": "D"}
+{"id": "CW0895", "response": "C) Hop bo\u02bbladi", "extracted_answer": "C"}
+{"id": "CW0896", "response": "D) Holis yordam", "extracted_answer": "D"}
+{"id": "CW0897", "response": "D", "extracted_answer": "D"}
+{"id": "CW0898", "response": "A", "extracted_answer": "A"}
+{"id": "CW0899", "response": "C) Xotirijam", "extracted_answer": "C"}
+{"id": "CW0900", "response": "A", "extracted_answer": "A"}
+{"id": "CW0901", "response": "B", "extracted_answer": "B"}
+{"id": "CW0902", "response": "D", "extracted_answer": "D"}
+{"id": "CW0903", "response": "C", "extracted_answer": "C"}
+{"id": "CW0904", "response": "D", "extracted_answer": "D"}
+{"id": "CW0905", "response": "C) Ichimlik suvi", "extracted_answer": "C"}
+{"id": "CW0906", "response": "B", "extracted_answer": "B"}
+{"id": "CW0907", "response": "A) Ixlosmant", "extracted_answer": "A"}
+{"id": "CW0908", "response": "A", "extracted_answer": "A"}
+{"id": "CW0909", "response": "B) Ilojili bor", "extracted_answer": "B"}
+{"id": "CW0910", "response": "C", "extracted_answer": "C"}
+{"id": "CW0911", "response": "D", "extracted_answer": "D"}
+{"id": "CW0912", "response": "C", "extracted_answer": "C"}
+{"id": "CW0913", "response": "A) Inshaat", "extracted_answer": "A"}
+{"id": "CW0914", "response": "D", "extracted_answer": "D"}
+{"id": "CW0915", "response": "A", "extracted_answer": "A"}
+{"id": "CW0916", "response": "D) Iqtisodiy ko\u02bbrsatgichlar", "extracted_answer": "D"}
+{"id": "CW0917", "response": "B", "extracted_answer": "B"}
+{"id": "CW0918", "response": "B", "extracted_answer": "B"}
+{"id": "CW0919", "response": "D) Ishqilib, xato bo\u02bblmasin-da.", "extracted_answer": "D"}
+{"id": "CW0920", "response": "C", "extracted_answer": "C"}
+{"id": "CW0921", "response": "D) Isming nima?", "extracted_answer": "D"}
+{"id": "CW0922", "response": "D", "extracted_answer": "D"}
+{"id": "CW0923", "response": "C) Ikkovi ham to\u2018g\u2018ri", "extracted_answer": "C"}
+{"id": "CW0924", "response": "A) Istihola", "extracted_answer": "A"}
+{"id": "CW0925", "response": "A", "extracted_answer": "A"}
+{"id": "CW0926", "response": "A", "extracted_answer": "A"}
+{"id": "CW0927", "response": "B) Istirob", "extracted_answer": "B"}
+{"id": "CW0928", "response": "B", "extracted_answer": "B"}
+{"id": "CW0929", "response": "C", "extracted_answer": "C"}
+{"id": "CW0930", "response": "B", "extracted_answer": "B"}
+{"id": "CW0931", "response": "B", "extracted_answer": "B"}
+{"id": "CW0932", "response": "C", "extracted_answer": "C"}
+{"id": "CW0933", "response": "A", "extracted_answer": "A"}
+{"id": "CW0934", "response": "A", "extracted_answer": "A"}
+{"id": "CW0935", "response": "B) Jovob na\u02bcmunasi", "extracted_answer": "B"}
+{"id": "CW0936", "response": "C", "extracted_answer": "C"}
+{"id": "CW0937", "response": "D) Javan", "extracted_answer": "D"}
+{"id": "CW0938", "response": "A", "extracted_answer": "A"}
+{"id": "CW0939", "response": "C) Jayihun daryosi", "extracted_answer": "C"}
+{"id": "CW0940", "response": "A", "extracted_answer": "A"}
+{"id": "CW0941", "response": "A", "extracted_answer": "A"}
+{"id": "CW0942", "response": "D) Jimjima", "extracted_answer": "D"}
+{"id": "CW0943", "response": "A", "extracted_answer": "A"}
+{"id": "CW0944", "response": "C) Jizzax", "extracted_answer": "C"}
+{"id": "CW0945", "response": "A", "extracted_answer": "A"}
+{"id": "CW0946", "response": "A", "extracted_answer": "A"}
+{"id": "CW0947", "response": "C) Jome masjid", "extracted_answer": "C"}
+{"id": "CW0948", "response": "A", "extracted_answer": "A"}
+{"id": "CW0949", "response": "A", "extracted_answer": "A"}
+{"id": "CW0950", "response": "B) Jonzot", "extracted_answer": "B"}
+{"id": "CW0951", "response": "D", "extracted_answer": "D"}
+{"id": "CW0952", "response": "B", "extracted_answer": "B"}
+{"id": "CW0953", "response": "C", "extracted_answer": "C"}
+{"id": "CW0954", "response": "C) Kakoz", "extracted_answer": "C"}
+{"id": "CW0955", "response": "A", "extracted_answer": "A"}
+{"id": "CW0956", "response": "D) Kamchiligdan xoli", "extracted_answer": "D"}
+{"id": "CW0957", "response": "B) Kamomat", "extracted_answer": "B"}
+{"id": "CW0958", "response": "D", "extracted_answer": "D"}
+{"id": "CW0959", "response": "D) Kam suqum", "extracted_answer": "D"}
+{"id": "CW0960", "response": "B", "extracted_answer": "B"}
+{"id": "CW0961", "response": "A", "extracted_answer": "A"}
+{"id": "CW0962", "response": "B", "extracted_answer": "B"}
+{"id": "CW0963", "response": "B", "extracted_answer": "B"}
+{"id": "CW0964", "response": "A) Kasirning maxraji", "extracted_answer": "A"}
+{"id": "CW0965", "response": "D", "extracted_answer": "D"}
+{"id": "CW0966", "response": "A", "extracted_answer": "A"}
+{"id": "CW0967", "response": "B", "extracted_answer": "B"}
+{"id": "CW0968", "response": "C) Ketdi", "extracted_answer": "C"}
+{"id": "CW0969", "response": "B", "extracted_answer": "B"}
+{"id": "CW0970", "response": "A) Kimoshdi savdosi", "extracted_answer": "A"}
+{"id": "CW0971", "response": "D", "extracted_answer": "D"}
+{"id": "CW0972", "response": "D) Kitob o\u02bbqishdan tortib, rasm chizishgacha", "extracted_answer": "D"}
+{"id": "CW0973", "response": "B", "extracted_answer": "B"}
+{"id": "CW0974", "response": "D", "extracted_answer": "D"}
+{"id": "CW0975", "response": "C) Kiyimni qurutdi", "extracted_answer": "C"}
+{"id": "CW0976", "response": "D", "extracted_answer": "D"}
+{"id": "CW0977", "response": "A", "extracted_answer": "A"}
+{"id": "CW0978", "response": "D", "extracted_answer": "D"}
+{"id": "CW0979", "response": "A", "extracted_answer": "A"}
+{"id": "CW0980", "response": "D) Ko\u02bbngil ochar o\u02bbyinlar", "extracted_answer": "D"}
+{"id": "CW0981", "response": "B)", "extracted_answer": "B"}
+{"id": "CW0982", "response": "B", "extracted_answer": "B"}
+{"id": "CW0983", "response": "B", "extracted_answer": "B"}
+{"id": "CW0984", "response": "B", "extracted_answer": "B"}
+{"id": "CW0985", "response": "C) Komputer", "extracted_answer": "C"}
+{"id": "CW0986", "response": "C", "extracted_answer": "C"}
+{"id": "CW0987", "response": "C", "extracted_answer": "C"}
+{"id": "CW0988", "response": "D", "extracted_answer": "D"}
+{"id": "CW0989", "response": "C) Cosmos", "extracted_answer": "C"}
+{"id": "CW0990", "response": "C) Kavlamoq", "extracted_answer": "C"}
+{"id": "CW0991", "response": "B", "extracted_answer": "B"}
+{"id": "CW0992", "response": "A", "extracted_answer": "A"}
+{"id": "CW0993", "response": "A", "extracted_answer": "A"}
+{"id": "CW0994", "response": "A", "extracted_answer": "A"}
+{"id": "CW0995", "response": "A", "extracted_answer": "A"}
+{"id": "CW0996", "response": "A", "extracted_answer": "A"}
+{"id": "CW0997", "response": "A", "extracted_answer": "A"}
+{"id": "CW0998", "response": "C", "extracted_answer": "C"}
+{"id": "CW0999", "response": "D", "extracted_answer": "D"}
+{"id": "CW1000", "response": "B) Lavha", "extracted_answer": "B"}
+{"id": "CW1001", "response": "A", "extracted_answer": "A"}
+{"id": "CW1002", "response": "B", "extracted_answer": "B"}
+{"id": "CW1003", "response": "A", "extracted_answer": "A"}
+{"id": "CW1004", "response": "A", "extracted_answer": "A"}
+{"id": "CW1005", "response": "A", "extracted_answer": "A"}
+{"id": "CW1006", "response": "A) Lotereya", "extracted_answer": "A"}
+{"id": "CW1007", "response": "A", "extracted_answer": "A"}
+{"id": "CW1008", "response": "B", "extracted_answer": "B"}
+{"id": "CW1009", "response": "C", "extracted_answer": "C"}
+{"id": "CW1010", "response": "A", "extracted_answer": "A"}
+{"id": "CW1011", "response": "B) mas\u2019ul", "extracted_answer": "B"}
+{"id": "CW1012", "response": "C) Ma\u2019suliyat", "extracted_answer": "C"}
+{"id": "CW1013", "response": "D", "extracted_answer": "D"}
+{"id": "CW1014", "response": "D) Mabodo vergul kerak bo\u02bblmasa-chi?", "extracted_answer": "D"}
+{"id": "CW1015", "response": "D", "extracted_answer": "D"}
+{"id": "CW1016", "response": "D", "extracted_answer": "D"}
+{"id": "CW1017", "response": "A", "extracted_answer": "A"}
+{"id": "CW1018", "response": "C", "extracted_answer": "C"}
+{"id": "CW1019", "response": "A", "extracted_answer": "A"}
+{"id": "CW1020", "response": "D", "extracted_answer": "D"}
+{"id": "CW1021", "response": "B", "extracted_answer": "B"}
+{"id": "CW1022", "response": "B", "extracted_answer": "B"}
+{"id": "CW1023", "response": "B) Mard-i maydon", "extracted_answer": "B"}
+{"id": "CW1024", "response": "A", "extracted_answer": "A"}
+{"id": "CW1025", "response": "B) Marxamat", "extracted_answer": "B"}
+{"id": "CW1026", "response": "B) Mahshar", "extracted_answer": "B"}
+{"id": "CW1027", "response": "D) Masxarabos", "extracted_answer": "D"}
+{"id": "CW1028", "response": "A", "extracted_answer": "A"}
+{"id": "CW1029", "response": "C", "extracted_answer": "C"}
+{"id": "CW1030", "response": "B) Maxsi", "extracted_answer": "B"}
+{"id": "CW1031", "response": "C", "extracted_answer": "C"}
+{"id": "CW1032", "response": "B", "extracted_answer": "B"}
+{"id": "CW1033", "response": "D) Meroz", "extracted_answer": "D"}
+{"id": "CW1034", "response": "A) Mezon", "extracted_answer": "A"}
+{"id": "CW1035", "response": "D", "extracted_answer": "D"}
+{"id": "CW1036", "response": "C", "extracted_answer": "C"}
+{"id": "CW1037", "response": "B", "extracted_answer": "B"}
+{"id": "CW1038", "response": "A", "extracted_answer": "A"}
+{"id": "CW1039", "response": "C", "extracted_answer": "C"}
+{"id": "CW1040", "response": "A", "extracted_answer": "A"}
+{"id": "CW1041", "response": "C) Metan-shoxobchalar", "extracted_answer": "C"}
+{"id": "CW1042", "response": "D) Meyor", "extracted_answer": "D"}
+{"id": "CW1043", "response": "C", "extracted_answer": "C"}
+{"id": "CW1044", "response": "A", "extracted_answer": "A"}
+{"id": "CW1045", "response": "B) Minnatdor", "extracted_answer": "B"}
+{"id": "CW1046", "response": "B", "extracted_answer": "B"}
+{"id": "CW1047", "response": "A", "extracted_answer": "A"}
+{"id": "CW1048", "response": "A", "extracted_answer": "A"}
+{"id": "CW1049", "response": "A) Madamiki", "extracted_answer": "A"}
+{"id": "CW1050", "response": "B", "extracted_answer": "B"}
+{"id": "CW1051", "response": "D", "extracted_answer": "D"}
+{"id": "CW1052", "response": "D", "extracted_answer": "D"}
+{"id": "CW1053", "response": "C) Moma-qaymoq", "extracted_answer": "C"}
+{"id": "CW1054", "response": "C", "extracted_answer": "C"}
+{"id": "CW1055", "response": "B", "extracted_answer": "B"}
+{"id": "CW1056", "response": "A", "extracted_answer": "A"}
+{"id": "CW1057", "response": "B", "extracted_answer": "B"}
+{"id": "CW1058", "response": "B", "extracted_answer": "B"}
+{"id": "CW1059", "response": "C", "extracted_answer": "C"}
+{"id": "CW1060", "response": "D", "extracted_answer": "D"}
+{"id": "CW1061", "response": "C) Mudofaa vazirligi", "extracted_answer": "C"}
+{"id": "CW1062", "response": "C", "extracted_answer": "C"}
+{"id": "CW1063", "response": "B", "extracted_answer": "B"}
+{"id": "CW1064", "response": "C) Muhlisa", "extracted_answer": "C"}
+{"id": "CW1065", "response": "D) Muloqot", "extracted_answer": "D"}
+{"id": "CW1066", "response": "B", "extracted_answer": "B"}
+{"id": "CW1067", "response": "C", "extracted_answer": "C"}
+{"id": "CW1068", "response": "C", "extracted_answer": "C"}
+{"id": "CW1069", "response": "D) Muomilaa", "extracted_answer": "D"}
+{"id": "CW1070", "response": "A", "extracted_answer": "A"}
+{"id": "CW1071", "response": "D", "extracted_answer": "D"}
+{"id": "CW1072", "response": "B", "extracted_answer": "B"}
+{"id": "CW1073", "response": "C", "extracted_answer": "C"}
+{"id": "CW1074", "response": "C) Mushkambar", "extracted_answer": "C"}
+{"id": "CW1075", "response": "B", "extracted_answer": "B"}
+{"id": "CW1076", "response": "D", "extracted_answer": "D"}
+{"id": "CW1077", "response": "A", "extracted_answer": "A"}
+{"id": "CW1078", "response": "B", "extracted_answer": "B"}
+{"id": "CW1079", "response": "A", "extracted_answer": "A"}
+{"id": "CW1080", "response": "B", "extracted_answer": "B"}
+{"id": "CW1081", "response": "A", "extracted_answer": "A"}
+{"id": "CW1082", "response": "C", "extracted_answer": "C"}
+{"id": "CW1083", "response": "C", "extracted_answer": "C"}
+{"id": "CW1084", "response": "B", "extracted_answer": "B"}
+{"id": "CW1085", "response": "B", "extracted_answer": "B"}
+{"id": "CW1086", "response": "A", "extracted_answer": "A"}
+{"id": "CW1087", "response": "A", "extracted_answer": "A"}
+{"id": "CW1088", "response": "D) Muhtaj", "extracted_answer": "D"}
+{"id": "CW1089", "response": "B", "extracted_answer": "B"}
+{"id": "CW1090", "response": "A", "extracted_answer": "A"}
+{"id": "CW1091", "response": "B", "extracted_answer": "B"}
+{"id": "CW1092", "response": "C", "extracted_answer": "C"}
+{"id": "CW1093", "response": "A", "extracted_answer": "A"}
+{"id": "CW1094", "response": "A", "extracted_answer": "A"}
+{"id": "CW1095", "response": "D) Namaz", "extracted_answer": "D"}
+{"id": "CW1096", "response": "D", "extracted_answer": "D"}
+{"id": "CW1097", "response": "A", "extracted_answer": "A"}
+{"id": "CW1098", "response": "D", "extracted_answer": "D"}
+{"id": "CW1099", "response": "D", "extracted_answer": "D"}
+{"id": "CW1100", "response": "C", "extracted_answer": "C"}
+{"id": "CW1101", "response": "B", "extracted_answer": "B"}
+{"id": "CW1102", "response": "C) No\u2018xot", "extracted_answer": "C"}
+{"id": "CW1103", "response": "B) Natarius", "extracted_answer": "B"}
+{"id": "CW1104", "response": "A", "extracted_answer": "A"}
+{"id": "CW1105", "response": "D", "extracted_answer": "D"}
+{"id": "CW1106", "response": "D", "extracted_answer": "D"}
+{"id": "CW1107", "response": "D", "extracted_answer": "D"}
+{"id": "CW1108", "response": "A) O\u2018taketkan", "extracted_answer": "A"}
+{"id": "CW1109", "response": "C", "extracted_answer": "C"}
+{"id": "CW1110", "response": "C) O\u2018xshamoq", "extracted_answer": "C"}
+{"id": "CW1111", "response": "D", "extracted_answer": "D"}
+{"id": "CW1112", "response": "D) Ob\u2019ekt", "extracted_answer": "D"}
+{"id": "CW1113", "response": "B", "extracted_answer": "B"}
+{"id": "CW1114", "response": "C) Odamzod", "extracted_answer": "C"}
+{"id": "CW1115", "response": "D", "extracted_answer": "D"}
+{"id": "CW1116", "response": "A", "extracted_answer": "A"}
+{"id": "CW1117", "response": "A", "extracted_answer": "A"}
+{"id": "CW1118", "response": "C", "extracted_answer": "C"}
+{"id": "CW1119", "response": "D", "extracted_answer": "D"}
+{"id": "CW1120", "response": "A", "extracted_answer": "A"}
+{"id": "CW1121", "response": "A) O\u02bbxtin-o\u02bbqtin", "extracted_answer": "A"}
+{"id": "CW1122", "response": "A) O\u02bbquvchi darz so\u02bbngida qiziq savol berdi.", "extracted_answer": "A"}
+{"id": "CW1123", "response": "B) O\u02bbrta-maxsus-ta\u02bclim", "extracted_answer": "B"}
+{"id": "CW1124", "response": "A) Oylangiz", "extracted_answer": "A"}
+{"id": "CW1125", "response": "A", "extracted_answer": "A"}
+{"id": "CW1126", "response": "D", "extracted_answer": "D"}
+{"id": "CW1127", "response": "D) Oligoh", "extracted_answer": "D"}
+{"id": "CW1128", "response": "D", "extracted_answer": "D"}
+{"id": "CW1129", "response": "A) Oliyjanob", "extracted_answer": "A"}
+{"id": "CW1130", "response": "A) Olaman", "extracted_answer": "A"}
+{"id": "CW1131", "response": "D) Oltin O\u02bbrda Davlati", "extracted_answer": "D"}
+{"id": "CW1132", "response": "B", "extracted_answer": "B"}
+{"id": "CW1133", "response": "A) Ont ichmoq", "extracted_answer": "A"}
+{"id": "CW1134", "response": "A", "extracted_answer": "A"}
+{"id": "CW1135", "response": "A", "extracted_answer": "A"}
+{"id": "CW1136", "response": "D) oshiyon", "extracted_answer": "D"}
+{"id": "CW1137", "response": "D) Oshxona mijozlari, asosan talabalar.", "extracted_answer": "D"}
+{"id": "CW1138", "response": "B) Ostin-ustun", "extracted_answer": "B"}
+{"id": "CW1139", "response": "D) Ovvora", "extracted_answer": "D"}
+{"id": "CW1140", "response": "B) Ovinchoq", "extracted_answer": "B"}
+{"id": "CW1141", "response": "D) Ovinmoq", "extracted_answer": "D"}
+{"id": "CW1142", "response": "A", "extracted_answer": "A"}
+{"id": "CW1143", "response": "C", "extracted_answer": "C"}
+{"id": "CW1144", "response": "D) Polapartish", "extracted_answer": "D"}
+{"id": "CW1145", "response": "C", "extracted_answer": "C"}
+{"id": "CW1146", "response": "D) Passport", "extracted_answer": "D"}
+{"id": "CW1147", "response": "B) Paxmoq", "extracted_answer": "B"}
+{"id": "CW1148", "response": "D) Payraxa", "extracted_answer": "D"}
+{"id": "CW1149", "response": "B) Pedagoglar va ota-onalarga dalda berdi.", "extracted_answer": "B"}
+{"id": "CW1150", "response": "B", "extracted_answer": "B"}
+{"id": "CW1151", "response": "C", "extracted_answer": "C"}
+{"id": "CW1152", "response": "C", "extracted_answer": "C"}
+{"id": "CW1153", "response": "C", "extracted_answer": "C"}
+{"id": "CW1154", "response": "B) Podkastni ko\u02bbrtingizmi?", "extracted_answer": "B"}
+{"id": "CW1155", "response": "B", "extracted_answer": "B"}
+{"id": "CW1156", "response": "B) Pog\u2018ana", "extracted_answer": "B"}
+{"id": "CW1157", "response": "D) poy-afzal", "extracted_answer": "D"}
+{"id": "CW1158", "response": "A", "extracted_answer": "A"}
+{"id": "CW1159", "response": "C) Poyezdning taqataqi anchagacha eshitilib turdi.", "extracted_answer": "C"}
+{"id": "CW1160", "response": "A", "extracted_answer": "A"}
+{"id": "CW1161", "response": "B", "extracted_answer": "B"}
+{"id": "CW1162", "response": "B", "extracted_answer": "B"}
+{"id": "CW1163", "response": "C) President stipendiati", "extracted_answer": "C"}
+{"id": "CW1164", "response": "B", "extracted_answer": "B"}
+{"id": "CW1165", "response": "C) Pulli xizmad", "extracted_answer": "C"}
+{"id": "CW1166", "response": "A", "extracted_answer": "A"}
+{"id": "CW1167", "response": "D) Qadamba-qadam", "extracted_answer": "D"}
+{"id": "CW1168", "response": "A", "extracted_answer": "A"}
+{"id": "CW1169", "response": "B) Qadirdon", "extracted_answer": "B"}
+{"id": "CW1170", "response": "C", "extracted_answer": "C"}
+{"id": "CW1171", "response": "D) Qalbaki", "extracted_answer": "D"}
+{"id": "CW1172", "response": "D", "extracted_answer": "D"}
+{"id": "CW1173", "response": "C", "extracted_answer": "C"}
+{"id": "CW1174", "response": "C", "extracted_answer": "C"}
+{"id": "CW1175", "response": "B", "extracted_answer": "B"}
+{"id": "CW1176", "response": "A", "extracted_answer": "A"}
+{"id": "CW1177", "response": "A", "extracted_answer": "A"}
+{"id": "CW1178", "response": "D", "extracted_answer": "D"}
+{"id": "CW1179", "response": "B", "extracted_answer": "B"}
+{"id": "CW1180", "response": "D) Qayivaqt", "extracted_answer": "D"}
+{"id": "CW1181", "response": "B", "extracted_answer": "B"}
+{"id": "CW1182", "response": "A) Qaziqarti", "extracted_answer": "A"}
+{"id": "CW1183", "response": "C", "extracted_answer": "C"}
+{"id": "CW1184", "response": "D) qishloq xo\u2018jaligi sohasi", "extracted_answer": "D"}
+{"id": "CW1185", "response": "C", "extracted_answer": "C"}
+{"id": "CW1186", "response": "B) Qit-mir", "extracted_answer": "B"}
+{"id": "CW1187", "response": "A", "extracted_answer": "A"}
+{"id": "CW1188", "response": "D", "extracted_answer": "D"}
+{"id": "CW1189", "response": "C) Quzg\u2018alon", "extracted_answer": "C"}
+{"id": "CW1190", "response": "B", "extracted_answer": "B"}
+{"id": "CW1191", "response": "C", "extracted_answer": "C"}
+{"id": "CW1192", "response": "C) Qoil", "extracted_answer": "C"}
+{"id": "CW1193", "response": "A", "extracted_answer": "A"}
+{"id": "CW1194", "response": "C", "extracted_answer": "C"}
+{"id": "CW1195", "response": "C", "extracted_answer": "C"}
+{"id": "CW1196", "response": "C) Qorang\u2018i kecha", "extracted_answer": "C"}
+{"id": "CW1197", "response": "A", "extracted_answer": "A"}
+{"id": "CW1198", "response": "C", "extracted_answer": "C"}
+{"id": "CW1199", "response": "A", "extracted_answer": "A"}
+{"id": "CW1200", "response": "A", "extracted_answer": "A"}
+{"id": "CW1201", "response": "D) Qulupnayli tord", "extracted_answer": "D"}
+{"id": "CW1202", "response": "C", "extracted_answer": "C"}
+{"id": "CW1203", "response": "C) Quron hatmi", "extracted_answer": "C"}
+{"id": "CW1204", "response": "A", "extracted_answer": "A"}
+{"id": "CW1205", "response": "D) Qurilma", "extracted_answer": "D"}
+{"id": "CW1206", "response": "A) Qutulmaq", "extracted_answer": "A"}
+{"id": "CW1207", "response": "B", "extracted_answer": "B"}
+{"id": "CW1208", "response": "A) Kuvayd davlati", "extracted_answer": "A"}
+{"id": "CW1209", "response": "B) Quvgun qilindi.", "extracted_answer": "B"}
+{"id": "CW1210", "response": "B", "extracted_answer": "B"}
+{"id": "CW1211", "response": "A", "extracted_answer": "A"}
+{"id": "CW1212", "response": "B) Raxmat", "extracted_answer": "B"}
+{"id": "CW1213", "response": "A", "extracted_answer": "A"}
+{"id": "CW1214", "response": "D) Ramozon", "extracted_answer": "D"}
+{"id": "CW1215", "response": "C) Raqobat-bardoshlik", "extracted_answer": "C"}
+{"id": "CW1216", "response": "B) Rasamat", "extracted_answer": "B"}
+{"id": "CW1217", "response": "C", "extracted_answer": "C"}
+{"id": "CW1218", "response": "D) Rasmi diller", "extracted_answer": "D"}
+{"id": "CW1219", "response": "B", "extracted_answer": "B"}
+{"id": "CW1220", "response": "C) Rahna soldi", "extracted_answer": "C"}
+{"id": "CW1221", "response": "D", "extracted_answer": "D"}
+{"id": "CW1222", "response": "A) Rixlat qildi", "extracted_answer": "A"}
+{"id": "CW1223", "response": "A", "extracted_answer": "A"}
+{"id": "CW1224", "response": "C) Rihlat qildi", "extracted_answer": "C"}
+{"id": "CW1225", "response": "D) Riziq", "extracted_answer": "D"}
+{"id": "CW1226", "response": "B", "extracted_answer": "B"}
+{"id": "CW1227", "response": "C) Ro\u2018zg\u2018orbob", "extracted_answer": "C"}
+{"id": "CW1228", "response": "A) Rosdmana", "extracted_answer": "A"}
+{"id": "CW1229", "response": "B", "extracted_answer": "B"}
+{"id": "CW1230", "response": "A) Rostian ham", "extracted_answer": "A"}
+{"id": "CW1231", "response": "D) Rostan, bu fikringizda jon bor.", "extracted_answer": "D"}
+{"id": "CW1232", "response": "A", "extracted_answer": "A"}
+{"id": "CW1233", "response": "D", "extracted_answer": "D"}
+{"id": "CW1234", "response": "D", "extracted_answer": "D"}
+{"id": "CW1235", "response": "B) Saharlik", "extracted_answer": "B"}
+{"id": "CW1236", "response": "A) Sahovad", "extracted_answer": "A"}
+{"id": "CW1237", "response": "A", "extracted_answer": "A"}
+{"id": "CW1238", "response": "C", "extracted_answer": "C"}
+{"id": "CW1239", "response": "D", "extracted_answer": "D"}
+{"id": "CW1240", "response": "B", "extracted_answer": "B"}
+{"id": "CW1241", "response": "A", "extracted_answer": "A"}
+{"id": "CW1242", "response": "D", "extracted_answer": "D"}
+{"id": "CW1243", "response": "B) Sanatori", "extracted_answer": "B"}
+{"id": "CW1244", "response": "A", "extracted_answer": "A"}
+{"id": "CW1245", "response": "A", "extracted_answer": "A"}
+{"id": "CW1246", "response": "A", "extracted_answer": "A"}
+{"id": "CW1247", "response": "A", "extracted_answer": "A"}
+{"id": "CW1248", "response": "A", "extracted_answer": "A"}
+{"id": "CW1249", "response": "C", "extracted_answer": "C"}
+{"id": "CW1250", "response": "C", "extracted_answer": "C"}
+{"id": "CW1251", "response": "B", "extracted_answer": "B"}
+{"id": "CW1252", "response": "B) Shar\u2019iy, man qilmoq, shama", "extracted_answer": "B"}
+{"id": "CW1253", "response": "C", "extracted_answer": "C"}
+{"id": "CW1254", "response": "D", "extracted_answer": "D"}
+{"id": "CW1255", "response": "C", "extracted_answer": "C"}
+{"id": "CW1256", "response": "B) Shariat", "extracted_answer": "B"}
+{"id": "CW1257", "response": "A", "extracted_answer": "A"}
+{"id": "CW1258", "response": "B", "extracted_answer": "B"}
+{"id": "CW1259", "response": "C", "extracted_answer": "C"}
+{"id": "CW1260", "response": "A", "extracted_answer": "A"}
+{"id": "CW1261", "response": "C", "extracted_answer": "C"}
+{"id": "CW1262", "response": "A", "extracted_answer": "A"}
+{"id": "CW1263", "response": "A", "extracted_answer": "A"}
+{"id": "CW1264", "response": "D) Shahzoda", "extracted_answer": "D"}
+{"id": "CW1265", "response": "A", "extracted_answer": "A"}
+{"id": "CW1266", "response": "D) Shogirt", "extracted_answer": "D"}
+{"id": "CW1267", "response": "B", "extracted_answer": "B"}
+{"id": "CW1268", "response": "C", "extracted_answer": "C"}
+{"id": "CW1269", "response": "B)", "extracted_answer": "B"}
+{"id": "CW1270", "response": "D", "extracted_answer": "D"}
+{"id": "CW1271", "response": "A", "extracted_answer": "A"}
+{"id": "CW1272", "response": "A) Shubha", "extracted_answer": "A"}
+{"id": "CW1273", "response": "A", "extracted_answer": "A"}
+{"id": "CW1274", "response": "B", "extracted_answer": "B"}
+{"id": "CW1275", "response": "A", "extracted_answer": "A"}
+{"id": "CW1276", "response": "C) Segment", "extracted_answer": "C"}
+{"id": "CW1277", "response": "B", "extracted_answer": "B"}
+{"id": "CW1278", "response": "C", "extracted_answer": "C"}
+{"id": "CW1279", "response": "C", "extracted_answer": "C"}
+{"id": "CW1280", "response": "C", "extracted_answer": "C"}
+{"id": "CW1281", "response": "A) S\u00f6zamonlik", "extracted_answer": "A"}
+{"id": "CW1282", "response": "C", "extracted_answer": "C"}
+{"id": "CW1283", "response": "B) Sotib olayapman", "extracted_answer": "B"}
+{"id": "CW1284", "response": "B", "extracted_answer": "B"}
+{"id": "CW1285", "response": "D", "extracted_answer": "D"}
+{"id": "CW1286", "response": "B) Sovitgich", "extracted_answer": "B"}
+{"id": "CW1287", "response": "C) sovitkich, muzlatkich", "extracted_answer": "C"}
+{"id": "CW1288", "response": "B) Sovitilgan", "extracted_answer": "B"}
+{"id": "CW1289", "response": "B", "extracted_answer": "B"}
+{"id": "CW1290", "response": "D", "extracted_answer": "D"}
+{"id": "CW1291", "response": "C", "extracted_answer": "C"}
+{"id": "CW1292", "response": "B) Surushtirmoq.", "extracted_answer": "B"}
+{"id": "CW1293", "response": "C", "extracted_answer": "C"}
+{"id": "CW1294", "response": "A) Svetapor", "extracted_answer": "A"}
+{"id": "CW1295", "response": "A", "extracted_answer": "A"}
+{"id": "CW1296", "response": "B", "extracted_answer": "B"}
+{"id": "CW1297", "response": "C", "extracted_answer": "C"}
+{"id": "CW1298", "response": "B", "extracted_answer": "B"}
+{"id": "CW1299", "response": "D", "extracted_answer": "D"}
+{"id": "CW1300", "response": "C) Ikkovi ham to\u2018g\u2018ri", "extracted_answer": "C"}
+{"id": "CW1301", "response": "D) Tabiyat", "extracted_answer": "D"}
+{"id": "CW1302", "response": "D) Tatbiq", "extracted_answer": "D"}
+{"id": "CW1303", "response": "C", "extracted_answer": "C"}
+{"id": "CW1304", "response": "D) Tadqiqot", "extracted_answer": "D"}
+{"id": "CW1305", "response": "B) Tavsilot", "extracted_answer": "B"}
+{"id": "CW1306", "response": "D) Tavsiya", "extracted_answer": "D"}
+{"id": "CW1307", "response": "B", "extracted_answer": "B"}
+{"id": "CW1308", "response": "C) Tahririyad", "extracted_answer": "C"}
+{"id": "CW1309", "response": "B", "extracted_answer": "B"}
+{"id": "CW1310", "response": "D) Tolqan", "extracted_answer": "D"}
+{"id": "CW1311", "response": "D", "extracted_answer": "D"}
+{"id": "CW1312", "response": "C", "extracted_answer": "C"}
+{"id": "CW1313", "response": "C", "extracted_answer": "C"}
+{"id": "CW1314", "response": "A) Matosha", "extracted_answer": "A"}
+{"id": "CW1315", "response": "B", "extracted_answer": "B"}
+{"id": "CW1316", "response": "D) Tanavul qilmoq", "extracted_answer": "D"}
+{"id": "CW1317", "response": "B) Taomdan tatib ko\u02bbring.", "extracted_answer": "B"}
+{"id": "CW1318", "response": "C) Taqiqlamoq", "extracted_answer": "C"}
+{"id": "CW1319", "response": "A", "extracted_answer": "A"}
+{"id": "CW1320", "response": "C", "extracted_answer": "C"}
+{"id": "CW1321", "response": "C", "extracted_answer": "C"}
+{"id": "CW1322", "response": "B", "extracted_answer": "B"}
+{"id": "CW1323", "response": "D", "extracted_answer": "D"}
+{"id": "CW1324", "response": "C", "extracted_answer": "C"}
+{"id": "CW1325", "response": "C) Tafsivnoma", "extracted_answer": "C"}
+{"id": "CW1326", "response": "C) Tahmin, zahira, istixola", "extracted_answer": "C"}
+{"id": "CW1327", "response": "C) Taxtakash", "extracted_answer": "C"}
+{"id": "CW1328", "response": "A", "extracted_answer": "A"}
+{"id": "CW1329", "response": "B) Ta\u02bckidlamoq", "extracted_answer": "B"}
+{"id": "CW1330", "response": "C", "extracted_answer": "C"}
+{"id": "CW1331", "response": "B) Texnikum", "extracted_answer": "B"}
+{"id": "CW1332", "response": "D", "extracted_answer": "D"}
+{"id": "CW1333", "response": "B) Telipon", "extracted_answer": "B"}
+{"id": "CW1334", "response": "A) Telefon raqami", "extracted_answer": "A"}
+{"id": "CW1335", "response": "C", "extracted_answer": "C"}
+{"id": "CW1336", "response": "B", "extracted_answer": "B"}
+{"id": "CW1337", "response": "D) Tirmulmoq", "extracted_answer": "D"}
+{"id": "CW1338", "response": "C", "extracted_answer": "C"}
+{"id": "CW1339", "response": "D", "extracted_answer": "D"}
+{"id": "CW1340", "response": "C) Tilovod qilmoq", "extracted_answer": "C"}
+{"id": "CW1341", "response": "D) Tinch okeani", "extracted_answer": "D"}
+{"id": "CW1342", "response": "A", "extracted_answer": "A"}
+{"id": "CW1343", "response": "A) To\u2018gonoq", "extracted_answer": "A"}
+{"id": "CW1344", "response": "C) To\u2018g\u2018ushgan aka-uka", "extracted_answer": "C"}
+{"id": "CW1345", "response": "B", "extracted_answer": "B"}
+{"id": "CW1346", "response": "D) To\u2018polan", "extracted_answer": "D"}
+{"id": "CW1347", "response": "A", "extracted_answer": "A"}
+{"id": "CW1348", "response": "D", "extracted_answer": "D"}
+{"id": "CW1349", "response": "C", "extracted_answer": "C"}
+{"id": "CW1350", "response": "D) Tomga chiqqisi keldi", "extracted_answer": "D"}
+{"id": "CW1351", "response": "A", "extracted_answer": "A"}
+{"id": "CW1352", "response": "A", "extracted_answer": "A"}
+{"id": "CW1353", "response": "D", "extracted_answer": "D"}
+{"id": "CW1354", "response": "B) Tashkentli kuyov", "extracted_answer": "B"}
+{"id": "CW1355", "response": "B) Tramplindan sakrash", "extracted_answer": "B"}
+{"id": "CW1356", "response": "B) Tug\u02bbilgan kun", "extracted_answer": "B"}
+{"id": "CW1357", "response": "A) Tuhmad", "extracted_answer": "A"}
+{"id": "CW1358", "response": "A", "extracted_answer": "A"}
+{"id": "CW1359", "response": "C", "extracted_answer": "C"}
+{"id": "CW1360", "response": "B) Tunuka", "extracted_answer": "B"}
+{"id": "CW1361", "response": "A", "extracted_answer": "A"}
+{"id": "CW1362", "response": "D) Tuproq", "extracted_answer": "D"}
+{"id": "CW1363", "response": "D) Turkiyaning birinchi qiruvchi samolyoti TF-X turkiya-britaniya muhandislari hamkorligida ishlab chiqarilgan", "extracted_answer": "D"}
+{"id": "CW1364", "response": "B) Turub", "extracted_answer": "B"}
+{"id": "CW1365", "response": "C", "extracted_answer": "C"}
+{"id": "CW1366", "response": "D) Tushirmoq", "extracted_answer": "D"}
+{"id": "CW1367", "response": "B", "extracted_answer": "B"}
+{"id": "CW1368", "response": "C", "extracted_answer": "C"}
+{"id": "CW1369", "response": "B", "extracted_answer": "B"}
+{"id": "CW1370", "response": "A", "extracted_answer": "A"}
+{"id": "CW1371", "response": "A) Tushuntirilib boriladi", "extracted_answer": "A"}
+{"id": "CW1372", "response": "A", "extracted_answer": "A"}
+{"id": "CW1373", "response": "A) Tuxmad", "extracted_answer": "A"}
+{"id": "CW1374", "response": "C", "extracted_answer": "C"}
+{"id": "CW1375", "response": "B) tuzilma", "extracted_answer": "B"}
+{"id": "CW1376", "response": "C) U yerda Imran Khanning bir guruh tarafdori politsiyaga qarshi chiqqan", "extracted_answer": "C"}
+{"id": "CW1377", "response": "D", "extracted_answer": "D"}
+{"id": "CW1378", "response": "D", "extracted_answer": "D"}
+{"id": "CW1379", "response": "A", "extracted_answer": "A"}
+{"id": "CW1380", "response": "B", "extracted_answer": "B"}
+{"id": "CW1381", "response": "B", "extracted_answer": "B"}
+{"id": "CW1382", "response": "D) Umaviylar", "extracted_answer": "D"}
+{"id": "CW1383", "response": "D", "extracted_answer": "D"}
+{"id": "CW1384", "response": "D) Umribod", "extracted_answer": "D"}
+{"id": "CW1385", "response": "B", "extracted_answer": "B"}
+{"id": "CW1386", "response": "A) Unin bo\u2018yni", "extracted_answer": "A"}
+{"id": "CW1387", "response": "D", "extracted_answer": "D"}
+{"id": "CW1388", "response": "C) Universitetimizga turkiyalik olimlar tashrif buyurdi.", "extracted_answer": "C"}
+{"id": "CW1389", "response": "C", "extracted_answer": "C"}
+{"id": "CW1390", "response": "C) Unumlu", "extracted_answer": "C"}
+{"id": "CW1391", "response": "A) Unudmoq", "extracted_answer": "A"}
+{"id": "CW1392", "response": "A) Uqdurmoq", "extracted_answer": "A"}
+{"id": "CW1393", "response": "D) Urulmoq", "extracted_answer": "D"}
+{"id": "CW1394", "response": "C) Urishjang", "extracted_answer": "C"}
+{"id": "CW1395", "response": "C) Urush-janjal", "extracted_answer": "C"}
+{"id": "CW1396", "response": "A", "extracted_answer": "A"}
+{"id": "CW1397", "response": "B) Ustomon", "extracted_answer": "B"}
+{"id": "CW1398", "response": "D) Ustomonlik", "extracted_answer": "D"}
+{"id": "CW1399", "response": "A", "extracted_answer": "A"}
+{"id": "CW1400", "response": "C", "extracted_answer": "C"}
+{"id": "CW1401", "response": "A", "extracted_answer": "A"}
+{"id": "CW1402", "response": "C", "extracted_answer": "C"}
+{"id": "CW1403", "response": "A", "extracted_answer": "A"}
+{"id": "CW1404", "response": "A", "extracted_answer": "A"}
+{"id": "CW1405", "response": "D\n", "extracted_answer": "D"}
+{"id": "CW1406", "response": "A", "extracted_answer": "A"}
+{"id": "CW1407", "response": "C) Uzluksiz", "extracted_answer": "C"}
+{"id": "CW1408", "response": "B", "extracted_answer": "B"}
+{"id": "CW1409", "response": "C", "extracted_answer": "C"}
+{"id": "CW1410", "response": "C", "extracted_answer": "C"}
+{"id": "CW1411", "response": "B", "extracted_answer": "B"}
+{"id": "CW1412", "response": "C", "extracted_answer": "C"}
+{"id": "CW1413", "response": "B) Vakum", "extracted_answer": "B"}
+{"id": "CW1414", "response": "B) Varaq", "extracted_answer": "B"}
+{"id": "CW1415", "response": "B", "extracted_answer": "B"}
+{"id": "CW1416", "response": "A", "extracted_answer": "A"}
+{"id": "CW1417", "response": "A", "extracted_answer": "A"}
+{"id": "CW1418", "response": "D) Vagzal", "extracted_answer": "D"}
+{"id": "CW1419", "response": "D) Voleybol", "extracted_answer": "D"}
+{"id": "CW1420", "response": "C) Voucher", "extracted_answer": "C"}
+{"id": "CW1421", "response": "C) Voybo\u02bb, namun-cha vahima qilasan?!", "extracted_answer": "C"}
+{"id": "CW1422", "response": "A", "extracted_answer": "A"}
+{"id": "CW1423", "response": "A", "extracted_answer": "A"}
+{"id": "CW1424", "response": "B) Xalifa", "extracted_answer": "B"}
+{"id": "CW1425", "response": "D) Xaloslamoq", "extracted_answer": "D"}
+{"id": "CW1426", "response": "A) Halol", "extracted_answer": "A"}
+{"id": "CW1427", "response": "D) Xalq sayli", "extracted_answer": "D"}
+{"id": "CW1428", "response": "C", "extracted_answer": "C"}
+{"id": "CW1429", "response": "A", "extracted_answer": "A"}
+{"id": "CW1430", "response": "C) Harajat", "extracted_answer": "C"}
+{"id": "CW1431", "response": "B) Xoram", "extracted_answer": "B"}
+{"id": "CW1432", "response": "D) Xasad", "extracted_answer": "D"}
+{"id": "CW1433", "response": "A) Hatta", "extracted_answer": "A"}
+{"id": "CW1434", "response": "A) Xattod", "extracted_answer": "A"}
+{"id": "CW1435", "response": "C) Havas", "extracted_answer": "C"}
+{"id": "CW1436", "response": "A) Xavif", "extracted_answer": "A"}
+{"id": "CW1437", "response": "A", "extracted_answer": "A"}
+{"id": "CW1438", "response": "A", "extracted_answer": "A"}
+{"id": "CW1439", "response": "C) Xayir, dustim!", "extracted_answer": "C"}
+{"id": "CW1440", "response": "B", "extracted_answer": "B"}
+{"id": "CW1441", "response": "D", "extracted_answer": "D"}
+{"id": "CW1442", "response": "A", "extracted_answer": "A"}
+{"id": "CW1443", "response": "B) Hayrulla", "extracted_answer": "B"}
+{"id": "CW1444", "response": "A) Xijolad", "extracted_answer": "A"}
+{"id": "CW1445", "response": "C) Xilpiramoq", "extracted_answer": "C"}
+{"id": "CW1446", "response": "C) Hiqildoq", "extracted_answer": "C"}
+{"id": "CW1447", "response": "D", "extracted_answer": "D"}
+{"id": "CW1448", "response": "C) Hisobot", "extracted_answer": "C"}
+{"id": "CW1449", "response": "D", "extracted_answer": "D"}
+{"id": "CW1450", "response": "B) Xup", "extracted_answer": "B"}
+{"id": "CW1451", "response": "C\n  \n\u2015Xo\u2018p bo\u2018ladi.\n  \nBerilgan holda \u2015Xo\u2018p bo\u2018ladi to\u2018g\u2018ri, boshqa variantlar nofuzi o\u2018shmagan.", "extracted_answer": "C"}
+{"id": "CW1452", "response": "D", "extracted_answer": "D"}
+{"id": "CW1453", "response": "C", "extracted_answer": "C"}
+{"id": "CW1454", "response": "A", "extracted_answer": "A"}
+{"id": "CW1455", "response": "C) Xudojo\u2018y", "extracted_answer": "C"}
+{"id": "CW1456", "response": "A", "extracted_answer": "A"}
+{"id": "CW1457", "response": "A", "extracted_answer": "A"}
+{"id": "CW1458", "response": "A", "extracted_answer": "A"}
+{"id": "CW1459", "response": "A) Ush kaifiyat", "extracted_answer": "A"}
+{"id": "CW1460", "response": "A", "extracted_answer": "A"}
+{"id": "CW1461", "response": "D) Xusnuda", "extracted_answer": "D"}
+{"id": "CW1462", "response": "B) Yana bir rossiyalik fuqaro O\u2018zbekistonda ayanchli tarzda vafot etdi", "extracted_answer": "B"}
+{"id": "CW1463", "response": "D) Yana-da", "extracted_answer": "D"}
+{"id": "CW1464", "response": "B) Japoloq", "extracted_answer": "B"}
+{"id": "CW1465", "response": "A", "extracted_answer": "A"}
+{"id": "CW1466", "response": "D) Yahna ichimlik", "extracted_answer": "D"}
+{"id": "CW1467", "response": "C", "extracted_answer": "C"}
+{"id": "CW1468", "response": "D) Yaxtak", "extracted_answer": "D"}
+{"id": "CW1469", "response": "D) Yetkazib berish hizmati", "extracted_answer": "D"}
+{"id": "CW1470", "response": "B", "extracted_answer": "B"}
+{"id": "CW1471", "response": "C) Yiqlamoq", "extracted_answer": "C"}
+{"id": "CW1472", "response": "D) Jo\u2018g\u2018otmoq", "extracted_answer": "D"}
+{"id": "CW1473", "response": "A) Yoho\u2018d", "extracted_answer": "A"}
+{"id": "CW1474", "response": "B) Yolvormoq", "extracted_answer": "B"}
+{"id": "CW1475", "response": "B) Yong\u2018oq yetishuvchilar va eksport qiluvchilar uyushmasi", "extracted_answer": "B"}
+{"id": "CW1476", "response": "A", "extracted_answer": "A"}
+{"id": "CW1477", "response": "B", "extracted_answer": "B"}
+{"id": "CW1478", "response": "B", "extracted_answer": "B"}
+{"id": "CW1479", "response": "B", "extracted_answer": "B"}
+{"id": "CW1480", "response": "B", "extracted_answer": "B"}
+{"id": "CW1481", "response": "A", "extracted_answer": "A"}
+{"id": "CW1482", "response": "C", "extracted_answer": "C"}
+{"id": "CW1483", "response": "B) Yuristkonsult", "extracted_answer": "B"}
+{"id": "CW1484", "response": "D) Yutqazmoq", "extracted_answer": "D"}
+{"id": "CW1485", "response": "C", "extracted_answer": "C"}
+{"id": "CW1486", "response": "C) Yuvvosh", "extracted_answer": "C"}
+{"id": "CW1487", "response": "A) Yuzi sho\u02bbvut bo\u02bbldi", "extracted_answer": "A"}
+{"id": "CW1488", "response": "D", "extracted_answer": "D"}
+{"id": "CW1489", "response": "C) zilvorli", "extracted_answer": "C"}
+{"id": "CW1490", "response": "D) Zarbot to\u02bbn", "extracted_answer": "D"}
+{"id": "CW1491", "response": "A", "extracted_answer": "A"}
+{"id": "CW1492", "response": "B) Zaharxanda", "extracted_answer": "B"}
+{"id": "CW1493", "response": "B) zaxel", "extracted_answer": "B"}
+{"id": "CW1494", "response": "A", "extracted_answer": "A"}
+{"id": "CW1495", "response": "C) Zirhli mashina", "extracted_answer": "C"}
+{"id": "CW1496", "response": "D) zo\u2018ravon, o\u2018zbilarmon", "extracted_answer": "D"}
+{"id": "CW1497", "response": "A", "extracted_answer": "A"}
+{"id": "CW1498", "response": "B", "extracted_answer": "B"}
+{"id": "CW1499", "response": "D", "extracted_answer": "D"}
+{"id": "CW1500", "response": "A) Zurriyod", "extracted_answer": "A"}
+{"id": "MN0000", "response": "C", "extracted_answer": "C"}
+{"id": "MN0001", "response": "D) Kabul", "extracted_answer": "D"}
+{"id": "MN0002", "response": "C", "extracted_answer": "C"}
+{"id": "MN0003", "response": "A) Qo\u02bbpol", "extracted_answer": "A"}
+{"id": "MN0004", "response": "B) Ko\u2018p, talaygina, serob", "extracted_answer": "B"}
+{"id": "MN0005", "response": "A", "extracted_answer": "A"}
+{"id": "MN0006", "response": "A", "extracted_answer": "A"}
+{"id": "MN0007", "response": "A", "extracted_answer": "A"}
+{"id": "MN0008", "response": "B", "extracted_answer": "B"}
+{"id": "MN0009", "response": "A) Bor kuchi bilan", "extracted_answer": "A"}
+{"id": "MN0010", "response": "A", "extracted_answer": "A"}
+{"id": "MN0011", "response": "D", "extracted_answer": "D"}
+{"id": "MN0012", "response": "D) Botir", "extracted_answer": "D"}
+{"id": "MN0013", "response": "B", "extracted_answer": "B"}
+{"id": "MN0014", "response": "A) Bozor kunidan boshqa kun", "extracted_answer": "A"}
+{"id": "MN0015", "response": "D", "extracted_answer": "D"}
+{"id": "MN0016", "response": "A", "extracted_answer": "A"}
+{"id": "MN0017", "response": "C", "extracted_answer": "C"}
+{"id": "MN0018", "response": "A", "extracted_answer": "A"}
+{"id": "MN0019", "response": "C) Yashirin ma\u02bcnoli gap", "extracted_answer": "C"}
+{"id": "MN0020", "response": "A) Abu-Dabi", "extracted_answer": "A"}
+{"id": "MN0021", "response": "D", "extracted_answer": "D"}
+{"id": "MN0022", "response": "A", "extracted_answer": "A"}
+{"id": "MN0023", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "MN0024", "response": "B) Tashmchi", "extracted_answer": "B"}
+{"id": "MN0025", "response": "B", "extracted_answer": "B"}
+{"id": "MN0026", "response": "C", "extracted_answer": "C"}
+{"id": "MN0027", "response": "C) Sudralib yuruvchi hayvon", "extracted_answer": "C"}
+{"id": "MN0028", "response": "B", "extracted_answer": "B"}
+{"id": "MN0029", "response": "C) Halovat, tinchlikka erishganda", "extracted_answer": "C"}
+{"id": "MN0030", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "MN0031", "response": "B", "extracted_answer": "B"}
+{"id": "MN0032", "response": "B", "extracted_answer": "B"}
+{"id": "MN0033", "response": "A) Qattiq shamol", "extracted_answer": "A"}
+{"id": "MN0034", "response": "D", "extracted_answer": "D"}
+{"id": "MN0035", "response": "C) Yomon, qoniqarsiz", "extracted_answer": "C"}
+{"id": "MN0036", "response": "B", "extracted_answer": "B"}
+{"id": "MN0037", "response": "A) E\u02bctiborsiz qarash", "extracted_answer": "A"}
+{"id": "MN0038", "response": "B", "extracted_answer": "B"}
+{"id": "MN0039", "response": "A) Aynigan meva", "extracted_answer": "A"}
+{"id": "MN0040", "response": "B) Qoramtir.", "extracted_answer": "B"}
+{"id": "MN0041", "response": "B", "extracted_answer": "B"}
+{"id": "MN0042", "response": "C) Kun ko\u02bbtarilib qolgan vaqt", "extracted_answer": "C"}
+{"id": "MN0043", "response": "C) Hadiksirash", "extracted_answer": "C"}
+{"id": "MN0044", "response": "D) Qarqunoq", "extracted_answer": "D"}
+{"id": "MN0045", "response": "D) Asilda. Quyidagi jumladagi turli nisbatlarda to'g'ri qoladi:\nUmumiy iqtisodiyot: Masalan\nNimudda: Chunonchi\nIlova: asilda.", "extracted_answer": "D"}
+{"id": "MN0046", "response": "C) Bor kuchi bilan urishish.", "extracted_answer": "C"}
+{"id": "MN0047", "response": "C", "extracted_answer": "C"}
+{"id": "MN0048", "response": "C) Qumursqa", "extracted_answer": "C"}
+{"id": "MN0049", "response": "B) Devday salobatli", "extracted_answer": "B"}
+{"id": "MN0050", "response": "A", "extracted_answer": "A"}
+{"id": "MN0051", "response": "C) Ko\u02bbngli g\u02bbash", "extracted_answer": "C"}
+{"id": "MN0052", "response": "B) Botir", "extracted_answer": "B"}
+{"id": "MN0053", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "MN0054", "response": "C", "extracted_answer": "C"}
+{"id": "MN0055", "response": "A) Ibrohim Raisi", "extracted_answer": "A"}
+{"id": "MN0056", "response": "A", "extracted_answer": "A"}
+{"id": "MN0057", "response": "D", "extracted_answer": "D"}
+{"id": "MN0058", "response": "C) Quvontiradigan", "extracted_answer": "C"}
+{"id": "MN0059", "response": "D) Bagdod", "extracted_answer": "D"}
+{"id": "MN0060", "response": "B", "extracted_answer": "B"}
+{"id": "MN0061", "response": "A", "extracted_answer": "A"}
+{"id": "MN0062", "response": "D) Ovqat, yemish", "extracted_answer": "D"}
+{"id": "MN0063", "response": "C) Ikkovi ham to\u2018g\u2018ri", "extracted_answer": "C"}
+{"id": "MN0064", "response": "C", "extracted_answer": "C"}
+{"id": "MN0065", "response": "C", "extracted_answer": "C"}
+{"id": "MN0066", "response": "D", "extracted_answer": "D"}
+{"id": "MN0067", "response": "A) Geometriya", "extracted_answer": "A"}
+{"id": "MN0068", "response": "C", "extracted_answer": "C"}
+{"id": "MN0069", "response": "A", "extracted_answer": "A"}
+{"id": "MN0070", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "MN0071", "response": "B", "extracted_answer": "B"}
+{"id": "MN0072", "response": "C", "extracted_answer": "C"}
+{"id": "MN0073", "response": "B", "extracted_answer": "B"}
+{"id": "MN0074", "response": "A) Zamburig\u02bb", "extracted_answer": "A"}
+{"id": "MN0075", "response": "C) Sutemizuvchilar", "extracted_answer": "C"}
+{"id": "MN0076", "response": "D) Dermatin", "extracted_answer": "D"}
+{"id": "MN0077", "response": "B", "extracted_answer": "B"}
+{"id": "MN0078", "response": "A", "extracted_answer": "A"}
+{"id": "MN0079", "response": "D", "extracted_answer": "D"}
+{"id": "MN0080", "response": "D", "extracted_answer": "D"}
+{"id": "MN0081", "response": "C) Mustar", "extracted_answer": "C"}
+{"id": "MN0082", "response": "A", "extracted_answer": "A"}
+{"id": "MN0083", "response": "D. Yirtqich hayvon.", "extracted_answer": "D"}
+{"id": "MN0084", "response": "A", "extracted_answer": "A"}
+{"id": "MN0085", "response": "B", "extracted_answer": "B"}
+{"id": "MN0086", "response": "A", "extracted_answer": "A"}
+{"id": "MN0087", "response": "A", "extracted_answer": "A"}
+{"id": "MN0088", "response": "A) Ko\u02bbrpaqoviq", "extracted_answer": "A"}
+{"id": "MN0089", "response": "C", "extracted_answer": "C"}
+{"id": "MN0090", "response": "C", "extracted_answer": "C"}
+{"id": "MN0091", "response": "C", "extracted_answer": "C"}
+{"id": "MN0092", "response": "B", "extracted_answer": "B"}
+{"id": "MN0093", "response": "D) ko\u2018zim tor bo\u2018ldi", "extracted_answer": "D"}
+{"id": "MN0094", "response": "C) Hosil bermaydigan, toshloq yer.", "extracted_answer": "C"}
+{"id": "MN0095", "response": "C) Zangori, ko\u2018k rang", "extracted_answer": "C"}
+{"id": "MN0096", "response": "B) g\u02bbam-tashvish", "extracted_answer": "B"}
+{"id": "MN0097", "response": "B", "extracted_answer": "B"}
+{"id": "MN0098", "response": "B", "extracted_answer": "B"}
+{"id": "MN0099", "response": "C) Maymunjon", "extracted_answer": "C"}
+{"id": "MN0100", "response": "A", "extracted_answer": "A"}
+{"id": "MN0101", "response": "D) Igrek", "extracted_answer": "D"}
+{"id": "MN0102", "response": "A", "extracted_answer": "A"}
+{"id": "MN0103", "response": "A", "extracted_answer": "A"}
+{"id": "MN0104", "response": "A) Manzil, boshpana", "extracted_answer": "A"}
+{"id": "MN0105", "response": "D", "extracted_answer": "D"}
+{"id": "MN0106", "response": "B", "extracted_answer": "B"}
+{"id": "MN0107", "response": "B) Xomsemiz, dum-dumaloq", "extracted_answer": "B"}
+{"id": "MN0108", "response": "C) Burni oqqan", "extracted_answer": "C"}
+{"id": "MN0109", "response": "C)", "extracted_answer": "C"}
+{"id": "MN0110", "response": "D", "extracted_answer": "D"}
+{"id": "MN0111", "response": "A) Qoqi-o\u02bbt", "extracted_answer": "A"}
+{"id": "MN0112", "response": "D) Kelajak", "extracted_answer": "D"}
+{"id": "MN0113", "response": "D", "extracted_answer": "D"}
+{"id": "MN0114", "response": "A) Adashish, xato qilish", "extracted_answer": "A"}
+{"id": "MN0115", "response": "D) Gastarbayter", "extracted_answer": "D"}
+{"id": "MN0116", "response": "C", "extracted_answer": "C"}
+{"id": "MN0117", "response": "A) Masjiddan kelgan ovoz. Masjiddan keladigan ovoz, xususan nomoz vaqtlari ovozlar tizimi orqali taqdirlash bosqichida keladigan ovozlar Mullajiring tasvirini bosqichda to'liq ifodalaydi. Yaxshi Mullajir uzun vaqt chap etilmagan arabcha ovozlarni ko'p tartib aytishi mumkin. Shuningdek, masjiddagi ovozlar halqaro tumanlaydigan ovozlarni anglatishi mumkin.", "extracted_answer": "A"}
+{"id": "MN0118", "response": "A) Maza qochishi, betoblik", "extracted_answer": "A"}
+{"id": "MN0119", "response": "A", "extracted_answer": "A"}
+{"id": "MN0120", "response": "C) Asistent", "extracted_answer": "C"}
+{"id": "MN0121", "response": "C", "extracted_answer": "C"}
+{"id": "MN0122", "response": "A", "extracted_answer": "A"}
+{"id": "MN0123", "response": "D", "extracted_answer": "D"}
+{"id": "MN0124", "response": "D", "extracted_answer": "D"}
+{"id": "MN0125", "response": "A", "extracted_answer": "A"}
+{"id": "MN0126", "response": "A", "extracted_answer": "A"}
+{"id": "MN0127", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "MN0128", "response": "B", "extracted_answer": "B"}
+{"id": "MN0129", "response": "D) Quyuq damlangan, achchiq choy", "extracted_answer": "D"}
+{"id": "MN0130", "response": "C", "extracted_answer": "C"}
+{"id": "MN0131", "response": "C", "extracted_answer": "C"}
+{"id": "MN0132", "response": "C\n  \nMantiqiga ko'ra, guldor variantida joylashgan. Uni to'g'ri qiymatni uzatish kerak bo'lgan joyda joylashtirishingiz mumkin bo'ldi. Ko'plab savollarni ichida, joylashgan variant bo'ladi.", "extracted_answer": "C"}
+{"id": "MN0133", "response": "A", "extracted_answer": "A"}
+{"id": "MN0134", "response": "B) Tilni rostlamoq.", "extracted_answer": "B"}
+{"id": "MN0135", "response": "B) Chiroyli ohang", "extracted_answer": "B"}
+{"id": "MN0136", "response": "B", "extracted_answer": "B"}
+{"id": "MN0137", "response": "A", "extracted_answer": "A"}
+{"id": "MN0138", "response": "B", "extracted_answer": "B"}
+{"id": "MN0139", "response": "A", "extracted_answer": "A"}
+{"id": "MN0140", "response": "C", "extracted_answer": "C"}
+{"id": "MN0141", "response": "A", "extracted_answer": "A"}
+{"id": "MN0142", "response": "D.", "extracted_answer": "D"}
+{"id": "MN0143", "response": "C) Kelmay qo\u02bbyish, kelish-ketishni tark etish", "extracted_answer": "C"}
+{"id": "MN0144", "response": "A) Tovan", "extracted_answer": "A"}
+{"id": "MN0145", "response": "C) Saal", "extracted_answer": "C"}
+{"id": "MN0146", "response": "A", "extracted_answer": "A"}
+{"id": "MN0147", "response": "B", "extracted_answer": "B"}
+{"id": "MN0148", "response": "D", "extracted_answer": "D"}
+{"id": "MN0149", "response": "D) Ikkovi ham xato", "extracted_answer": "D"}
+{"id": "MN0150", "response": "D) Eyak", "extracted_answer": "D"}
+{"id": "MN0151", "response": "C) Avlaq", "extracted_answer": "C"}
+{"id": "MN0152", "response": "D) Tanqid qildi", "extracted_answer": "D"}
+{"id": "MN0153", "response": "D) Aldamoq, avramoq.\n\n\"Pishang bermoq\" janniga so'z to'g'risidagi talablarning birinchi varianti, bu o'z o'rnida aldatish, muqyasat orqali ziddiyat so'zlash va boshqalar.", "extracted_answer": "D"}
+{"id": "MN0154", "response": "C) Aloe", "extracted_answer": "C"}
+{"id": "MN0155", "response": "C) Banan.", "extracted_answer": "C"}
+{"id": "MN0156", "response": "D", "extracted_answer": "D"}
+{"id": "MN0157", "response": "B", "extracted_answer": "B"}
+{"id": "MN0158", "response": "A", "extracted_answer": "A"}
+{"id": "MN0159", "response": "C", "extracted_answer": "C"}
+{"id": "MN0160", "response": "C) O\u02bbra qazish bilan shug\u02bbullanuvchi kishi", "extracted_answer": "C"}
+{"id": "MN0161", "response": "A", "extracted_answer": "A"}
+{"id": "MN0162", "response": "D", "extracted_answer": "D"}
+{"id": "MN0163", "response": "C", "extracted_answer": "C"}
+{"id": "MN0164", "response": "A", "extracted_answer": "A"}
+{"id": "MN0165", "response": "B", "extracted_answer": "B"}
+{"id": "MN0166", "response": "A", "extracted_answer": "A"}
+{"id": "MN0167", "response": "D", "extracted_answer": "D"}
+{"id": "MN0168", "response": "A", "extracted_answer": "A"}
+{"id": "MN0169", "response": "A", "extracted_answer": "A"}
+{"id": "MN0170", "response": "C", "extracted_answer": "C"}
+{"id": "MN0171", "response": "A", "extracted_answer": "A"}
+{"id": "MN0172", "response": "B", "extracted_answer": "B"}
+{"id": "MN0173", "response": "A", "extracted_answer": "A"}
+{"id": "MN0174", "response": "D", "extracted_answer": "D"}
+{"id": "MN0175", "response": "B", "extracted_answer": "B"}
+{"id": "MN0176", "response": "C", "extracted_answer": "C"}
+{"id": "MN0177", "response": "B", "extracted_answer": "B"}
+{"id": "MN0178", "response": "D) Taxtaqoracha", "extracted_answer": "D"}
+{"id": "MN0179", "response": "A", "extracted_answer": "A"}
+{"id": "MN0180", "response": "A", "extracted_answer": "A"}
+{"id": "MN0181", "response": "A", "extracted_answer": "A"}
+{"id": "MN0182", "response": "C", "extracted_answer": "C"}
+{"id": "MN0183", "response": "B", "extracted_answer": "B"}
+{"id": "MN0184", "response": "A", "extracted_answer": "A"}
+{"id": "MN0185", "response": "B) Avtomobil", "extracted_answer": "B"}
+{"id": "MN0186", "response": "A", "extracted_answer": "A"}
+{"id": "MN0187", "response": "A", "extracted_answer": "A"}
+{"id": "MN0188", "response": "D", "extracted_answer": "D"}
+{"id": "MN0189", "response": "D) So\u02bbzomol", "extracted_answer": "D"}
+{"id": "MN0190", "response": "B", "extracted_answer": "B"}
+{"id": "MN0191", "response": "D) Choydish", "extracted_answer": "D"}
+{"id": "MN0192", "response": "C", "extracted_answer": "C"}
+{"id": "MN0193", "response": "D) Mukammal.", "extracted_answer": "D"}
+{"id": "MN0194", "response": "B", "extracted_answer": "B"}
+{"id": "MN0195", "response": "D) Issiq taom", "extracted_answer": "D"}
+{"id": "MN0196", "response": "B", "extracted_answer": "B"}
+{"id": "MN0197", "response": "B", "extracted_answer": "B"}
+{"id": "MN0198", "response": "Tasalli berib yupatmoq jumlasi \"Ovitmoq\" ma'nosi bilan bir xil.", "extracted_answer": null}
+{"id": "MN0199", "response": "A", "extracted_answer": "A"}
+{"id": "MN0200", "response": "B", "extracted_answer": "B"}
+{"id": "MN0201", "response": "B", "extracted_answer": "B"}
+{"id": "MN0202", "response": "A", "extracted_answer": "A"}
+{"id": "MN0203", "response": "B) Oyoq, qo\u2018l, ko\u2018z va quloq", "extracted_answer": "B"}
+{"id": "MN0204", "response": "D) Tashqi tomoni", "extracted_answer": "D"}
+{"id": "MN0205", "response": "A) Yoqasi", "extracted_answer": "A"}
+{"id": "MN0206", "response": "C", "extracted_answer": "C"}
+{"id": "MN0207", "response": "D) Barxam bermoq", "extracted_answer": "D"}
+{"id": "MN0208", "response": "C", "extracted_answer": "C"}
+{"id": "MN0209", "response": "B) o\u02bbta olisda", "extracted_answer": "B"}
+{"id": "MN0210", "response": "D", "extracted_answer": "D"}
+{"id": "MN0211", "response": "D", "extracted_answer": "D"}
+{"id": "MN0212", "response": "D) Tushum", "extracted_answer": "D"}
+{"id": "MN0213", "response": "A", "extracted_answer": "A"}
+{"id": "MN0214", "response": "A", "extracted_answer": "A"}
+{"id": "MN0215", "response": "A) Poshsho", "extracted_answer": "A"}
+{"id": "MN0216", "response": "C) Dahliz", "extracted_answer": "C"}
+{"id": "MN0217", "response": "C", "extracted_answer": "C"}
+{"id": "MN0218", "response": "A) Imkoniyatni qo\u02bbldan boy bermoq, yutqazmoq", "extracted_answer": "A"}
+{"id": "MN0219", "response": "C", "extracted_answer": "C"}
+{"id": "MN0220", "response": "D", "extracted_answer": "D"}
+{"id": "MN0221", "response": "C", "extracted_answer": "C"}
+{"id": "MN0222", "response": "B", "extracted_answer": "B"}
+{"id": "MN0223", "response": "A", "extracted_answer": "A"}
+{"id": "MN0224", "response": "C) Xolesterin", "extracted_answer": "C"}
+{"id": "MN0225", "response": "B) Jarohat yetkazadigan ot", "extracted_answer": "B"}
+{"id": "MN0226", "response": "D) Go\u02bbshtsiz, ziravorlarsiz suyuq ovqat", "extracted_answer": "D"}
+{"id": "MN0227", "response": "D) Suvliq", "extracted_answer": "D"}
+{"id": "MN0228", "response": "A", "extracted_answer": "A"}
+{"id": "MN0229", "response": "B", "extracted_answer": "B"}
+{"id": "MN0230", "response": "A", "extracted_answer": "A"}
+{"id": "MN0231", "response": "B", "extracted_answer": "B"}
+{"id": "MN0232", "response": "D", "extracted_answer": "D"}
+{"id": "MN0233", "response": "B", "extracted_answer": "B"}
+{"id": "MN0234", "response": "D", "extracted_answer": "D"}
+{"id": "MN0235", "response": "D", "extracted_answer": "D"}
+{"id": "MC0000", "response": "B) Inqilob\n\nBerilgan matn o'zida qo'lga kiritilgan 1918 yilda \u201cIshtirokiyun\u201d gazetasining chop etilishidan so'ng o'zbek xalqining o'zining milliy madaniyatini aniqlab chiqish haqida gapiriladi. Xalq milliy noha va madaniyatidan ajrashib ketmay, undan avvalgi asrlardan bugungi kunagacha yetayotgan milliy noha va qadriyatlarini aniqlab va hal hozirgi zamon javobiga keltirib borish jarayoni, \"Inqilob\" so'zining qiynalmaliligiga erishadi.", "extracted_answer": "B"}
+{"id": "MC0001", "response": "D) Keyin, so\u02bbng\n\nMatnda ishlatilgani kabi, bu so'z turkcha \"sonra\" yoki \"daha sonra\" ma'nolarini o\u02bbz ichiga oladi. Yuqoridagi javobda ko'rsatilgan kabi, \"keyin\" yoki \"so\u02bbng\" deb ham tarjima qilinishi mumkin. Matnning qolgan qismi bu so'zni qaysi ma'noda ishlatilganini aniqlashi mumkin: \"... ishlar berilmaydi, vaqt keyin boyitiladi.\" Bu yerda so'z matn jarayoni bo\u02bbyicha qatnashuvlarni keyin bajarishni ifodalaydi. Matn turkchadan o\u02bbzbekchaga tarjimasi qilingan bo\u02bblsa, \"keyin\" yoki \"so\u02bbng\" bo\u02bblishi kerak.", "extracted_answer": "D"}
+{"id": "MC0002", "response": "A", "extracted_answer": "A"}
+{"id": "MC0003", "response": "C) Shunga qaramay.", "extracted_answer": "C"}
+{"id": "MC0004", "response": "C) Tilla tanga", "extracted_answer": "C"}
+{"id": "MC0005", "response": "Shartaki so'z ma'nosini o'ylash uchun, birinchi navbatda uning berilgan matn bo'yicha ma'nosini belgilab bo'ladi. Bu erda, shartakining so'zi \"luqma tashlaydigan shartakilarni\" tanloviga yo'naltiradi.\n\nIchida yuzasgan so'z \"yetmish marta\" matnining berilgan qismi bilan bog'liq hisoblanadi, chunki bu xil qiyinchiliklar bilan qarshi ko'rinish holatiga o'xshaydi. Bu bizi B) variantiga yo'naltiradi, chunki bu shartlar bo'yicha kelishishdan so'ng unga amal qilmaganligi haqida g'uruxlab qo'yadi.\n\nLekin C) va D) variantlarini ham has albas qo'yolmaymiz, chunki ular ham yangi holatga mos kelishi mumkin. C) variantni ko'rib chiqishimiz mumkin, chunki shartakining shartlari, uning gaplarining o'ziga xos ko'rinishini aniqlaydi. D) variant o'xshash yuzashtiradi, chunki \"o'ylamay-netmay\" ma'nosida qarshi keladigan sharoitga ta'sir qiladi.\n\nBunyodkorlikdan foydalanish, A) variantiga kelamiz. Shartaki so'z \"Mard\" shunchaki mushtarak manosi bilan bog'liq emas. Agar berilgan matn qiyinchiliklar bilan ko'rinish holati haqida gapirayotgan bo'lsa, bu shartaki so'z \"jasur\" va \"qiyinchiliklardan qo'rqmaydigan\" ma'nosiga erishishi mumkin.\n\nQulaylik uchun, A) variant taqdim etiladi. Biroq, matn konteksti bo'yicha, C) va D) variantlar ham ta'riflashda yordam berishi mumkin.", "extracted_answer": "B"}
+{"id": "MC0006", "response": "B) O\u02bbylanib, xayolga tolib\n\n\"Kalovlanib\" so'zi bu matnda \"o\u02bbylanib\" yoki \"xayolga solib\" degan ma'noni bildiradi. Bu yuklab, xolovlangan shaxs, sabablari va amallarini o\u02bbylab yechishga, o\u02bbzini to\u02bbxtatib ko\u02bbramasdan, ushbu xol-hamda ushbu amalga olib kelgan sabablarga qaratmaydi. Matni shunchaki o'qiganida, biroq, ularning farshtashtirilishi va ularni kutib, ularni o'z fikri bilan bog'lash va ularni o'z tikishlariga solish mumkin. Lekin agar ular o\u02bbzingiz bilan tegishli bo\u02bblmasa va siz ularning amallarini berilmasdan qaytarilishini istasangiz, bu ma'noni aniqlash ham mumkin.", "extracted_answer": "B"}
+{"id": "MC0007", "response": "D) To\u02bbq (uchqar, yo\u02bbq) aniqlik bilan ma'nolaridan ham barchasi hisoblanadi.", "extracted_answer": "D"}
+{"id": "MC0008", "response": "A) Yoqimli, muloyim\n\nMatnning boshida yetish \"onasidek\" so'zi matn ichida ishlatilgan \"tuyg'un\" so'zining ko'p chet elchlari bor. Shu tartibda, \"onasidek\" tegishli kuchli, teshkor va tez-tez amalga oshiriladigan narsalarga doimiy qaratiladigan ma'nosini ifodalaydi. Bunday amallar joyda oson ekanligini va ko'pincha joylashtiriladigan \"tuyg'un\" ma'nosini bildiradi.", "extracted_answer": "A"}
+{"id": "MC0009", "response": "D) Soat", "extracted_answer": "D"}
+{"id": "MC0010", "response": "D", "extracted_answer": "D"}
+{"id": "MC0011", "response": "D) O\u02bbtgan yildan oldingi yil", "extracted_answer": "D"}
+{"id": "MC0012", "response": "B", "extracted_answer": "B"}
+{"id": "MC0013", "response": "B) Tez fahmlaydigan, sezgir", "extracted_answer": "B"}
+{"id": "MC0014", "response": "A) Indamasdan, so\u02bbzsiz.", "extracted_answer": "A"}
+{"id": "MC0015", "response": "D) Pishiq, baquvvat", "extracted_answer": "D"}
+{"id": "MC0016", "response": "A) Jamoatchilik, jamoatchilik fikri.", "extracted_answer": "A"}
+{"id": "MC0017", "response": "B) Yengil bosh kiyim, do\u02bbppi. Matn komik bog\u02bblar bilan yoshlar hazilli hosilidan ta\u02bclim olinishi va mehnat erkinligi bo\u02bbyicha ular farsxodida hurmat bilan turishi kerakligini izohlaydi. Bog\u02bblar Hamza tomonidan tavsiya qilinadigan kiyim shakli bilan tanishsiz beklur yigitlar qo\u02bbyilgan.", "extracted_answer": "B"}
+{"id": "MC0018", "response": "A) Oldin o\u02bbqituvchi bo\u02bblib ishlagan, sobiq o\u02bbqituvchi", "extracted_answer": "A"}
+{"id": "MC0019", "response": "C) Bashang kiyimda", "extracted_answer": "C"}
+{"id": "MC0020", "response": "B) Choynak\n\nBerilgan ma'noda ishlatilgan \"tos\" so'zi kontekstdan kelib chiqgan. Hammom boshqa nomida banyo bo'lib, haroratli havoda saqlanadigan, tenglik yoqishi qamrab olining tenglamasini ta'minlaydigan qato'li maslahat beriladigan, qo'shimcha chet-elak talablar tushuncha buxonadir. Ushbu ma'noda eski hammom boshqalar bilan birgalikda (\"tos\") olib bormoqda, hamma ularning o'z ichiga bajarish faoliyati tushuncha o'zgarish bo'ladi. Shuning uchun ham eski hammom bilan birgalikda qo'yilgan \"tos\" boshqa nomida banyo bo'lib, haroratli havoda saqlanadigan, tenglik yoqishi qamrab olining tenglamasini ta'minlaydigan qato'li maslahat beriladigan, qo'shimcha chet-elak talablar tushuncha buxonadir. Ushbu ma'noda eski hammom boshqalar bilan birgalikda (\"tos\") olib bormoqda, hamma ularning o'z ichiga bajarish faoliyati tushuncha o'zgarish bo'ladi.", "extracted_answer": "B"}
+{"id": "MC0021", "response": "C) Ko\u02bbzi yoshli", "extracted_answer": "C"}
+{"id": "MC0022", "response": "Javob: D) Gap-so\u02bbzni tezda uqmaydigan\n\nYozuvda, \"gap-so\u02bbzni tezda uqmaslik\" g\u02bbalcha so\u02bbzini boshqaruv yaxshi bo'lmaydigan, sinosatlanayotgan holatga erishishni ifodalaydi, bu esa chorig\u02bbi bilan to\u02bbrga chiqishga olib keladigan amal biroz.", "extracted_answer": "D"}
+{"id": "MC0023", "response": "Halizning matnidan ko'rinib turib, korxona gazeta ma'nosini olib ketadi. Gazeta savatbosh odam odamlar orasiga kirishning ochiq tushuni oladi va haliz yangi savatbosh korxona savatbosh odamning zamonga kirmasligi yuzasidan ishonchini ifodalaydi.\n\nJavob B)) Betgachopar so'z bilan javob berilishi kerak.", "extracted_answer": "B"}
+{"id": "MC0024", "response": "C) Chumchuq", "extracted_answer": "C"}
+{"id": "MC0025", "response": "A", "extracted_answer": "A"}
+{"id": "MC0026", "response": "D) Yo\u02bbg\u02bbon igna.\n\nBerilgan matnda, \"igna bilan bitadigan ishga juvoldiz tiqma\" deb yozilgan joyida \"yo\u02bbg\u02bbon\" so'zi \"igna\" so'zi bilan birgalikda ishlatiladi. Bu yerda \"igna\" o'rtasida ishlash uchun zerur bo'lgan yo'li yo'qotish ma'nosini oladigan \"yo\u02bbg\u02bbon\" so'zi ishlatilgan.", "extracted_answer": "D"}
+{"id": "MC0027", "response": "D) Yog\u02bboch qulf", "extracted_answer": "D"}
+{"id": "MC0028", "response": "D) Hayajonli, zavqli.\n\n\u00abQo\u2018nglim\u00bb so'zi bu matnda \u00abhayajonli va zavqli\u00bb ma'nolarini ifodalaydi, chunki ish bilan bog'liq hayajon va qo'rqish hislarini bildiradi. \u00abMalul\u00bb so'zi ham ko'ngilim, ya'ni, ta'sirlangan holat tarzini tasvirlaydi. Shaklinan baholanishi mumkin, \u00abhayajonli ish\u00bb safar ekanligini anglatishida matni shunga o'xshash ma'nosini bildirishi mumkin.", "extracted_answer": "D"}
+{"id": "MC0029", "response": "D) Astoydil urinib", "extracted_answer": "D"}
+{"id": "MC0030", "response": "C) Tosh, g\u02bbisht. Berilgan matnda ishlatilgan \"tarrak\" so'zi, Xurshid To'xtaboyevning \"Sariq devni minib\" erkini tafakkur qiladi. Bu erdda, \"tarrak\" o'rtta o'sishda olib borish mumkin bo'lgan ajratilgan g'isht ko'rinishidagi qirbozin, yo'ni tashni ta'rif etish uchun ishlatiladi.", "extracted_answer": "C"}
+{"id": "MC0031", "response": "C) Labning cheti\n\nIshlatilgan miyig' so'zi matn kontekstida \"labning cheti\" ma'nolarini anglatadi, chunki kuldi miyig'ida tushdi, bu esa labning ketish bilan bog'liq hissiyotni oznidan chiqarishdir. Bu sababdan A), B) va D) javoblar nag'uhaliroq.", "extracted_answer": "C"}
+{"id": "MC0032", "response": "D) Chumoli", "extracted_answer": "D"}
+{"id": "MC0033", "response": "C) Yig\u02bbloqi, ko\u02bbngli bo\u02bbsh.", "extracted_answer": "C"}
+{"id": "MC0034", "response": "C) Sanchiq, sanchib og\u02bbrish", "extracted_answer": "C"}
+{"id": "MC0035", "response": "A\n  \nBerilgan matnda G\u02bbulomning \u201cShum bola\u201d asarlarida qo\u02bblga kiritilgan bosh va bo\u02bbyin orasi yag\u02bbrin ishlatilishi bayon etilgan.", "extracted_answer": "A"}
+{"id": "MC0036", "response": "B) Do\u02bbst, qadrdon\n\nMatnda ishlatilgan \"xasm\" so'zi, \"Yusuf va Ahmad\" (ma'lum bo'lmasada, asosan Sharq qahramonlarining ko'paytmoqda ekanlari ma'lum nomlar) degan ikki shaxs hamrozilik va muayyan shakllanishning umumiy tarixi bilan bog'liq bo'lib, uning ajoyib shaklini ifodalaydi. Uning asl ma'nosi, \"oziga yaqin yoki ko'ngillik xaqiqati\" deb e'lon qilinadi. Bu vaqtni ishlatilishini o'ziga xos usulda ta'riflovchi jarayon, tafakkur g'oya \u2013 \"Bu buni yotgan O'zbegim ham yo'g' diyda bir potda bu yoshalik bosigi soxlab borishi kirdi, yoki qoshimcha suv yo'lalari tomonlaridan kundalik ketdiklarini bir bo'lib o'rganmasdikmi?\" ifodasidan yoziladi.", "extracted_answer": "B"}
+{"id": "MC0037", "response": "D) Topilmaydigan yoki juda kam uchraydigan.\n\nAnqoga shafe so'zi matnda, odamning o\u02bbzi bilan bog\u02bbliq hissiyati bilan yaratilayotgan holatni tavsif qilish uchun ishlatilgan. Bu xolat yaratilishi qiyin va juda kam uchraydigan holat sifatida tavsif etiladi. Matnning uzvi sifatida, shu so'z odamning o\u02bbzining kabi qizdigan va yomon hissiyatlarni ifodalash uchun qo'llaniladi, juda kam ter tonaligi bilan.", "extracted_answer": "D"}
+{"id": "MC0038", "response": "A", "extracted_answer": "A"}
+{"id": "MC0039", "response": "D) Qorovullar turadigan post", "extracted_answer": "D"}
+{"id": "MC0040", "response": "A) Yurak, ko'ngil", "extracted_answer": "A"}
+{"id": "MC0041", "response": "D) Muhabbat, sevgi\n\nMatnda \"Qalbim urishiga solasan quloq\" tashabbusi saktalikga muhabbat bilan bog'liq ma'nosini beradi. Bu yerda saktalik sevgi va muhabbat so'zlarini o'z ichiga olgan muhabbot jarayoni uchun qo'llanilgan.", "extracted_answer": "D"}
+{"id": "MC0042", "response": "C) Ma\u02bclum qilmoq, birovga aytmoq\n\nMatnda, \"yur\" so'zidan so'ng \"qani, xayrli ishni paysalga solib bo\u02bblmaydi\" deb aytilganda, ma'nosini aniqlash uchun bunday tushunchani olish mumkin. \"Paysalga solish\" ifodasi yerda-yoq kechuvchi ma'no bilan birgalikda, nima bo'lishini o'zlashtiradi. Bunda ma'no, yur kam beruvchi kamaysin ham yurgani haqida narsani oshqar qilmoqni istaganini anglatadi. Shuning uchun, to'liq ma'no aniqlanishi mumkin: Yur yurilayotgan narsani o'zlashtirish, shuning uchun, \"ma\u02bclum qilmoq, birovga aytmoq\" so'zidan ma'no bilan bog'liqsiz emas.", "extracted_answer": "C"}
+{"id": "MC0043", "response": "D) Tanish-bilish\n\nMatn ma\u02bcnosi bo\u02bbyicha, \"nor\" so\u02bbzi bizga \"o\u02bbzi bilan tanish\" yoki \"bilish\" haqida gapirishni taklif qiladi, chunki agar siz qatorda noring bo\u02bblsa, yuking siz bilan tanishmay qolishini xohlaysiz, shuning uchun yuking yerda qolmaydi. Bu pasajda \"nor\" so\u02bbzining aniqlash kerak bo\u02bblgan ma\u02bcnosi \"tanish-bilish\" kabi bilim va aloqalar sohasidagi fidoyiligi hisoblashdir.", "extracted_answer": "D"}
+{"id": "MC0044", "response": "A", "extracted_answer": "A"}
+{"id": "MC0045", "response": "B) Xarita.\n\nBerilgan tekstda aytilgandek, qarta so'z xaritadagi joylashuvini ifodalaydi. Bundan tashqari, aytishlarda turli sport o'yinlaridan, o'yin turlaridan (masalan, qazisan, qartasan), xodisa o'rtasida joylashuvdan so'z qat'iy, o'yin tartibini ifodalay olmaydi.", "extracted_answer": "B"}
+{"id": "MC0046", "response": "A", "extracted_answer": "A"}
+{"id": "MC0047", "response": "A) Etak", "extracted_answer": "A"}
+{"id": "MC0048", "response": "D", "extracted_answer": "D"}
+{"id": "MC0049", "response": "C) Jarlik", "extracted_answer": "C"}
+{"id": "MC0050", "response": "B) Toshday, qattiq.\n\nShaparak matni toshdaylik, uproqni anglatadigan ishlatilgan. Ko'rishni anglatadigan so'zlar deb aylanda, ularni uchdil boshli ko\u02bbz e'mosini qattiq faylingan kuchli oson ko'rishni anglatadigan ma'nosida ishlatadiganligi aytish mumkin. Bu sababdan, maktablarda ishlatiladigan loqmaqo'ylar uchun ham yaxshi tanlanadigan nimadamanli bir ishlashdi.", "extracted_answer": "B"}
+{"id": "MC0051", "response": "D) Quyon", "extracted_answer": "D"}
+{"id": "MC0052", "response": "B)", "extracted_answer": "B"}
+{"id": "MC0053", "response": "B) Charchagan", "extracted_answer": "B"}
+{"id": "MC0054", "response": "C) Cho\u02bbl", "extracted_answer": "C"}
+{"id": "MC0055", "response": "C) Shalabbo bo\u02bblib", "extracted_answer": "C"}
+{"id": "MC0056", "response": "A) Qizg\u02bbanish hissi kuchli, rashkchi.", "extracted_answer": "A"}
+{"id": "MC0057", "response": "A", "extracted_answer": "A"}
+{"id": "MC0058", "response": "Javob - D) Paytavasiz.\n\nBerilgan tekstda, \"Qo\u2018lantayoq kiygan\" bo'limi aniqlik bilan so'z uniqtidan ma'nosini ifodalaydi. Paytava ularni qo\u2018shni sozlash uchun muhim qiymiqlar. Quyosh yuziga chiqayotganda, quyosh ko'rinishi, tug'ilishi paytavasi va ehtimoli katta. Mana bunday paytavalar dastlabki matn va uning keyingi bo'limiga tegishli ekanligiga ishonch hosil qiladi. Baland sabab, javob D hisoblanadi.", "extracted_answer": "D"}
+{"id": "MC0059", "response": "C) Odamning ko\u02bbnglini olishni biladigan", "extracted_answer": "C"}
+{"id": "MC0060", "response": "C) Bulutli", "extracted_answer": "C"}
+{"id": "MC0061", "response": "A) Nazar-pisand qilmaslik\n\nBuning sababi, so'zning bu ma'nosi, aniqlik bilan nazar-pisand qilishni taklif qila olmaydi, balki bir odamning o\u02bbzining fikrining eschligi yoki ularni qo\u02bbllab-quvvatlash uchun boshqalarga erishish uchun qo\u02bbshimcha tejash bilan berilganini anglatadi. \"Nazarlash\" so'zi, odamning javobsiz suallarni yoki hislarini nazariga olishini ifodalaydi, hatto unda ijobiy natijalar bo'lmasa ham. Odamlar u yirik natijalar beradigan yoki kamda birgina yangi zarur fikrga olib keladigan amaliyotni o\u02bbzlashtirishlik qilish uchun o\u02bbzinga o\u02bbsmoqchilso chiqishi mumkin.", "extracted_answer": "A"}
+{"id": "MC0062", "response": "D) Pul", "extracted_answer": "D"}
+{"id": "MC0063", "response": "C) Tushunarsiz, qiyin\n\n\"Unikal\" so'zi bu matnda yagona, boshqa vaqtlar yoki holatlar bilan bir xil emassolaydi deb ma'nosini ifodalash uchun ishlatiladi. Bu mavzuda yoki taxririda shuni boshqalaridan ajratadigan, aynan shu holatga yoki sifatga tegishli ekanligini belgilaydigan tafsilotni ifodalash uchun foydalanilgan. Ya'ni, matnda \"unikal\" sifat \"ko'lyozma\" va \"ko'rinmamagan\" sifatlar bilan bog'liq xususiyatlarni ifodalash uchun ishlatilgan, buning uchun \"tushunarsiz, qiyin\" tasavvurlar bilan bog'liq xususiyatlariga ega bo'lishi kerak.", "extracted_answer": "C"}
+{"id": "MC0064", "response": "D) Yengil va yupqa ust kiyim. Matnda tushunchalangan \"chiroyli\" va \"keskin\" so'zlar \"yengil\" va \"yupqa\" ust kiyim bilan bog'liq so'zlar sifatida ko'rinadi.", "extracted_answer": "D"}
+{"id": "MC0065", "response": "B) Qora un", "extracted_answer": "B"}
+{"id": "MC0066", "response": "B)", "extracted_answer": "B"}
+{"id": "MC0067", "response": "D) Tezchopar, shiddatli\n\nMatnda, baland bo'yli yigitning tomonga o'tib ketishi tezlik va shiddat bilan bog'liq ishoralarni bildiradi. Shu sababdan, \"yaydoq ot\" so'zi bu joyda tezlik va shiddat ma'nosida ishlatilgan.", "extracted_answer": "D"}
+{"id": "MC0068", "response": "B) Manmanlik.", "extracted_answer": "B"}
+{"id": "MC0069", "response": "B) Kuchli, baquvvat.", "extracted_answer": "B"}
+{"id": "MC0070", "response": "B) Kanal, suv yo\u02bbli.\n\nYuzi oydek shu\u02bcla solar, \nHusni falakdan boj olar deyilganda, \"bo\u02bbj olar\" deyi natijasida \"daryo\"ni yo\u02bbg\u02bbotgan \"suvi\" - \"kanal\"ni ta'sirida, undan tashqarida qoladigan to'rtgi, ya'ni qirg'oq joylar mavjud. Shu sababdan matnda ishlatilgan kanor so'z kanaldan (suv yo'lisidan) kelib chiqgan.", "extracted_answer": "B"}
+{"id": "MC0071", "response": "C) Biroq, ammo\n\nUshbu dastlabki ketma-ketlikda \"biroq\" so'zining ma'nosi rivojlanadigan fikr-ahvolni undiradigan bo'ladigan tashqi kichikroq fakt yoki muammo ekanligini anglatadi. Misol uchun, Agar bajarzor unchalik yomon hava sharoitida ishlasa ham, ammo har xil tushmushlarni oldinni ko'rsatadi. Bunday holda, \"biroq\" so'zi aksariyat o'rtasida kutshischa shartlari tajovuzkor va muzika nafusli, bu holda uni olding.\n\nA, B, va D javoblar esa uzoqlab ketadigan awtogrammaga moshlashadi, deb fikr qilaman, chunki ular yo'nalishini kengaytiradi yoki foydali ma'lumot kiritishi mumkin. Demak, rivojlanayotgan maqsadlarni undiradigan bo'ladigan tashqi kichikroq fakt yoki muammo ekanligini anglatishda \"biroq\" so'zining unikal va etakchi ma'nosiga ishonch hosil qildim.", "extracted_answer": "C"}
+{"id": "FI0000", "response": "B) Sarv", "extracted_answer": "B"}
+{"id": "FI0001", "response": "B", "extracted_answer": "B"}
+{"id": "FI0002", "response": "A) Adil", "extracted_answer": "A"}
+{"id": "FI0003", "response": "B", "extracted_answer": "B"}
+{"id": "FI0004", "response": "A) Hushiga ketsa bo'lsa, xushiga ketsa. Buxarish jarayonida hush - bu qulaylik va safar tinchlikiga qat'iy tavsiya qilingan. Ozi, xushish imkoniyati bo'lmasa, hatto o'tirlar xushinlar bilan ta'minlovchi maskalar va darajalarni taqdim qilishi mumkin.", "extracted_answer": "A"}
+{"id": "FI0005", "response": "A) G\u02bbo\u02bblapirdan kelgan", "extracted_answer": "A"}
+{"id": "FI0006", "response": "Matnda ulashingiz mumkin bo\u02bblgan eng yaxshi javob A) O\u02bbzingizga tasavvur qilingchidir.\n\nMos o\u02bbrniga ushbu javobni sozlash maqsadlaringizni ko\u02bbrsatadi, shuning uchun C yoki D avvalo javoblar misolida keltirilgan uchli sifatli matlar bo\u02bbladi. Mat davomida umumiy maqsad o\u02bbzgarish bilan bog\u02bbliq fikrlar mavjud bo\u02bblsa, o\u02bbsha maqsad sizni inspiratsiya qilishi mumkin, agar siz o\u02bbsha muammolari hal qilishni xohlasangiz. LeKIN,  B javobi, tasavvur qilingchi, sizni yonlash uchun uni chind tasavvur qilishingizni maslahat beradi, shuning uchun siz o\u02bbzingizning ishingizni chustuvchan va o\u02bbrganuvchan bo\u02bblishingiz mumkin.\n\nYana bir marta aytaylik, yaxshiroq tanlashni ilohal sodda tanlashdan o\u02bbzaro aloqa qilish kerak, chunki yuksak sativiy fayda ketishini ilohal keyingi natijalar maqsadlaringiz bilan o\u02bbzaro bog\u02bbliq ekanligini his qilishingiz. Bu imtihon ularni to\u02bbxtatadigan kutilmagan yaqin son bo\u02bblgani sababli, umumiy maqsad o\u02bbzgarish bilan bog\u02bbliq fikrlar mavjud bo\u02bblsa, o\u02bbsha maqsad sizni inspiratsiya qilishi mumkin, agar siz o\u02bbsha muammolari hal qilishni xohlasangiz. LeKIN,  B javobi, tasavvur qilingchi, sizni yonlash uchun uni chind tasavvur qilishingizni maslahat beradi, shuning uchun siz o\u02bbzingizning ishingizni chustuvchan va o\u02bbrganuvchan bo\u02bblishingiz mumkin.", "extracted_answer": "A"}
+{"id": "FI0007", "response": "Eh-hi.\n\nMatn qisqacha tasallut talab qiladigan ism va familiya va alohida qism bo'lmagan unvon yoki xar-xonadan, turli sozi ega tomonlar yaqin talabarlarini o'tkazish yuzasidan teng bo'lishini ta'minlaydigan talablarga javob beradi. Chuncho, so'zning birinchi harflaridan keyin noqot oyadi, jawaathlari talab qilinadigan ism va familiya va alohida qism bo'lmagan unvon yoki xar-xonadan, turli sozi ega tomonlar ushbu variantni joriy qilishi lozim.", "extracted_answer": null}
+{"id": "FI0008", "response": "A) Tegajaklik.", "extracted_answer": "A"}
+{"id": "FI0009", "response": "A", "extracted_answer": "A"}
+{"id": "FI0010", "response": "A) xil-hil", "extracted_answer": "A"}
+{"id": "FI0011", "response": "A) baxya", "extracted_answer": "A"}
+{"id": "FI0012", "response": "A) dars", "extracted_answer": "A"}
+{"id": "FI0013", "response": "B) Juma mavizasi", "extracted_answer": "B"}
+{"id": "FI0014", "response": "C", "extracted_answer": "C"}
+{"id": "FI0015", "response": "Javob: D) qorong\u02bbi", "extracted_answer": "D"}
+{"id": "FI0016", "response": "B) ximiri", "extracted_answer": "B"}
+{"id": "FI0017", "response": "B", "extracted_answer": "B"}
+{"id": "FI0018", "response": "B) chuqalab", "extracted_answer": "B"}
+{"id": "FI0019", "response": "A) xoli", "extracted_answer": "A"}
+{"id": "FI0020", "response": "C) Ikkovi ham to\u2018g\u2018ri", "extracted_answer": "C"}
+{"id": "FI0021", "response": "A) joniga oro kirdi.\n\nAga mana shu kurtkasi joniga ARO kirdi. Bolar joniga keldix. Kengash maktabi yakun qilgandan so'ng chop etildi. Ikki hali ham xolmaganmisa kam etilmagan. Ayniqsa joniga borada ularning hukmiga mos kelmaydi.", "extracted_answer": "A"}
+{"id": "FI0022", "response": "D) sug\u02bbirub", "extracted_answer": "D"}
+{"id": "FI0023", "response": "A) nax mos keladi. Matnda qollash uchun nax pul kerak ekanligini ajratib belgilab bo\u02bbladi.", "extracted_answer": "A"}
+{"id": "FI0024", "response": "C", "extracted_answer": "C"}
+{"id": "FI0025", "response": "D", "extracted_answer": "D"}
+{"id": "FI0026", "response": "A) kesak tawfiqlani.", "extracted_answer": "A"}
+{"id": "FI0027", "response": "B", "extracted_answer": "B"}
+{"id": "FI0028", "response": "C) o\u02bbldi", "extracted_answer": "C"}
+{"id": "FI0029", "response": "A", "extracted_answer": "A"}
+{"id": "FI0030", "response": "C", "extracted_answer": "C"}
+{"id": "FI0031", "response": "C", "extracted_answer": "C"}
+{"id": "FI0032", "response": "D) rangi-ro\u02bbying", "extracted_answer": "D"}
+{"id": "FI0033", "response": "B) uzilish", "extracted_answer": "B"}
+{"id": "FI0034", "response": "B) majag\u02bbladi", "extracted_answer": "B"}
+{"id": "FI0035", "response": "A) urush", "extracted_answer": "A"}
+{"id": "FI0036", "response": "C) bug\u02bbdoy", "extracted_answer": "C"}
+{"id": "FI0037", "response": "B) oyog\u02bbosti", "extracted_answer": "B"}
+{"id": "FI0038", "response": "A", "extracted_answer": "A"}
+{"id": "FI0039", "response": "B) nufusi qat'iy jawob hisoblanadi, chunki \"nufuzi\", \"nufisi\" va \"nufizi\" shabdlar o'rtoqrafik xatolardir. Nufus shaharlarning bo'lganayotgani, ularning raqamini, bo'linishi va tarqalishi kabi muammolarini o'rnatadigan amaliy fan.", "extracted_answer": "B"}
+{"id": "FI0040", "response": "C) xususda", "extracted_answer": "C"}
+{"id": "FI0041", "response": "A) qalqdi", "extracted_answer": "A"}
+{"id": "FI0042", "response": "C)", "extracted_answer": "C"}
+{"id": "FI0043", "response": "B) xali zamon", "extracted_answer": "B"}
+{"id": "FI0044", "response": "B) nuqtadon", "extracted_answer": "B"}
+{"id": "FI0045", "response": "A) uzr-mazr", "extracted_answer": "A"}
+{"id": "FI0046", "response": "B", "extracted_answer": "B"}
+{"id": "FI0047", "response": "A) muvaffaq", "extracted_answer": "A"}
+{"id": "FI0048", "response": "A", "extracted_answer": "A"}
+{"id": "FI0049", "response": "U <mask> yangi sohada edi.\n\nO\u02bbrniga solqigan keladi, chunki soha o\u02bbz ichiga <mask> oladi.\n\nJavob: A", "extracted_answer": "A"}
+{"id": "FI0050", "response": "A) tamoyil", "extracted_answer": "A"}
+{"id": "FI0051", "response": "C) suiqasd", "extracted_answer": "C"}
