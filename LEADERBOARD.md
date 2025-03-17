@@ -1,9 +1,11 @@
 # UzLiB Leaderboard
 
 | **Model Name** | **Organization** | **All** | **Correct word** | **Meaning** | **Meaning in context** | **Fill in** |
-|:-----------------------------------|:-----------------|-------:|---------------:|----------:|---------------------:|----------:|
-| [Gemini 2.0 Pro Exp](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05) | Google | **0.6303** |0.6316 | **0.6229** | **0.7222** | 0.5 |
-| [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6287 | **0.6369** | 0.5847 | 0.6667 | **0.5385** |
+|:--------------:|:----------------:|:-------:|:----------------:|:-----------:|:----------------------:|:-----------:|
+| [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) | Anthropic | **0.6362** | 0.6442 | 0.5975 | **0.7222** | 0.4615 |
+| [Claude 3.5 Sonnet v2](https://www.anthropic.com/news/3-5-models-and-computer-use) | Anthropic | 0.6308 | **0.6462** | 0.555 | 0.7983 | 0.4231 |
+| [Gemini 2.0 Pro Exp](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05) | Google | 0.6303 |0.6316 | **0.6229** | **0.7222** | 0.5 |
+| [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6287 | 0.6369 | 0.5847 | 0.6667 | **0.5385** |
 | [Gemini 2.0 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-001) | Google | 0.6088 | 0.6123 | 0.5678 | 0.7222 | 0.5385 |
 | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Anthropic | 0.5938 | 0.6189 | 0.6102 | 0.2778 | 0.2308 |
 | *Human voters＊* | - | *0.5894* | *0.6054* | *0.5247* | *0.5254* | *0.5094* |
