@@ -33,7 +33,7 @@ def generate_leaderboard():
         
     print(f"Found {len(available_models)} model results.")
     
-    uzlib = load_dataset('murodbek/uzlib', split='all')
+    uzlib = load_dataset('tahrirchi/uzlib', split='all')
     df_original = uzlib.to_pandas()
     expected_rows = len(df_original)
     print(f"Loaded dataset with {expected_rows} questions.")

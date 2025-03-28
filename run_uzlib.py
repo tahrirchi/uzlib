@@ -90,7 +90,7 @@ def calculate_accuracy(df: pd.DataFrame, drop_none: bool = False):
 
 def main(model_name: str, MAX_RETRIES: int) -> None:
     # Load the dataset
-    uzlib = load_dataset('murodbek/uzlib', split='all')
+    uzlib = load_dataset('tahrirchi/uzlib', split='all')
     df = uzlib.to_pandas()
 
     artifact_name = f"artifacts/{model_name.split('/')[-1]}.jsonl"
