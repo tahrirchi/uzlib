@@ -7,6 +7,7 @@ load_dotenv()
 
 # List of supported model names
 MODEL_NAMES = [
+    "gemini-2.5-pro-exp-03-25",
     "gemini-2.0-pro-exp-02-05",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-001",
@@ -34,14 +35,15 @@ MODEL_NAMES = [
     "Qwen/Qwen2.5-72B-Instruct-Turbo",
     "Qwen/Qwen2.5-7B-Instruct-Turbo",
     
+    "deepseek-ai/DeepSeek-V3-0324",
     "deepseek-ai/DeepSeek-V3",
 
     "microsoft/phi-4",
 
-    "CohereForAI/c4ai-command-a-03-2025",
-    "CohereForAI/c4ai-command-r-plus-08-2024",
-    "CohereForAI/c4ai-command-r-08-2024",
-    "CohereForAI/c4ai-command-r7b-12-2024",
+    "command-a-03-2025",
+    "command-r-plus-08-2024",
+    "command-r-08-2024",
+    "command-r7b-12-2024",
 
     "mistralai/Mistral-Nemo-Instruct-2407",
     "mistralai/Mistral-7B-Instruct-v0.3",
@@ -74,7 +76,7 @@ def get_client(MODEL_NAME):
                 base_url="https://generativelanguage.googleapis.com/v1beta/"  
             )
 
-        elif "gemma-2" in MODEL_NAME or "cohere" in MODEL_NAME.lower():
+        elif "gemma-2" in MODEL_NAME:
             client = OpenAI(
                 api_key=os.environ["HUGGINGFACE_API_KEY"],
                 base_url="https://api-inference.huggingface.co/v1/"
@@ -91,6 +93,12 @@ def get_client(MODEL_NAME):
             client = OpenAI(
                 api_key="token-abc123",
                 base_url="http://localhost:8000/v1",
+            )
+        
+        elif "command" in MODEL_NAME:
+            client = OpenAI(
+                api_key=os.environ["COHERE_API_KEY"],
+                base_url="https://api.cohere.ai/compatibility/v1",
             )
 
         else:   

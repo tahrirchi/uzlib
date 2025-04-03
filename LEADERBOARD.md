@@ -13,6 +13,7 @@
 | [Llama 3.1 405B](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct) | Meta | 0.5513 | 0.5736 | 0.4534 | 0.4583 | 0.4808 |
 | [Gemini 1.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-1.5-pro-002) | Google | 0.5497 | 0.559 | 0.5127 | 0.5833 | 0.4038 |
 | [Gemini 1.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-1.5-flash-002) | Google | 0.5465 | 0.5583 | 0.5127 | 0.5417 | 0.3654 |
+| [DeepSeek-V3-0324](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | DeepSeek | 0.5406 | 0.541 | 0.572 | 0.5 | 0.4423 |
 | [DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3) | DeepSeek | 0.5298 | 0.5363 | 0.5297 | 0.4444 | 0.4615 |
 | [GPT 4o mini](https://platform.openai.com/playground/chat?models=gpt-4o-mini-2024-07-18) | OpenAI | 0.5261 | 0.5323 | 0.5169 | 0.5139 | 0.4038 |
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.482 | 0.503 | 0.4237 | 0.3889 | 0.2692 |
@@ -22,6 +23,7 @@
 | [Llama 3.3 70B](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | Meta | 0.4465 | 0.467 | 0.3898 | 0.3611 | 0.2308 |
 | [Gemma 2 27B](https://huggingface.co/google/gemma-2-27b-it) | Google | 0.4406 | 0.4564 | 0.3941 | 0.3889 | 0.2692 |
 | [Mistral Nemo](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | Mistral AI | 0.4164 | 0.4364 | 0.3475 | 0.375 | 0.2115 |
+| [Command A](https://huggingface.co/CohereForAI/c4ai-command-a-03-2025) | Cohere | 0.4127 | 0.4224 | 0.4068 | 0.3333 | 0.2692 |
 | [Mistral 7B Uz](https://huggingface.co/behbudiy/Mistral-7B-Instruct-Uz) | Behbudiy Labs | 0.4105 | 0.4337 | 0.3263 | 0.3194 | 0.25 |
 | [Qwen2.5 72B](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) | Alibaba | 0.4025 | 0.4264 | 0.3093 | 0.3194 | 0.25 |
 | [Llama 3.1 8B](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | Meta | 0.4009 | 0.4191 | 0.3051 | 0.3611 | 0.3654 |
