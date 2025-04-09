@@ -10,6 +10,7 @@
 | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Anthropic | 0.5938 | 0.6189 | 0.6102 | 0.2778 | 0.2308 |
 | *Human voters＊* | - | *0.5894* | *0.6054* | *0.5247* | *0.5254* | *0.5094* |
 | [Gemini 2.0 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-001) | Google | 0.5803 | 0.5943 | 0.4915 | 0.625 | 0.5192 |
+| [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct) | Meta | 0.5653 | 0.5909 | 0.4619 | 0.5 | 0.3846 |
 | [Llama 3.1 405B](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct) | Meta | 0.5513 | 0.5736 | 0.4534 | 0.4583 | 0.4808 |
 | [Gemini 1.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-1.5-pro-002) | Google | 0.5497 | 0.559 | 0.5127 | 0.5833 | 0.4038 |
 | [Gemini 1.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-1.5-flash-002) | Google | 0.5465 | 0.5583 | 0.5127 | 0.5417 | 0.3654 |

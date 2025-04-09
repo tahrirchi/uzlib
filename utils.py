@@ -27,6 +27,8 @@ MODEL_NAMES = [
     "google/gemma-2-27b-it",
     "google/gemma-2-9b-it",
     
+    "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "meta-llama/Llama-4-Scout-17B-16E-Instruct",
     "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
     "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
     "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",

@@ -2,7 +2,7 @@
 
 [![HuggingFace](https://img.shields.io/badge/🤗%20Dataset-UzLiB-yellow)](https://huggingface.co/datasets/tahrirchi/uzlib)
 [![GitHub](https://img.shields.io/badge/GitHub-UzLiB-blue)](https://github.com/tahrirchi/uzlib)
-[![Blogpost (UZ)](https://img.shields.io/badge/Blog%20Post-Read%20More-lightgrey)](https://tilmoch.ai/index/uzlib-ozbek-lingvistik-benchmark)
+[![Blogpost (UZ)](https://img.shields.io/badge/Blog%20Post-Read%20More-lightgrey)](https://tilmoch.ai/uz/uzlib-ozbekcha-lingvistik-benchmark)
 
 UzLiB is the first comprehensive multiple-choice question benchmark designed to evaluate the linguistic abilities of Large Language Models (LLMs) in the Uzbek language. It measures how well AI models understand correct Uzbek language forms, usage, and nuances.
 
