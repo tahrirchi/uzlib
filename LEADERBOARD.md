@@ -6,6 +6,7 @@
 | [Claude 3.5 Sonnet v2](https://www.anthropic.com/news/3-5-models-and-computer-use) | Anthropic | 0.6308 | **0.6462** | 0.555 | 0.7083 | 0.4231 |
 | [Gemini 2.0 Pro Exp](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05) | Google | 0.6303 |0.6316 | **0.6229** | **0.7222** | 0.5 |
 | [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6287 | 0.6369 | 0.5847 | 0.6667 | **0.5385** |
+| [GPT 4.1](https://platform.openai.com/playground/chat?models=gpt-4.1-2025-04-14) | OpenAI | 0.6136 | 0.6309 | 0.5678 | 0.5 | 0.4808 |
 | [Gemini 2.0 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-001) | Google | 0.6088 | 0.6123 | 0.5678 | 0.7222 | 0.5385 |
 | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Anthropic | 0.5938 | 0.6189 | 0.6102 | 0.2778 | 0.2308 |
 | *Human voters＊* | - | *0.5894* | *0.6054* | *0.5247* | *0.5254* | *0.5094* |
@@ -15,7 +16,9 @@
 | [Gemini 1.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-1.5-pro-002) | Google | 0.5497 | 0.559 | 0.5127 | 0.5833 | 0.4038 |
 | [Gemini 1.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-1.5-flash-002) | Google | 0.5465 | 0.5583 | 0.5127 | 0.5417 | 0.3654 |
 | [DeepSeek-V3-0324](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | DeepSeek | 0.5406 | 0.541 | 0.572 | 0.5 | 0.4423 |
+| [GPT 4.1 mini](https://platform.openai.com/playground/chat?models=gpt-4.1-mini-2025-04-14) | OpenAI | 0.5325 | 0.5476 | 0.5085 | 0.4583 | 0.3077 |
 | [DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3) | DeepSeek | 0.5298 | 0.5363 | 0.5297 | 0.4444 | 0.4615 |
+| [GPT 4.1 nano](https://platform.openai.com/playground/chat?models=gpt-4.1-nano-2025-04-14) | OpenAI | 0.5271 | 0.5716 | 0.3644 | 0.2778 | 0.3269 |
 | [GPT 4o mini](https://platform.openai.com/playground/chat?models=gpt-4o-mini-2024-07-18) | OpenAI | 0.5261 | 0.5323 | 0.5169 | 0.5139 | 0.4038 |
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.482 | 0.503 | 0.4237 | 0.3889 | 0.2692 |
 | [Claude 3.5 Haiku](https://www.anthropic.com/news/3-5-models-and-computer-use) | Anthropic | 0.4686 | 0.4877 | 0.4153 | 0.2778 | 0.4231 |

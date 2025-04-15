@@ -14,6 +14,9 @@ MODEL_NAMES = [
     "gemini-1.5-pro-002",
     "gemini-1.5-flash-002",
 
+    "gpt-4.1-2025-04-14",
+    "gpt-4.1-mini-2025-04-14",
+    "gpt-4.1-nano-2025-04-14",
     "gpt-4o-2024-11-20",
     "gpt-4o-mini-2024-07-18",
     
