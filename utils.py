@@ -7,7 +7,8 @@ load_dotenv()
 
 # List of supported model names
 MODEL_NAMES = [
-    "gemini-2.5-pro-exp-03-25",
+    "gemini-2.5-pro-preview-03-25",
+    "gemini-2.5-flash-preview-04-17",
     "gemini-2.0-pro-exp-02-05",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-001",
@@ -56,6 +57,9 @@ MODEL_NAMES = [
     "behbudiy/Mistral-7B-Instruct-Uz",
     "behbudiy/Mistral-Nemo-Instruct-Uz",
     "behbudiy/Llama-3.1-8B-Instuct-Uz",
+
+    "grok-3-beta",
+    "grok-3-mini-beta",
 ]
 
 def get_client(MODEL_NAME):
@@ -104,6 +108,12 @@ def get_client(MODEL_NAME):
             client = OpenAI(
                 api_key=os.environ["COHERE_API_KEY"],
                 base_url="https://api.cohere.ai/compatibility/v1",
+            )
+
+        elif "grok" in MODEL_NAME:
+            client = OpenAI(
+                api_key=os.environ["XAI_API_KEY"],
+                base_url="https://api.x.ai/v1",
             )
 
         else:   
