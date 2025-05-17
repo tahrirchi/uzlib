@@ -2,10 +2,8 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
-# List of supported model names
 MODEL_NAMES = [
     "gemini-2.5-pro-preview-03-25",
     "gemini-2.5-flash-preview-04-17",
@@ -38,6 +36,12 @@ MODEL_NAMES = [
     "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
     "meta-llama/Llama-3.3-70B-Instruct-Turbo",
     
+    "Qwen/Qwen3-235B-A22B",
+    "Qwen/Qwen3-32B",
+    "Qwen/Qwen3-30B-A3B",
+    "Qwen/Qwen3-14B",
+    "Qwen/Qwen3-8B",
+    "Qwen/Qwen3-4B",
     "Qwen/Qwen2.5-72B-Instruct-Turbo",
     "Qwen/Qwen2.5-7B-Instruct-Turbo",
     
@@ -97,7 +101,7 @@ def get_client(MODEL_NAME):
                 base_url="https://api.studio.nebius.ai/v1/"
             )
 
-        elif "mistral" in MODEL_NAME or "behbudiy" in MODEL_NAME or "gemma-3" in MODEL_NAME:
+        elif "mistral" in MODEL_NAME or "behbudiy" in MODEL_NAME or "gemma-3" in MODEL_NAME or "qwen3" in MODEL_NAME.lower():
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
                 api_key="token-abc123",

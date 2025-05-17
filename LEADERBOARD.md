@@ -23,6 +23,7 @@
 | [GPT 4o mini](https://platform.openai.com/playground/chat?models=gpt-4o-mini-2024-07-18) | OpenAI | 0.5261 | 0.5323 | 0.5169 | 0.5139 | 0.4038 |
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.482 | 0.503 | 0.4237 | 0.3889 | 0.2692 |
 | [Claude 3.5 Haiku](https://www.anthropic.com/news/3-5-models-and-computer-use) | Anthropic | 0.4686 | 0.4877 | 0.4153 | 0.2778 | 0.4231 |
+| [Grok 3](https://x.ai/news/grok-3) | xAI | 0.4659 | 0.4777 | 0.5 | 0.3472 | 0.1346 |
 | [Gemma 3 12B](https://huggingface.co/google/gemma-3-12b-it) | Google | 0.4643 | 0.4843 | 0.3983 | 0.4306 | 0.2308 |
 | [Llama 3.1 70B](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | Meta | 0.4508 | 0.4724 | 0.3898 | 0.3333 | 0.2692 |
 | [Llama 3.3 70B](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | Meta | 0.4465 | 0.467 | 0.3898 | 0.3611 | 0.2308 |
@@ -34,8 +35,10 @@
 | [Llama 3.1 8B](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | Meta | 0.4009 | 0.4191 | 0.3051 | 0.3611 | 0.3654 |
 | [Gemma 2 9B](https://huggingface.co/google/gemma-2-9b-it) | Google | 0.4009 | 0.4171 | 0.339 | 0.3472 | 0.2885 |
 | [Mistral Nemo Uz](https://huggingface.co/behbudiy/Mistral-Nemo-Instruct-Uz) | Behbudiy Labs | 0.3982 | 0.4177 | 0.2924 | 0.3611 | 0.3654 |
+| [Qwen3 8B](https://huggingface.co/Qwen/Qwen3-8B) | Alibaba | 0.3616 | 0.3904 | 0.2839 | 0.125 | 0.2115 |
 | [Qwen2.5 7B](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | Alibaba | 0.3611 | 0.3744 | 0.3178 | 0.2778 | 0.2885 |
 | [Phi 4](https://huggingface.co/microsoft/phi-4) | Microsoft | 0.3471 | 0.3564 | 0.2881 | 0.3056 | 0.4038 |
+| [Qwen3 14B](https://huggingface.co/Qwen/Qwen3-14B) | Alibaba | 0.3364 | 0.3624 | 0.2754 | 0.1389 | 0.1346 |
 | [Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-v0.3) | Mistral AI | 0.3348 | 0.3451 | 0.2797 | 0.3611 | 0.25 |
 | [Command R7B](https://huggingface.co/CohereForAI/c4ai-command-r7b-12-2024) | Cohere | 0.3229 | 0.3271 | 0.3347 | 0.25 | 0.25 |
 | [Llama 3.1 8B Uz](https://huggingface.co/behbudiy/Llama-3.1-8B-Instuct-Uz) | Behbudiy Labs | 0.3176 | 0.3251 | 0.2881 | 0.2361 | 0.3462 |

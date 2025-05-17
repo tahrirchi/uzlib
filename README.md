@@ -67,8 +67,7 @@ For efficient local evaluation of compatible open-source models (e.g., `Mistral`
 
 2.  Start the vLLM OpenAI-Compatible Server:
     ```bash
-    # Replace MODEL_IDENTIFIER with the Hugging Face model ID
-    python -m vllm.entrypoints.openai.api_server --model MODEL_IDENTIFIER
+    vllm serve MODEL_NAME --api-key token-abc123
     ```
     
     For the `behbudiy/Llama-3.1-8B-Instuct-Uz` model, use this special command:
