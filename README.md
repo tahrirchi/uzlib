@@ -35,7 +35,7 @@ The results presented in the [leaderboard](LEADERBOARD.md) were obtained using a
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/tahrirchi/uzlib.git
+    git clone git@github.com:tahrirchi/uzlib.git
     cd uzlib/
     ```
 
@@ -75,7 +75,17 @@ For efficient local evaluation of compatible open-source models (e.g., `Mistral`
     vllm serve behbudiy/Llama-3.1-8B-Instuct-Uz --api-key token-abc123 --chat-template "{% for message in messages %}{{'<|begin_of_text|>' if loop.first else ''}}<|start_header_id|>{{ message.role }}<|end_header_id|>\n\n{{ message.content }}\n\n<|eot_id|>{% endfor %}{% if add_generation_prompt %}<|start_header_id|>assistant<|end_header_id|>\n\n{% endif %}"
     ```
 
-3.  Configure your `.env` file with the vLLM server URL (e.g., `http://localhost:8000/v1`).
+    For the `behbudiy/Mistral-Nemo-Instruct-Uz` model, use this special command:
+    ```bash
+    vllm serve behbudiy/Mistral-Nemo-Instruct-Uz --api-key token-abc123  --tokenizer_mode mistral --config_format mistral --load_format mistral
+    ```
+    
+    For the `bxod/Llama-3.2-1B-Instruct-uz` and `bxod/Llama-3.2-3B-Instruct-uz` models, use this special command:
+    ```bash
+    vllm serve bxod/Llama-3.2-3B-Instruct-uz --api-key token-abc123 --chat-template "{% for message in messages %}{% if message['role'] == 'system' %}<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n{{ message['content'] }}<|eot_id|>{% elif message['role'] == 'user' %}<|start_header_id|>user<|end_header_id|>\n{{ message['content'] }}<|eot_id|>{% elif message['role'] == 'assistant' %}<|start_header_id|>assistant<|end_header_id|>\n{{ message['content'] }}<|eot_id|>{% endif %}{% endfor %}{% if add_generation_prompt %}<|start_header_id|>assistant<|end_header_id|>\n{% endif %}"
+    ```
+
+4.  Start evaluating deployed model.
 
 ### Generating the Leaderboard
 

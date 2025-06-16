@@ -6,36 +6,7 @@ from tabulate import tabulate
 from datasets import load_dataset
 from argparse import ArgumentParser
 
-from utils import get_client
-
-def send_request(prompt: str, model_name: str):
-    client = get_client(model_name)
-    if client is None:
-        return None
-        
-    try:
-        response = client.chat.completions.create(
-            model=model_name,
-            temperature=1,
-            top_p=0.95,
-            max_completion_tokens=100,
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ]
-        )
-
-        return response.choices[0].message.content
-    
-    except ValueError as e:
-        print(f"Value Error for {model_name}: {str(e)}")
-        return None
-    
-    except Exception as e:
-        print(f"Exception for {model_name}: {str(e)}")
-        return None
+from utils import send_request
     
 def extract_answer(response_text: str):
     if not isinstance(response_text, str) or not response_text.strip():

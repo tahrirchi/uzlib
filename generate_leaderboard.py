@@ -86,8 +86,7 @@ def generate_leaderboard():
     with open("LEADERBOARD.md", "w") as f:
         f.write("# UzLiB Leaderboard\n\n")
         f.write(tabulate(df.values.tolist(), headers=df.columns, tablefmt="pipe"))
-        f.write("\n\n* Human voters score is not the average of humans doing all the questions but the average of average accurate answers for each question. Also, note that random baseline for humans is 0.4229 due to variable number of options (2-3) in the original questions.")
-    print("Leaderboard saved to LEADERBOARD.md")
+        f.write("\n\n* ＊ Human voters score is not the average of humans doing all the questions but the average of accuracy score for each question. Also, note that random baseline for humans is 0.4229 due to variable number of options (2-3) in the original questions.")
     
     # Print the leaderboard
     print("\n=== UzLiB Leaderboard ===\n")
