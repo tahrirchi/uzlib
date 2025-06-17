@@ -12,6 +12,7 @@
 | [Gemini 2.0 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-001) | Google | 0.5862 | 0.6036 | 0.5085 | 0.5833 | 0.4423 |
 | [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct) | Meta | 0.5519 | 0.5736 | 0.4703 | 0.5556 | 0.2885 |
 | [DeepSeek-V3-0324](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | DeepSeek | 0.5443 | 0.551 | 0.5212 | 0.5278 | 0.4808 |
+| [GPT 4o mini](https://platform.openai.com/playground/chat?models=gpt-4o-mini-2024-07-18) | OpenAI | 0.5255 | 0.5410 | 0.4915 | 0.4306 | 0.3654 |
 | [Grok 3](https://x.ai/news/grok-3) | xAI | 0.5148 | 0.5083 | 0.5678 | 0.5833 | 0.3654 |
 | [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) | Anthropic | 0.5046 | 0.5283 | 0.4703 | 0.1944 | 0.4038 |
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.4949 | 0.5177 | 0.4237 | 0.3889 | 0.3077 |
@@ -28,12 +29,12 @@
 | [Qwen3 14B](https://huggingface.co/Qwen/Qwen3-14B) | Alibaba | 0.374 | 0.3797 | 0.3771 | 0.3194 | 0.2692 |
 | [Phi 4](https://huggingface.co/microsoft/phi-4) | Microsoft | 0.3401 | 0.3471 | 0.322 | 0.2361 | 0.3654 |
 | [Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | Mistral AI | 0.3246 | 0.3431 | 0.2542 | 0.2639 | 0.1923 |
-| [Llama 3.2 3B Uz](https://huggingface.co/bxod/Llama-3.2-3B-Instruct-uz) | Behbudiy Labs | 0.2832 | 0.2805 | 0.2712 | 0.3194 | 0.3654 |
+| [Llama 3.2 3B Uz](https://huggingface.co/bxod/Llama-3.2-3B-Instruct-uz) | Bekhzod Shukhratov | 0.2832 | 0.2805 | 0.2712 | 0.3194 | 0.3654 |
 | [Llama 4 Maverick](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct) | Meta | 0.281 | 0.2658 | 0.3644 | 0.2917 | 0.3269 |
-| [Llama 3.1 8B Uz](https://huggingface.co/behbudiy/Llama-3.1-8B-Instuct-Uz) | Bekhzod Shukhratov  | 0.2773 | 0.2851 | 0.25 | 0.2361 | 0.2308 |
+| [Llama 3.1 8B Uz](https://huggingface.co/behbudiy/Llama-3.1-8B-Instuct-Uz) | Behbudiy Labs | 0.2773 | 0.2851 | 0.25 | 0.2361 | 0.2308 |
 | [Llama 3.2 3B](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) | Meta | 0.2671 | 0.2758 | 0.25 | 0.2083 | 0.1731 |
 | *Random Baseline* | - | *0.25* | *0.25* | *0.25* | *0.25* | *0.25* |
-| [Llama 3.2 1B Uz](https://huggingface.co/bxod/Llama-3.2-1B-Instruct-uz) | Bekhzod Shukhratov  | 0.2456 | 0.2552 | 0.2288 | 0.1389 | 0.1923 |
+| [Llama 3.2 1B Uz](https://huggingface.co/bxod/Llama-3.2-1B-Instruct-uz) | Bekhzod Shukhratov | 0.2456 | 0.2552 | 0.2288 | 0.1389 | 0.1923 |
 | [Llama 3.2 1B](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) | Meta | 0.2332 | 0.2285 | 0.25 | 0.25 | 0.2692 |
 
 * ＊ Human voters score is not the average of humans doing all the questions but the average of accuracy score for each question. Also, note that random baseline for humans is 0.4229 due to variable number of options (2-3) in the original questions.
