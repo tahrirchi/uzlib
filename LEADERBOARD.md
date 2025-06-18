@@ -10,6 +10,7 @@
 | [Gemini 2.0 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-001) | Google | 0.6013 | 0.6029 | 0.5593 | 0.7361 | **0.5577** |
 | *Human voters＊* | - | *0.5894* | *0.6054* | *0.5247* | *0.5254* | *0.5094* |
 | [Gemini 2.0 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-001) | Google | 0.5862 | 0.6036 | 0.5085 | 0.5833 | 0.4423 |
+| [Gemini 2.5 Flash Lite Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-lite-preview-06-17) | Google | 0.5605 | 0.5803 | 0.5042 | 0.5 | 0.3269 |
 | [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct) | Meta | 0.5519 | 0.5736 | 0.4703 | 0.5556 | 0.2885 |
 | [DeepSeek-V3-0324](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | DeepSeek | 0.5443 | 0.551 | 0.5212 | 0.5278 | 0.4808 |
 | [GPT 4o mini](https://platform.openai.com/playground/chat?models=gpt-4o-mini-2024-07-18) | OpenAI | 0.5255 | 0.5410 | 0.4915 | 0.4306 | 0.3654 |
