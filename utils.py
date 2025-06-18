@@ -3,6 +3,7 @@ import re
 import langid
 from openai import OpenAI
 from dotenv import load_dotenv
+from google import genai
 from google.genai import types
 
 load_dotenv()
@@ -15,8 +16,9 @@ MODEL_NAMES = [
     "claude-3-5-sonnet-20240620",
     "claude-3-5-haiku-20241022",
     
-    "gemini-2.5-pro-preview-06-05",
-    "gemini-2.5-flash-preview-05-20",
+    "gemini-2.5-pro",
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-lite-preview-06-17",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-001",
     
@@ -176,6 +178,8 @@ def send_request(prompt: str, model_name: str):
             return response.choices[0].message.content
         
         elif 'gemini-2.5' in model_name.lower():
+            client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+
             contents = [
                 types.Content(role="user", parts=[types.Part.from_text(text=prompt)])
             ]

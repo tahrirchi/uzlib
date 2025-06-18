@@ -2,11 +2,11 @@
 
 | **Model Name** | **Organization** | **All** | **Correct word** | **Meaning** | **Meaning in context** | **Fill in** |
 |:--------------:|:----------------:|:-------:|:----------------:|:-----------:|:----------------------:|:-----------:|
-| [Gemini 2.5 Pro Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-pro-preview-06-05) | Google | **0.6873** | **0.6769** | **0.7542** | **0.7778** | **0.5577** |
+| [Gemini 2.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-pro) | Google | **0.6905** | **0.6795** | **0.7627** | **0.7778** | **0.5577** |
 | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Anthropic | 0.6513 | 0.6429 | 0.7246 | 0.7083 | 0.4808 |
 | [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) | Anthropic | 0.6362 | 0.6442 | 0.5975 | 0.7222 | 0.4615 |
 | [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6319 | 0.6376 | 0.6059 | 0.6528 | **0.5577** |
-| [Gemini 2.5 Flash Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-preview-05-20) | Google | 0.6163 | 0.6329 | 0.5297 | 0.6528 | 0.4808 |
+| [Gemini 2.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash) | Google | 0.6255 | 0.6409 | 0.555 | 0.6389 | 0.4808 |
 | [Gemini 2.0 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-001) | Google | 0.6013 | 0.6029 | 0.5593 | 0.7361 | **0.5577** |
 | *Human voters＊* | - | *0.5894* | *0.6054* | *0.5247* | *0.5254* | *0.5094* |
 | [Gemini 2.0 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-001) | Google | 0.5862 | 0.6036 | 0.5085 | 0.5833 | 0.4423 |
