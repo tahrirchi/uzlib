@@ -35,7 +35,7 @@ The results presented in the [leaderboard](LEADERBOARD.md) were obtained using a
 
 1.  Clone the repository:
     ```bash
-    git clone git@github.com:tahrirchi/uzlib.git
+    git clone https://github.com/AskhatSBK/uzlib
     cd uzlib/
     ```
 
