@@ -105,7 +105,7 @@ def get_client(MODEL_NAME: str):
             or 'qwen3' in MODEL_NAME.lower() :
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
-                # api_key="token-abc123",
+                api_key="token-abc123",
                 base_url="http://localhost:8888/v1",
             )
         
