@@ -45,7 +45,7 @@ MODEL_NAMES = [
 
     "command-a-03-2025",
     
-    "gemma-3-1b-it",
+    "unsloth/gemma-3-1b-it",
     "gemma-3-27b-it",
     "gemma-3-12b-it",
     "gemma-3n-e4b-it",
@@ -105,7 +105,7 @@ def get_client(MODEL_NAME: str):
             or 'qwen3' in MODEL_NAME.lower() :
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
-                api_key="token-abc123", 
+                api_key="", 
                 base_url="http://localhost:8000/v1",
             )
         
