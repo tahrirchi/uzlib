@@ -106,7 +106,7 @@ def get_client(MODEL_NAME: str):
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
                 api_key="token-abc123",
-                base_url="http://localhost:8000/v1",
+                base_url="http://localhost:8888/v1",
             )
         
         elif "command" in MODEL_NAME:
