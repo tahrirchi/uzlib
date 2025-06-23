@@ -212,7 +212,8 @@ def send_request(prompt: str, model_name: str):
                 temperature=1,
                 top_p=0.95,
                 max_completion_tokens=256,
-                messages=[{"role": "user", "content": prompt}]
+                messages=[{"role": "user", "content": prompt}],
+                extra_body={"lora": "lora"} if model_name == "unsloth/gemma-3-1b-it" else None
             )
 
             return response.choices[0].message.content
