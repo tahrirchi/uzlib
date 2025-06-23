@@ -15,7 +15,7 @@ MODEL_NAMES = [
     "claude-3-5-sonnet-20241022",
     "claude-3-5-sonnet-20240620",
     "claude-3-5-haiku-20241022",
-    
+
     "gemini-2.5-pro",
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite-preview-06-17",
@@ -45,6 +45,7 @@ MODEL_NAMES = [
 
     "command-a-03-2025",
     
+    "gemma-3-1b-it",
     "gemma-3-27b-it",
     "gemma-3-12b-it",
     "gemma-3n-e4b-it",
