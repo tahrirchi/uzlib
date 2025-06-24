@@ -8,8 +8,8 @@ client = openai.OpenAI(
 response = client.chat.completions.create(
     model="unsloth/gemma-3-1b-it",
     messages=[
-        {"role": "system", "content": "You are a helpful assistant"},
-        {"role": "user", "content": "Привет, что такое база данных?"}
+        {"role": "system", "content": """Sen kullanıcıların isteklerine Türkçe cevap veren bir asistansın ve sana bir problem verildi. Problem hakkında düşün ve çalışmanı göster. Çalışmanı <start_working_out> ve <end_working_out> arasına yerleştir. Sonra, çözümünü <SOLUTION> ve </SOLUTION> arasına yerleştir. Lütfen SADECE Türkçe kullan."""},
+        {"role": "user", "content": "121'in karekökü kaçtır?"}
     ],
     temperature=0.7,
     max_tokens=256
