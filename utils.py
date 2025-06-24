@@ -45,7 +45,7 @@ MODEL_NAMES = [
 
     "command-a-03-2025",
     
-    "unsloth/gemma-3-1b-it",
+    "unsloth/gemma-3-27b-it",
     "gemma-3-27b-it",
     "gemma-3-12b-it",
     "gemma-3n-e4b-it",
