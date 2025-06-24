@@ -61,6 +61,7 @@ MODEL_NAMES = [
     "bxod/Llama-3.2-1B-Instruct-uz",
 
     "microsoft/phi-4",
+    "lora",
 ]
 
 def get_client(MODEL_NAME: str):
