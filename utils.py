@@ -101,7 +101,7 @@ def get_client(MODEL_NAME: str):
             )
 
         elif "unsloth" in MODEL_NAME or "behbudiy" in MODEL_NAME \
-            or "llama-3.2" in MODEL_NAME.lower() or "bxod" in MODEL_NAME \
+            or "llama-3.2" in MODEL_NAME.lower() or "lora" in MODEL_NAME \
             or 'qwen3' in MODEL_NAME.lower() :
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
@@ -213,7 +213,6 @@ def send_request(prompt: str, model_name: str):
                 top_p=0.95,
                 max_completion_tokens=256,
                 messages=[{"role": "user", "content": prompt}],
-                extra_body={"lora": "lora"} if model_name == "unsloth/gemma-3-27b-it" else None
             )
 
             return response.choices[0].message.content
