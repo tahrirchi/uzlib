@@ -7,7 +7,7 @@ client = openai.OpenAI(
 
 # Используйте полный ID модели с LoRA из вывода команды curl
 # Возможно, вам нужно будет скопировать его целиком из вашего терминала.
-lora_model_id = "modelperm-3863e9db08de40e780bad8ce8492161f" 
+lora_model_id = "lora" 
 
 response = client.chat.completions.create(
     # Указываем правильную, уже объединенную модель
