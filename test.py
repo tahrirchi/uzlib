@@ -7,7 +7,7 @@ client = openai.OpenAI(
 
 # Используйте полный ID модели с LoRA из вывода команды curl
 # Возможно, вам нужно будет скопировать его целиком из вашего терминала.
-lora_model_id = "lora" 
+lora_model_id = MODEL_NAME
 
 response = client.chat.completions.create(
     # Указываем правильную, уже объединенную модель
@@ -25,8 +25,7 @@ response = client.chat.completions.create(
         }
     ],
     temperature=0.7,
-    max_tokens=256
-    # Параметр extra_body={"lora": "lora"} удален, так как он не нужен и вызывает ошибку
+    max_tokens=256,
 )
 
 print(response.choices[0].message.content)
