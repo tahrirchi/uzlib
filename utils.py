@@ -43,6 +43,8 @@ MODEL_NAMES = [
     "Qwen/Qwen3-8B",
     "Qwen/Qwen3-4B",
 
+    "moonshotai/kimi-k2",
+
     "command-a-03-2025",
     
     "gemma-3-27b-it",
@@ -118,6 +120,12 @@ def get_client(MODEL_NAME: str):
             client = OpenAI(
                 api_key=os.environ["XAI_API_KEY"],
                 base_url="https://api.x.ai/v1",
+            )
+        
+        elif "kimi" in MODEL_NAME:
+            client = OpenAI(
+                api_key=os.environ["OPENROUTER_API_KEY"],
+                base_url="https://openrouter.ai/api/v1",
             )
 
         else:   
