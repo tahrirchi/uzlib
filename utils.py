@@ -36,6 +36,7 @@ MODEL_NAMES = [
     "meta-llama/Llama-3.2-3B-Instruct",
     "meta-llama/Llama-3.2-1B-Instruct",
     
+    "Qwen/Qwen3-235B-A22B-07-25",
     "Qwen/Qwen3-235B-A22B",
     "Qwen/Qwen3-32B",
     "Qwen/Qwen3-30B-A3B",
@@ -102,8 +103,7 @@ def get_client(MODEL_NAME: str):
             )
 
         elif "mistral" in MODEL_NAME or "behbudiy" in MODEL_NAME \
-            or "llama-3.2" in MODEL_NAME.lower() or "bxod" in MODEL_NAME \
-            or 'qwen3' in MODEL_NAME.lower():
+            or "llama-3.2" in MODEL_NAME.lower() or "bxod" in MODEL_NAME:
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
                 api_key="token-abc123",
@@ -122,7 +122,7 @@ def get_client(MODEL_NAME: str):
                 base_url="https://api.x.ai/v1",
             )
         
-        elif "kimi" in MODEL_NAME:
+        elif "kimi" in MODEL_NAME or "qwen3" in MODEL_NAME.lower():
             client = OpenAI(
                 api_key=os.environ["OPENROUTER_API_KEY"],
                 base_url="https://openrouter.ai/api/v1",

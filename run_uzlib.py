@@ -5,9 +5,10 @@ from tqdm import tqdm
 from tabulate import tabulate
 from datasets import load_dataset
 from argparse import ArgumentParser
+import concurrent.futures
 
 from utils import send_request
-    
+
 def extract_answer(response_text: str):
     if not isinstance(response_text, str) or not response_text.strip():
         return None
@@ -43,63 +44,78 @@ def calculate_accuracy(df: pd.DataFrame, drop_none: bool = False):
         df = df.dropna(subset=['extracted_answer'], ignore_index=True)
 
     result = {}
-    # Overall accuracy
-    if len(df) > 0:
-        result['all'] = sum(df['answer']==df['extracted_answer'])/len(df)
-    else:
-        result['all'] = 0.0
+    n = len(df)
+    result['all'] = (df['answer'] == df['extracted_answer']).sum() / n if n else 0.0
 
-    # Accuracy by question type
     for qtype in ['correct_word', 'meaning', 'meaning_in_context', 'fill_in']:
-        df_mini = df[df['type']==qtype]
-        if not df_mini.empty:
-            result[qtype] = sum(df_mini['answer']==df_mini['extracted_answer'])/len(df_mini)
-        else:
-            result[qtype] = 0.0  # Avoid division by zero
+        dfm = df[df['type'] == qtype]
+        m = len(dfm)
+        result[qtype] = (dfm['answer'] == dfm['extracted_answer']).sum() / m if m else 0.0
 
     return result
 
-def main(model_name: str, MAX_RETRIES: int) -> None:
-    # Load the dataset
+def process_row(row, model_name: str, max_retries: int):
+    prompt = f"{row['question']}\nA) {row['option_a']}\nB) {row['option_b']}\nC) {row['option_c']}\nD) {row['option_d']}\n\nJavob: "
+    
+    tries = 0
+    response_txt = None
+    extracted = None
+    while tries < max_retries and extracted is None:
+        response_txt = send_request(prompt, model_name)
+        if response_txt:
+            extracted = extract_answer(response_txt)
+        tries += 1
+
+    return {
+        'id': row['id'],
+        'response': response_txt,
+        'extracted_answer': extracted
+    }
+
+def main(model_name: str, max_retries: int, num_workers: int):
     uzlib = load_dataset('tahrirchi/uzlib', split='all')
     df = uzlib.to_pandas()
 
     artifact_name = f"artifacts/{model_name.split('/')[-1]}.jsonl"
 
-    with open(artifact_name, "w") as file:
-        for i, row in tqdm(df.iterrows(), total=len(df), desc=model_name):
-            num_tries = 0
-            extracted_answer = None
-            response_txt = None
-            
-            # Format the prompt
-            prompt = f"{row['question']}\nA) {row['option_a']}\nB) {row['option_b']}\nC) {row['option_c']}\nD) {row['option_d']}\n\nJavob: "
-            
-            # Try to get a valid answer, with retries
-            while num_tries < MAX_RETRIES and extracted_answer is None:
-                response_txt = send_request(prompt, model_name)
-                if response_txt:
-                    extracted_answer = extract_answer(response_txt)
-                num_tries += 1
+    # Open file once for writing; main thread will append as futures complete.
+    with open(artifact_name, 'w') as fout, \
+         concurrent.futures.ThreadPoolExecutor(max_workers=num_workers) as executor:
 
-            # Write the result to the output file
-            file.write(json.dumps({'id': row['id'], 'response': response_txt, 'extracted_answer': extracted_answer})+'\n')
+        futures = {
+            executor.submit(process_row, row, model_name, max_retries): row['id']
+            for _, row in df.iterrows()
+        }
 
-    # Calculate and display results
-    df_result = pd.read_json(artifact_name, lines=True)
-    df_all = df.merge(df_result, on=['id'])
+        # As each future completes, write its result
+        for f in tqdm(
+            concurrent.futures.as_completed(futures),
+            total=len(futures),
+            desc=f"Running {model_name}"
+        ):
+            try:
+                res = f.result()
+            except Exception as e:
+                # In case of unexpected error, write a placeholder
+                rid = futures[f]
+                res = {'id': rid, 'response': None, 'extracted_answer': None}
+            fout.write(json.dumps(res) + '\n')
 
+    # Load results and compute accuracy
+    df_res = pd.read_json(artifact_name, lines=True)
+    df_all = df.merge(df_res, on='id')
     accuracy = calculate_accuracy(df_all)
     accuracy_data = list(accuracy.items())
-    
-    print(f"\nResults for {model_name}:")
-    print(tabulate(accuracy_data, headers=['Question Type', 'Accuracy'], tablefmt='pretty'))
 
+    print(f"\nResults for {model_name}:")
+    print(tabulate(accuracy_data, headers=['Question Type', 'Accuracy'],
+                   tablefmt='pretty'))
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Run UzLiB benchmark on a specific model")
     parser.add_argument("--model_name", type=str, required=True, help="Name of the model to benchmark")
     parser.add_argument("--max_retries", type=int, default=3, help="Maximum number of retries for each question")
+    parser.add_argument("--num_workers", type=int, default=4, help="Number of parallel workers")
 
     args = parser.parse_args()
-    main(args.model_name, args.max_retries)
+    main(args.model_name, args.max_retries, args.num_workers)
