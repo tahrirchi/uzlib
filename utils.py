@@ -46,6 +46,9 @@ MODEL_NAMES = [
 
     "moonshotai/kimi-k2",
 
+    "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+
     "command-a-03-2025",
     
     "gemma-3-27b-it",
@@ -71,7 +74,7 @@ def get_client(MODEL_NAME: str):
         return None
     
     try:
-        if "gpt" in MODEL_NAME:
+        if "gpt-4" in MODEL_NAME:
             client = OpenAI(
                 api_key=os.environ["OPENAI_API_KEY"]
             )
@@ -122,7 +125,7 @@ def get_client(MODEL_NAME: str):
                 base_url="https://api.x.ai/v1",
             )
         
-        elif "kimi" in MODEL_NAME or "qwen3" in MODEL_NAME.lower():
+        elif "kimi" in MODEL_NAME or "qwen3" in MODEL_NAME.lower() or "gpt-oss" in MODEL_NAME.lower():
             client = OpenAI(
                 api_key=os.environ["OPENROUTER_API_KEY"],
                 base_url="https://openrouter.ai/api/v1",
@@ -181,6 +184,18 @@ def send_request(prompt: str, model_name: str):
                     "chat_template_kwargs": {"enable_thinking": False},
                 },
                 # reasoning_effort="none",
+            )
+
+            return response.choices[0].message.content
+        
+        elif 'gpt-oss' in model_name.lower():
+            response = client.chat.completions.create(
+                model=model_name,
+                temperature=1,
+                top_p=0.95,
+                max_completion_tokens=1024,
+                messages=[{"role": "user", "content": prompt}],
+                reasoning_effort="low",
             )
 
             return response.choices[0].message.content

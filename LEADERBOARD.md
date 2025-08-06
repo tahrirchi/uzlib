@@ -12,6 +12,7 @@
 | [Gemini 2.0 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-001) | Google | 0.5862 | 0.6036 | 0.5085 | 0.5833 | 0.4423 |
 | [Gemini 2.5 Flash Lite Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-lite-preview-06-17) | Google | 0.5605 | 0.5803 | 0.5042 | 0.5 | 0.3269 |
 | [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct) | Meta | 0.5519 | 0.5736 | 0.4703 | 0.5556 | 0.2885 |
+| [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b) | OpenAI | 0.5492 | 0.5743 | 0.4576 | 0.3611 | 0.5 |
 | [DeepSeek-V3-0324](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | DeepSeek | 0.5443 | 0.551 | 0.5212 | 0.5278 | 0.4808 |
 | [GPT 4o mini](https://platform.openai.com/playground/chat?models=gpt-4o-mini-2024-07-18) | OpenAI | 0.5255 | 0.5410 | 0.4915 | 0.4306 | 0.3654 |
 | [Kimi K2](https://huggingface.co/moonshotai/Kimi-K2-Instruct) | Moonshot AI | 0.518 | 0.5376 | 0.4492 | 0.4722 | 0.3269 |
@@ -20,6 +21,7 @@
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.4949 | 0.5177 | 0.4237 | 0.3889 | 0.3077 |
 | [Qwen3-235B-A22B-2507](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507) | Alibaba | 0.4874 | 0.5043 | 0.4364 | 0.3889 | 0.3654 |
 | [Gemma 3 12B](https://huggingface.co/google/gemma-3-12b-it) | Google | 0.468 | 0.491 | 0.3814 | 0.4444 | 0.2308 |
+| [gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | OpenAI | 0.4578 | 0.4837 | 0.3898 | 0.3056 | 0.2308 |
 | [Qwen3 32B](https://huggingface.co/Qwen/Qwen3-32B) | Alibaba | 0.4562 | 0.4724 | 0.4025 | 0.3611 | 0.3654 |
 | [Gemma 3n](https://aistudio.google.com/prompts/new_chat?model=gemma-3n-e4b-it) | Google | 0.4369 | 0.4624 | 0.3432 | 0.3472 | 0.25 |
 | [Llama 3.3 70B](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | Meta | 0.4293 | 0.447 | 0.3602 | 0.3889 | 0.2885 |
