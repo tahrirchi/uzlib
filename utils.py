@@ -22,6 +22,9 @@ MODEL_NAMES = [
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-001",
     
+    "openai/gpt-5",
+    "openai/gpt-5-mini",
+    "openai/gpt-5-nano",
     "gpt-4o-2024-11-20",
     "gpt-4o-mini-2024-07-18",
 
@@ -125,7 +128,7 @@ def get_client(MODEL_NAME: str):
                 base_url="https://api.x.ai/v1",
             )
         
-        elif "kimi" in MODEL_NAME or "qwen3" in MODEL_NAME.lower() or "gpt-oss" in MODEL_NAME.lower():
+        elif "kimi" in MODEL_NAME or "qwen3" in MODEL_NAME.lower() or "gpt-oss" in MODEL_NAME.lower() or "gpt-5" in MODEL_NAME.lower():
             client = OpenAI(
                 api_key=os.environ["OPENROUTER_API_KEY"],
                 base_url="https://openrouter.ai/api/v1",
@@ -188,18 +191,6 @@ def send_request(prompt: str, model_name: str):
 
             return response.choices[0].message.content
         
-        elif 'gpt-oss' in model_name.lower():
-            response = client.chat.completions.create(
-                model=model_name,
-                temperature=1,
-                top_p=0.95,
-                max_completion_tokens=1024,
-                messages=[{"role": "user", "content": prompt}],
-                reasoning_effort="low",
-            )
-
-            return response.choices[0].message.content
-        
         elif 'gemini-2.5' in model_name.lower():
             client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
@@ -227,6 +218,30 @@ def send_request(prompt: str, model_name: str):
                     all_result += chunk.text
             
             return all_result
+        
+        elif 'gpt-oss' in model_name.lower():
+            response = client.chat.completions.create(
+                model=model_name,
+                temperature=1,
+                top_p=0.95,
+                max_completion_tokens=1024,
+                messages=[{"role": "user", "content": prompt}],
+                reasoning_effort="low",
+            )
+
+            return response.choices[0].message.content
+        
+        elif 'gpt-5' in model_name.lower():
+            response = client.chat.completions.create(
+                model=model_name,
+                temperature=1,
+                top_p=0.95,
+                max_completion_tokens=256,
+                messages=[{"role": "user", "content": prompt}],
+                reasoning_effort="minimal",
+            )
+
+            return response.choices[0].message.content
 
         else:
             response = client.chat.completions.create(
