@@ -9,6 +9,7 @@ from google.genai import types
 load_dotenv()
 
 MODEL_NAMES = [
+    "claude-sonnet-4.5",
     "claude-opus-4-20250514",
     "claude-sonnet-4-20250514",
     "claude-3-7-sonnet-20250219",
@@ -71,64 +72,64 @@ MODEL_NAMES = [
     "microsoft/phi-4",
 ]
 
-def get_client(MODEL_NAME: str):
-    if MODEL_NAME not in MODEL_NAMES:
-        print(f"{MODEL_NAME} is not supported yet")
+def get_client(model_name: str):
+    if model_name not in MODEL_NAMES:
+        print(f"{model_name} is not supported yet")
         return None
     
     try:
-        if "gpt-4" in MODEL_NAME:
+        if "gpt-4" in model_name:
             client = OpenAI(
                 api_key=os.environ["OPENAI_API_KEY"]
             )
 
-        elif "claude" in MODEL_NAME:
+        elif "claude" in model_name:
             client = OpenAI(
                 api_key=os.environ["ANTHROPIC_API_KEY"],
                 base_url="https://api.anthropic.com/v1/"  
             )
 
-        elif "gemini" in MODEL_NAME or "gemma" in MODEL_NAME:
+        elif "gemini" in model_name or "gemma" in model_name:
             client = OpenAI(
                 api_key=os.environ["GEMINI_API_KEY"],
                 base_url="https://generativelanguage.googleapis.com/v1beta/"  
             )
         
-        elif 'llama-4' in MODEL_NAME.lower():
+        elif 'llama-4' in model_name.lower():
             client = OpenAI(
                 api_key=os.environ["GROQ_API_KEY"],
                 base_url="https://api.groq.com/openai/v1" 
             )
         
-        elif "phi" in MODEL_NAME or 'deepseek' in MODEL_NAME \
-            or 'llama-3.3' in MODEL_NAME.lower() \
-            or 'llama-3.1' in MODEL_NAME.lower():
+        elif "phi" in model_name or 'deepseek' in model_name \
+            or 'llama-3.3' in model_name.lower() \
+            or 'llama-3.1' in model_name.lower():
             client = OpenAI(
                 api_key=os.environ["NEBIUS_API_KEY"],
                 base_url="https://api.studio.nebius.ai/v1/"
             )
 
-        elif "mistral" in MODEL_NAME or "behbudiy" in MODEL_NAME \
-            or "llama-3.2" in MODEL_NAME.lower() or "bxod" in MODEL_NAME:
+        elif "mistral" in model_name or "behbudiy" in model_name \
+            or "llama-3.2" in model_name.lower() or "bxod" in model_name:
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
                 api_key="token-abc123",
                 base_url="http://localhost:8000/v1",
             )
         
-        elif "command" in MODEL_NAME:
+        elif "command" in model_name:
             client = OpenAI(
                 api_key=os.environ["COHERE_API_KEY"],
                 base_url="https://api.cohere.ai/compatibility/v1",
             )
 
-        elif "grok" in MODEL_NAME:
+        elif "grok" in model_name:
             client = OpenAI(
                 api_key=os.environ["XAI_API_KEY"],
                 base_url="https://api.x.ai/v1",
             )
         
-        elif "kimi" in MODEL_NAME or "qwen3" in MODEL_NAME.lower() or "gpt-oss" in MODEL_NAME.lower() or "gpt-5" in MODEL_NAME.lower():
+        elif "kimi" in model_name or "qwen3" in model_name.lower() or "gpt-oss" in model_name.lower() or "gpt-5" in model_name.lower():
             client = OpenAI(
                 api_key=os.environ["OPENROUTER_API_KEY"],
                 base_url="https://openrouter.ai/api/v1",

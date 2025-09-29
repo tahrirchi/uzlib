@@ -23,6 +23,7 @@
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.4949 | 0.5177 | 0.4237 | 0.3889 | 0.3077 |
 | [GPT 5 nano](https://platform.openai.com/playground/chat?models=gpt-5-nano) | OpenAI | 0.4927 | 0.525 | 0.3475 | 0.4028 | 0.3462 |
 | [Qwen3-235B-A22B-2507](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507) | Alibaba | 0.4874 | 0.5043 | 0.4364 | 0.3889 | 0.3654 |
+| [Claude Sonnet 4.5 Sonnet](https://www.anthropic.com/news/claude-sonnet-4-5) | Anthropic | 0.4847 | 0.5083 | 0.4407 | 0.25 | 0.3269 |
 | [Gemma 3 12B](https://huggingface.co/google/gemma-3-12b-it) | Google | 0.468 | 0.491 | 0.3814 | 0.4444 | 0.2308 |
 | [gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | OpenAI | 0.4578 | 0.4837 | 0.3898 | 0.3056 | 0.2308 |
 | [Qwen3 32B](https://huggingface.co/Qwen/Qwen3-32B) | Alibaba | 0.4562 | 0.4724 | 0.4025 | 0.3611 | 0.3654 |
