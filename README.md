@@ -6,7 +6,7 @@
 
 UzLiB is the first comprehensive multiple-choice question benchmark designed to evaluate the linguistic abilities of Large Language Models (LLMs) in the Uzbek language. It measures how well AI models understand correct Uzbek language forms, usage, and nuances.
 
-For a detailed background on the motivation and creation process, please refer to our [blog post (in Uzbek)](https://tilmoch.ai/index/uzlib-ozbek-lingvistik-benchmark).
+For a detailed background on the motivation and creation process, please refer to our [blog post (in Uzbek)](https://tilmoch.ai/uzlib-ozbek-lingvistik-benchmark).
 
 ## Benchmark Details
 
