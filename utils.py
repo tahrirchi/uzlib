@@ -9,6 +9,7 @@ from google.genai import types
 load_dotenv()
 
 MODEL_NAMES = [
+    "claude-opus-4-5-20251101",
     "claude-sonnet-4.5",
     "claude-opus-4-20250514",
     "claude-sonnet-4-20250514",
@@ -17,15 +18,18 @@ MODEL_NAMES = [
     "claude-3-5-sonnet-20240620",
     "claude-3-5-haiku-20241022",
     
+    "gemini-3-pro-preview",
+    "gemini-3-flash-preview",
     "gemini-2.5-pro",
     "gemini-2.5-flash",
-    "gemini-2.5-flash-lite-preview-06-17",
+    "gemini-2.5-flash-lite",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-001",
     
-    "openai/gpt-5",
-    "openai/gpt-5-mini",
-    "openai/gpt-5-nano",
+    "gpt-5.2",
+    "gpt-5",
+    "gpt-5-mini",
+    "gpt-5-nano",
     "gpt-4o-2024-11-20",
     "gpt-4o-mini-2024-07-18",
 
@@ -49,6 +53,10 @@ MODEL_NAMES = [
     "Qwen/Qwen3-4B",
 
     "moonshotai/kimi-k2",
+
+    "z-ai/glm-4.6",
+
+    "xiaomi/mimo-v2-flash:free",
 
     "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",
@@ -78,7 +86,7 @@ def get_client(model_name: str):
         return None
     
     try:
-        if "gpt-4" in model_name:
+        if "gpt" in model_name:
             client = OpenAI(
                 api_key=os.environ["OPENAI_API_KEY"]
             )
@@ -94,20 +102,6 @@ def get_client(model_name: str):
                 api_key=os.environ["GEMINI_API_KEY"],
                 base_url="https://generativelanguage.googleapis.com/v1beta/"  
             )
-        
-        elif 'llama-4' in model_name.lower():
-            client = OpenAI(
-                api_key=os.environ["GROQ_API_KEY"],
-                base_url="https://api.groq.com/openai/v1" 
-            )
-        
-        elif "phi" in model_name or 'deepseek' in model_name \
-            or 'llama-3.3' in model_name.lower() \
-            or 'llama-3.1' in model_name.lower():
-            client = OpenAI(
-                api_key=os.environ["NEBIUS_API_KEY"],
-                base_url="https://api.studio.nebius.ai/v1/"
-            )
 
         elif "mistral" in model_name or "behbudiy" in model_name \
             or "llama-3.2" in model_name.lower() or "bxod" in model_name:
@@ -116,12 +110,6 @@ def get_client(model_name: str):
                 api_key="token-abc123",
                 base_url="http://localhost:8000/v1",
             )
-        
-        elif "command" in model_name:
-            client = OpenAI(
-                api_key=os.environ["COHERE_API_KEY"],
-                base_url="https://api.cohere.ai/compatibility/v1",
-            )
 
         elif "grok" in model_name:
             client = OpenAI(
@@ -129,16 +117,10 @@ def get_client(model_name: str):
                 base_url="https://api.x.ai/v1",
             )
         
-        elif "kimi" in model_name or "qwen3" in model_name.lower() or "gpt-oss" in model_name.lower() or "gpt-5" in model_name.lower():
+        else:
             client = OpenAI(
                 api_key=os.environ["OPENROUTER_API_KEY"],
                 base_url="https://openrouter.ai/api/v1",
-            )
-
-        else:   
-            client = OpenAI(
-                api_key=os.environ["TOGETHER_API_KEY"],
-                base_url="https://api.together.xyz/v1",
             )
 
         return client
@@ -192,27 +174,33 @@ def send_request(prompt: str, model_name: str):
 
             return response.choices[0].message.content
         
-        elif 'gemini-2.5' in model_name.lower():
+        elif 'gemini' in model_name.lower():
             client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
-            contents = [
-                types.Content(role="user", parts=[types.Part.from_text(text=prompt)])
-            ]
-            generate_content_config = types.GenerateContentConfig(
-                temperature=1.0,
-                top_p=0.95,
-                max_output_tokens=256,
+            if "3" in model_name.lower():
+                thinking_config = types.ThinkingConfig(
+                    # thinkingLevel = "HIGH",
+                    include_thoughts=True
+                )
+
+            else:
                 thinking_config = types.ThinkingConfig(
                     include_thoughts=True if "2.5-pro" in model_name else None,
                     thinking_budget=128 if "2.5-pro" in model_name else 0
-                ),
+                )
+
+            generate_content_config = types.GenerateContentConfig(
+                temperature=1.0,
+                top_p=0.95,
+                max_output_tokens=512,
+                thinking_config = thinking_config,
                 response_mime_type="text/plain",
             )
 
             all_result = ""
             for chunk in client.models.generate_content_stream(
                 model = model_name,
-                contents = contents,
+                contents = [types.Content(role="user", parts=[types.Part.from_text(text=prompt)])],
                 config = generate_content_config,
             ):
                 if chunk.text:
@@ -236,14 +224,29 @@ def send_request(prompt: str, model_name: str):
             response = client.chat.completions.create(
                 model=model_name,
                 temperature=1,
-                top_p=0.95,
+                # top_p=0.95,
                 max_completion_tokens=256,
-                messages=[{"role": "user", "content": prompt}],
-                reasoning_effort="minimal",
+                messages=[{"role": "user", "content": [{"type": "text", "text": prompt}]}],
+                response_format={"type": "text"},
+                verbosity="low",
+                reasoning_effort="none" if "5.2" in model_name else "minimal",
+                store=False
             )
 
             return response.choices[0].message.content
+        
+        elif "glm" in model_name or "mimo" in model_name:
+            response = client.chat.completions.create(
+                model=model_name,
+                temperature=1,
+                top_p=0.95,
+                max_completion_tokens=256,
+                messages=[{"role": "user", "content": prompt}],
+                extra_body={"reasoning": {"enabled": False}}
+            )
 
+            return response.choices[0].message.content
+        
         else:
             response = client.chat.completions.create(
                 model=model_name,

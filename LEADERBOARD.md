@@ -2,24 +2,30 @@
 
 | **Model Name** | **Organization** | **All** | **Correct word** | **Meaning** | **Meaning in context** | **Fill in** |
 |:--------------:|:----------------:|:-------:|:----------------:|:-----------:|:----------------------:|:-----------:|
-| [Gemini 2.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-pro) | Google | **0.6905** | **0.6795** | **0.7627** | **0.7778** | **0.5577** |
+| [Gemini 3 Pro Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-3-pro-preview) | Google | **0.8264** | **0.8215** | **0.8644** | **0.875** | **0.7308** |
+| [Gemini 3 Flash Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-3-flash-preview) | Google | 0.7953 | 0.7941 | 0.8517 | 0.7083 | 0.6923 |
+| [Gemini 2.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-pro) | Google | 0.6905 | 0.6795 | 0.7627 | 0.7778 | 0.5577 |
+| [GPT 5.2](https://platform.openai.com/playground/chat?models=gpt-5.2) | OpenAI | 0.662 | 0.6696 | 0.6314 | 0.7083 | 0.5192 |
 | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Anthropic | 0.6513 | 0.6429 | 0.7246 | 0.7083 | 0.4808 |
 | [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) | Anthropic | 0.6362 | 0.6442 | 0.5975 | 0.7222 | 0.4615 |
-| [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6319 | 0.6376 | 0.6059 | 0.6528 | **0.5577** |
+| [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6319 | 0.6376 | 0.6059 | 0.6528 | 0.5577 |
 | [Gemini 2.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash) | Google | 0.6255 | 0.6409 | 0.555 | 0.6389 | 0.4808 |
 | [GPT 5](https://platform.openai.com/playground/chat?models=gpt-5) | OpenAI | 0.6158 | 0.6322 | 0.5763 | 0.5417 | 0.4231 |
-| [Gemini 2.0 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-001) | Google | 0.6013 | 0.6029 | 0.5593 | 0.7361 | **0.5577** |
+| [Gemini 2.0 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-001) | Google | 0.6013 | 0.6029 | 0.5593 | 0.7361 | 0.5577 |
+| [Claude Sonnet 4.5](https://www.anthropic.com/news/claude-opus-4-5) | Anthropic | 0.6002 | 0.6023 | 0.678 | 0.4306 | 0.4231 |
 | *Human voters＊* | - | *0.5894* | *0.6054* | *0.5247* | *0.5254* | *0.5094* |
 | [Gemini 2.0 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-001) | Google | 0.5862 | 0.6036 | 0.5085 | 0.5833 | 0.4423 |
-| [Gemini 2.5 Flash Lite Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-lite-preview-06-17) | Google | 0.5605 | 0.5803 | 0.5042 | 0.5 | 0.3269 |
+| [Gemini 2.5 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-lite) | Google | 0.5723 | 0.5943 | 0.5042 | 0.5278 | 0.3077 |
 | [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct) | Meta | 0.5519 | 0.5736 | 0.4703 | 0.5556 | 0.2885 |
 | [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b) | OpenAI | 0.5492 | 0.5743 | 0.4576 | 0.3611 | 0.5 |
 | [DeepSeek-V3-0324](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | DeepSeek | 0.5443 | 0.551 | 0.5212 | 0.5278 | 0.4808 |
 | [GPT 5 mini](https://platform.openai.com/playground/chat?models=gpt-5-mini) | OpenAI | 0.5293 | 0.5423 | 0.5 | 0.4861 | 0.3462 |
 | [GPT 4o mini](https://platform.openai.com/playground/chat?models=gpt-4o-mini-2024-07-18) | OpenAI | 0.5255 | 0.5410 | 0.4915 | 0.4306 | 0.3654 |
+| [MiMo V2 Flash](https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash) | Xiaomi | 0.5234 | 0.5583 | 0.3771 | 0.4028 | 0.3462 |
 | [Kimi K2](https://huggingface.co/moonshotai/Kimi-K2-Instruct) | Moonshot AI | 0.518 | 0.5376 | 0.4492 | 0.4722 | 0.3269 |
 | [Grok 3](https://x.ai/news/grok-3) | xAI | 0.5148 | 0.5083 | 0.5678 | 0.5833 | 0.3654 |
 | [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) | Anthropic | 0.5046 | 0.5283 | 0.4703 | 0.1944 | 0.4038 |
+| [GLM 4.6](https://huggingface.co/zai-org/GLM-4.6) | Zhipu AI | 0.4981 | 0.5163 | 0.4025 | 0.5417 | 0.3462 |
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.4949 | 0.5177 | 0.4237 | 0.3889 | 0.3077 |
 | [GPT 5 nano](https://platform.openai.com/playground/chat?models=gpt-5-nano) | OpenAI | 0.4927 | 0.525 | 0.3475 | 0.4028 | 0.3462 |
 | [Qwen3-235B-A22B-2507](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507) | Alibaba | 0.4874 | 0.5043 | 0.4364 | 0.3889 | 0.3654 |
