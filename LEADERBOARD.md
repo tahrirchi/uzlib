@@ -6,6 +6,7 @@
 | [Gemini 3 Flash Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-3-flash-preview) | Google | 0.7953 | 0.7941 | 0.8517 | 0.7083 | 0.6923 |
 | [Gemini 2.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-pro) | Google | 0.6905 | 0.6795 | 0.7627 | 0.7778 | 0.5577 |
 | [GPT 5.2](https://platform.openai.com/playground/chat?models=gpt-5.2) | OpenAI | 0.662 | 0.6696 | 0.6314 | 0.7083 | 0.5192 |
+| [NeuronAI-Uzbek](https://huggingface.co/NeuronUz/NeuronAI-Uzbek) | NeuronAI | 0.6529 | 0.7089 | 0.4746 | 0.3194 | 0.3077 |
 | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Anthropic | 0.6513 | 0.6429 | 0.7246 | 0.7083 | 0.4808 |
 | [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) | Anthropic | 0.6362 | 0.6442 | 0.5975 | 0.7222 | 0.4615 |
 | [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6319 | 0.6376 | 0.6059 | 0.6528 | 0.5577 |

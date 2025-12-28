@@ -78,6 +78,8 @@ MODEL_NAMES = [
     "bxod/Llama-3.2-1B-Instruct-uz",
 
     "microsoft/phi-4",
+
+    "NeuronUz/NeuronAI-Uzbek",
 ]
 
 def get_client(model_name: str):
@@ -104,7 +106,7 @@ def get_client(model_name: str):
             )
 
         elif "mistral" in model_name or "behbudiy" in model_name \
-            or "llama-3.2" in model_name.lower() or "bxod" in model_name:
+            or "llama-3.2" in model_name.lower() or "bxod" in model_name or "NeuronAI" in model_name:
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
                 api_key="token-abc123",
@@ -173,6 +175,32 @@ def send_request(prompt: str, model_name: str):
             )
 
             return response.choices[0].message.content
+        
+        elif 'neuronai' in model_name.lower() or 'neuronuz' in model_name.lower():
+            # NeuronUz/NeuronAI-Uzbek model via vLLM
+            # Uses Qwen3 base, so disable thinking and use system prompt
+            response = client.chat.completions.create(
+                model=model_name,
+                temperature=1,
+                top_p=0.95,
+                max_completion_tokens=256,
+                messages=[
+                    {"role": "system", "content": "Siz o'zbek tili bo'yicha mutaxassis yordamchisiz. Savollarga aniq va qisqa javob bering."},
+                    {"role": "user", "content": prompt}
+                ],
+                extra_body={
+                    "chat_template_kwargs": {"enable_thinking": False},
+                },
+            )
+            
+            result = response.choices[0].message.content
+            # Strip any <think>...</think> tags if present
+            if result:
+                import re
+                result = re.sub(r'<think>.*?</think>', '', result, flags=re.DOTALL | re.IGNORECASE)
+                result = re.sub(r'<think>.*', '', result, flags=re.DOTALL | re.IGNORECASE)
+                result = result.strip()
+            return result
         
         elif 'gemini' in model_name.lower():
             client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
