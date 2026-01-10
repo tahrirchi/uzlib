@@ -6,7 +6,7 @@
 | [Gemini 3 Flash Preview](https://aistudio.google.com/prompts/new_chat?model=gemini-3-flash-preview) | Google | 0.7953 | 0.7941 | 0.8517 | 0.7083 | 0.6923 |
 | [Gemini 2.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-pro) | Google | 0.6905 | 0.6795 | 0.7627 | 0.7778 | 0.5577 |
 | [GPT 5.2](https://platform.openai.com/playground/chat?models=gpt-5.2) | OpenAI | 0.662 | 0.6696 | 0.6314 | 0.7083 | 0.5192 |
-| [NeuronAI-Uzbek](https://huggingface.co/NeuronUz/NeuronAI-Uzbek) | NeuronAI | 0.6529 | 0.7089 | 0.4746 | 0.3194 | 0.3077 |
+| [NeuronAI-o'zbek_tili(4B)](https://huggingface.co/NeuronUz/NeuronAI-Uzbek) | NeuronAI | 0.662 | 0.7182 | 0.4661 | 0.3333 | 0.3846 |
 | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Anthropic | 0.6513 | 0.6429 | 0.7246 | 0.7083 | 0.4808 |
 | [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) | Anthropic | 0.6362 | 0.6442 | 0.5975 | 0.7222 | 0.4615 |
 | [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6319 | 0.6376 | 0.6059 | 0.6528 | 0.5577 |
@@ -43,6 +43,7 @@
 | [Mistral Nemo Uz](https://huggingface.co/behbudiy/Mistral-Nemo-Instruct-Uz) | Behbudiy Labs | 0.3799 | 0.3951 | 0.2966 | 0.4167 | 0.2692 |
 | [Llama 3.1 8B](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct) | Meta | 0.3745 | 0.3937 | 0.3051 | 0.3472 | 0.1731 |
 | [Qwen3 14B](https://huggingface.co/Qwen/Qwen3-14B) | Alibaba | 0.374 | 0.3797 | 0.3771 | 0.3194 | 0.2692 |
+| [Qwen3 4B](https://huggingface.co/Qwen/Qwen3-4B) | Alibaba | 0.345 | 0.3511 | 0.3093 | 0.3472 | 0.3269 |
 | [Phi 4](https://huggingface.co/microsoft/phi-4) | Microsoft | 0.3401 | 0.3471 | 0.322 | 0.2361 | 0.3654 |
 | [Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | Mistral AI | 0.3246 | 0.3431 | 0.2542 | 0.2639 | 0.1923 |
 | [Llama 3.2 3B Uz](https://huggingface.co/bxod/Llama-3.2-3B-Instruct-uz) | Bekhzod Shukhratov | 0.2832 | 0.2805 | 0.2712 | 0.3194 | 0.3654 |

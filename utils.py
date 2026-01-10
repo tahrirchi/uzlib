@@ -105,7 +105,7 @@ def get_client(model_name: str):
                 base_url="https://generativelanguage.googleapis.com/v1beta/"  
             )
 
-        elif "mistral" in model_name or "behbudiy" in model_name \
+        elif "mistral" in model_name or "behbudiy" in model_name or "Qwen3-4B" in model_name \
             or "llama-3.2" in model_name.lower() or "bxod" in model_name or "NeuronAI" in model_name:
             # Note: This uses hardcoded values which might need configuration
             client = OpenAI(
