@@ -13,7 +13,7 @@
 | [Gemini 2.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash) | Google | 0.6255 | 0.6409 | 0.555 | 0.6389 | 0.4808 |
 | [GPT 5](https://platform.openai.com/playground/chat?models=gpt-5) | OpenAI | 0.6158 | 0.6322 | 0.5763 | 0.5417 | 0.4231 |
 | [Gemini 2.0 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-001) | Google | 0.6013 | 0.6029 | 0.5593 | 0.7361 | 0.5577 |
-| [Claude Sonnet 4.5](https://www.anthropic.com/news/claude-opus-4-5) | Anthropic | 0.6002 | 0.6023 | 0.678 | 0.4306 | 0.4231 |
+| [Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) | Anthropic | 0.6002 | 0.6023 | 0.678 | 0.4306 | 0.4231 |
 | *Human voters＊* | - | *0.5894* | *0.6054* | *0.5247* | *0.5254* | *0.5094* |
 | [Gemini 2.0 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-001) | Google | 0.5862 | 0.6036 | 0.5085 | 0.5833 | 0.4423 |
 | [Gemini 2.5 Flash Lite](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-lite) | Google | 0.5723 | 0.5943 | 0.5042 | 0.5278 | 0.3077 |
