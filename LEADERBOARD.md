@@ -8,6 +8,7 @@
 | [GPT 5.2](https://platform.openai.com/playground/chat?models=gpt-5.2) | OpenAI | 0.662 | 0.6696 | 0.6314 | 0.7083 | 0.5192 |
 | [NeuronAI-o'zbek_tili(4B)](https://huggingface.co/NeuronUz/NeuronAI-Uzbek) | NeuronAI | 0.662 | 0.7182 | 0.4661 | 0.3333 | 0.3846 |
 | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Anthropic | 0.6513 | 0.6429 | 0.7246 | 0.7083 | 0.4808 |
+| [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) | Anthropic | 0.6411 | 0.6482 | 0.5847 | 0.7222 | 0.5769 |	
 | [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) | Anthropic | 0.6362 | 0.6442 | 0.5975 | 0.7222 | 0.4615 |
 | [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6319 | 0.6376 | 0.6059 | 0.6528 | 0.5577 |
 | [Gemini 2.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash) | Google | 0.6255 | 0.6409 | 0.555 | 0.6389 | 0.4808 |

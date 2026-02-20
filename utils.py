@@ -9,6 +9,8 @@ from google.genai import types
 load_dotenv()
 
 MODEL_NAMES = [
+    "claude-opus-4-6",
+    "claude-sonnet-4-6",
     "claude-opus-4-5-20251101",
     "claude-sonnet-4.5",
     "claude-opus-4-20250514",
