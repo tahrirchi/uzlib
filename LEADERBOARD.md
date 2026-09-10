@@ -8,6 +8,7 @@
 | [Gemini 3.1 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-pro-preview) | Google | 0.7818 | 0.7801 | 0.8263 | 0.6944 | 0.75 |
 | [Muse Spark 1.3](https://research.meta.ai/blog/introducing-muse-spark-1-3) | Meta | 0.7775 | 0.7835 | 0.7797 | 0.7083 | 0.6923 |
 | [Gemini 3.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-3.5-flash) | Google | 0.7614 | 0.7588 | 0.8008 | 0.69447639 | 0.6538 |
+| [DeepSeek V4.1 Flash](https://api-docs.deepseek.com/) | DeepSeek | 0.7480 | 0.7548 | 0.7458 | 0.7222 | 0.5962 |
 | [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna) | OpenAI | 0.7141 | 0.7282 | 0.6653 | 0.7639 | 0.4615 |
 | [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | DeepSeek | 0.7088 | 0.7222 | 0.6653 | 0.6944 | 0.5385 |
 | [Gemini 2.5 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-pro) | Google | 0.6905 | 0.6795 | 0.7627 | 0.7778 | 0.5577 |
