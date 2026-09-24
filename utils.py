@@ -106,6 +106,8 @@ MODEL_NAMES = [
     "NeuronUz/NeuronAI-Uzbek",
 
     "muse-spark-1.3-contributor",
+
+    "space-bunny-free",
    
     "inclusionai/ling-3.0-flash",
 
@@ -131,6 +133,22 @@ def get_client(model_name: str):
 
         elif "gemini" in model_name:
             client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+
+        elif "space-bunny" in model_name:
+            # Space Bunny is served over Chat Completions by OpenCode Go and
+            # requires the x-opencode-session header (same endpoint as Muse
+            # Spark, which instead needs the Responses API).
+            import uuid as _uuid
+            client = OpenAI(
+                api_key=os.environ["OPENCODE_GO_API_KEY"],
+                base_url=os.environ.get(
+                    "OPENCODE_GO_BASE_URL", "https://opencode.ai/zen/go/v1"
+                ),
+                default_headers={
+                    "x-opencode-session": os.environ.get("OPENCODE_GO_SESSION_ID")
+                    or ("sess_" + _uuid.uuid4().hex[:24])
+                },
+            )
 
         elif "mistral" in model_name or "behbudiy" in model_name or "Qwen3-4B" in model_name \
             or "llama-3.2" in model_name.lower() or "bxod" in model_name or "NeuronAI" in model_name:
@@ -324,6 +342,21 @@ def send_request(prompt: str, model_name: str):
             )
 
             return response.output_text
+
+        elif "space-bunny" in model_name:
+            # The model reasons before answering (~250-2000 tokens observed),
+            # so max_tokens must be generous (the official 256 truncates every
+            # response to empty text). Sampling params follow the benchmark
+            # standard.
+            response = client.chat.completions.create(
+                model=model_name,
+                temperature=1,
+                top_p=0.95,
+                max_tokens=4096,
+                messages=[{"role": "user", "content": prompt}],
+            )
+
+            return response.choices[0].message.content
 
         elif "ling-3.0-flash" in model_name or "mercury" in model_name:
             # These models emit long reasoning traces before answering, so
