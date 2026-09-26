@@ -47,6 +47,7 @@
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.4949 | 0.5177 | 0.4237 | 0.3889 | 0.3077 |
 | [GPT 5 nano](https://platform.openai.com/playground/chat?models=gpt-5-nano) | OpenAI | 0.4927 | 0.525 | 0.3475 | 0.4028 | 0.3462 |
 | [Qwen3-235B-A22B-2507](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507) | Alibaba | 0.4874 | 0.5043 | 0.4364 | 0.3889 | 0.3654 |
+| [Space Bunny](https://opencode.ai/docs/go/) | Unknown | 0.4863 | 0.5083 | 0.4153 | 0.3472 | 0.3654 |
 | [Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5) | Anthropic | 0.4847 | 0.5083 | 0.4407 | 0.25 | 0.3269 |
 | [Gemma 3 12B](https://huggingface.co/google/gemma-3-12b-it) | Google | 0.468 | 0.491 | 0.3814 | 0.4444 | 0.2308 |
 | [gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | OpenAI | 0.4578 | 0.4837 | 0.3898 | 0.3056 | 0.2308 |
@@ -78,3 +79,4 @@
 | [Llama 3.2 1B](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) | Meta | 0.2332 | 0.2285 | 0.25 | 0.25 | 0.2692 |
 
 * ＊ Human voters score is not the average of humans doing all the questions but the average of accuracy score for each question. Also, note that random baseline for humans is 0.4229 due to variable number of options (2-3) in the original questions.
+* Space Bunny is a stealth model: served as a limited-time free model on OpenCode Go with no disclosed provider or model card. It is likely a new model from the MiniMax family; this entry will be updated with the official name once it is announced.
