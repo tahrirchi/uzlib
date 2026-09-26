@@ -31,6 +31,7 @@ MODEL_NAMES = [
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-001",
     
+    "gpt-6-luna",
     "gpt-5.2",
     "gpt-5",
     "gpt-5-mini",
@@ -291,6 +292,20 @@ def send_request(prompt: str, model_name: str):
             )
 
             return response.choices[0].message.content
+        
+        elif 'gpt-6-luna' in model_name.lower():
+            # Reasoning-enabled model; the standard "medium" effort is used.
+            # top_p is not supported by this model (the API rejects it).
+            response = client.responses.create(
+                model=model_name,
+                input=prompt,
+                temperature=1,
+                max_output_tokens=2048,
+                reasoning={"effort": "medium"},
+                store=False,
+            )
+
+            return response.output_text
         
         elif "glm" in model_name or "mimo" in model_name or "grok" in model_name:
             response = client.chat.completions.create(
