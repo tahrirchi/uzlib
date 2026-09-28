@@ -42,6 +42,7 @@
 | [Kimi K2](https://huggingface.co/moonshotai/Kimi-K2-Instruct) | Moonshot AI | 0.518 | 0.5376 | 0.4492 | 0.4722 | 0.3269 |
 | [Grok 3](https://x.ai/news/grok-3) | xAI | 0.5148 | 0.5083 | 0.5678 | 0.5833 | 0.3654 |
 | [Ling 3.0 Flash](https://huggingface.co/inclusionAI/Ling-3.0-flash) | inclusionAI | 0.5137 | 0.5217 | 0.4958 | 0.4028 | 0.5192 |
+| [Jev 1.13.0](https://docs.typesafe.ai/model-jaggedness/jev-1.13) | TypeSafeAI | 0.5051 | 0.5157 | 0.428 | 0.5833 | 0.4423 |
 | [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) | Anthropic | 0.5046 | 0.5283 | 0.4703 | 0.1944 | 0.4038 |
 | [GLM 4.6](https://huggingface.co/zai-org/GLM-4.6) | Zhipu AI | 0.4981 | 0.5163 | 0.4025 | 0.5417 | 0.3462 |
 | [Gemma 3 27B](https://huggingface.co/google/gemma-3-27b-it) | Google | 0.4949 | 0.5177 | 0.4237 | 0.3889 | 0.3077 |
