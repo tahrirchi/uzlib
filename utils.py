@@ -148,6 +148,17 @@ def get_client(model_name: str):
                 base_url="https://api.deepseek.com",
             )
         
+        elif "muse-spark" in model_name.lower():
+            import uuid as _uuid
+            session_id = os.environ.get("OPENCODE_GO_SESSION_ID") or (
+                "sess_" + _uuid.uuid4().hex[:24]
+            )
+            client = OpenAI(
+                api_key=os.environ["OPENCODE_GO_API_KEY"],
+                base_url= "https://opencode.ai/zen/go/v1",
+                default_headers={"x-opencode-session": session_id},
+            )
+        
         else:
             client = OpenAI(
                 api_key=os.environ["OPENROUTER_API_KEY"],
@@ -320,24 +331,10 @@ def send_request(prompt: str, model_name: str):
             return response.choices[0].message.content
 
         elif "muse-spark" in model_name:
-            # Mouse Spark 1.3 via OpenCode Go (https://opencode.ai/zen/go/v1).
-            # Chat Completions is not served for this model; use the
-            # OpenAI Responses API with an x-opencode-session header.
             # The model emits long chain-of-thought traces before answering,
             # so max_output_tokens must be generous (256 truncates every
             # response). Sampling params follow the benchmark standard.
-            import uuid as _uuid
-            session_id = os.environ.get("OPENCODE_GO_SESSION_ID") or (
-                "sess_" + _uuid.uuid4().hex[:24]
-            )
-            spark_client = OpenAI(
-                api_key=os.environ["OPENCODE_GO_API_KEY"],
-                base_url=os.environ.get(
-                    "OPENCODE_GO_BASE_URL", "https://opencode.ai/zen/go/v1"
-                ),
-                default_headers={"x-opencode-session": session_id},
-            )
-            response = spark_client.responses.create(
+            response = client.responses.create(
                 model=model_name,
                 input=prompt,
                 temperature=1,
