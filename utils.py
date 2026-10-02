@@ -77,7 +77,7 @@ MODEL_NAMES = [
     "z-ai/glm-5.2",
     "z-ai/glm-4.6",
 
-    "xiaomi/mimo-v2-flash:free",
+    "xiaomi/mimo-v2-flash-free",
 
     "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",

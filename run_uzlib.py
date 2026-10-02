@@ -78,13 +78,31 @@ def main(model_name: str, max_retries: int, num_workers: int):
 
     artifact_name = f"artifacts/{model_name.split('/')[-1]}.jsonl"
 
+    # Resume support: skip ids already present in the artifact, so an
+    # interrupted run can continue instead of starting over. Behavior for
+    # a fresh run (no artifact file) is unchanged.
+    import os
+    done_ids = set()
+    if os.path.exists(artifact_name) and os.path.getsize(artifact_name) > 0:
+        try:
+            prev = pd.read_json(artifact_name, lines=True)
+            done_ids = set(prev['id'].tolist())
+            print(f"Resuming: {len(done_ids)} already done, "
+                  f"{len(df) - len(done_ids)} remaining")
+        except Exception as e:
+            print(f"Resume read failed ({e}); starting fresh")
+            done_ids = set()
+
+    todo = df[~df['id'].isin(done_ids)]
+    mode = 'a' if done_ids else 'w'
+
     # Open file once for writing; main thread will append as futures complete.
-    with open(artifact_name, 'w') as fout, \
+    with open(artifact_name, mode) as fout, \
          concurrent.futures.ThreadPoolExecutor(max_workers=num_workers) as executor:
 
         futures = {
             executor.submit(process_row, row, model_name, max_retries): row['id']
-            for _, row in df.iterrows()
+            for _, row in todo.iterrows()
         }
 
         # As each future completes, write its result
@@ -100,6 +118,7 @@ def main(model_name: str, max_retries: int, num_workers: int):
                 rid = futures[f]
                 res = {'id': rid, 'response': None, 'extracted_answer': None}
             fout.write(json.dumps(res) + '\n')
+            fout.flush()
 
     # Load results and compute accuracy
     df_res = pd.read_json(artifact_name, lines=True)
