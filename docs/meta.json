@@ -1,0 +1,22 @@
+{
+ "generated": "2026-09-09",
+ "source_file": "LEADERBOARD.md",
+ "total_models": 70,
+ "total_questions": 1861,
+ "categories": {
+  "correct_word": 1501,
+  "meaning": 236,
+  "meaning_in_context": 72,
+  "fill_in": 52
+ },
+ "best": {
+  "name": "Gemini 3 Pro",
+  "all": 0.8264,
+  "org": "Google"
+ },
+ "source": {
+  "dataset": "https://huggingface.co/datasets/tahrirchi/uzlib",
+  "repo": "https://github.com/tahrirchi/uzlib",
+  "blog": "https://tilmoch.ai/uz/uzlib-ozbekcha-lingvistik-benchmark"
+ }
+}
