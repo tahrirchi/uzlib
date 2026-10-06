@@ -9,6 +9,7 @@ from google.genai import types
 load_dotenv()
 
 MODEL_NAMES = [
+    "claude-sonnet-5-5",
     "claude-sonnet-5",
     "claude-opus-4-6",
     "claude-sonnet-4-6",
@@ -74,6 +75,8 @@ MODEL_NAMES = [
 
     "moonshotai/kimi-k2",
 
+    "z-ai/glm-5.3",
+    "z-ai/glm-5.3-flash",
     "z-ai/glm-5.2",
     "z-ai/glm-4.6",
 
@@ -365,7 +368,6 @@ def send_request(prompt: str, model_name: str):
                 max_completion_tokens=256,
                 messages=[{"role": "user", "content": prompt}]
             )
-
             return response.choices[0].message.content
     
     except ValueError as e:
