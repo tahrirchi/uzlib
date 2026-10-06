@@ -7,6 +7,7 @@
 | [GPT-6 Luna](https://platform.openai.com/playground/chat?models=gpt-6-luna) | OpenAI | 0.8087 | 0.8101 | 0.822 | 0.9028 | 0.5769 |
 | [Gemini 3 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-3-flash-preview) | Google | 0.7953 | 0.7941 | 0.8517 | 0.7083 | 0.6923 |
 | [Gemini 3.1 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-pro-preview) | Google | 0.7818 | 0.7801 | 0.8263 | 0.6944 | 0.75 |
+| [Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5) | Anthropic | 0.7813 | 0.7861 | 0.7797 | 0.7917 | 0.6346 |
 | [Muse Spark 1.3](https://research.meta.ai/blog/introducing-muse-spark-1-3) | Meta | 0.7775 | 0.7835 | 0.7797 | 0.7083 | 0.6923 |
 | [Gemini 3.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-3.5-flash) | Google | 0.7614 | 0.7588 | 0.8008 | 0.69447639 | 0.6538 |
 | [DeepSeek V4.1 Flash](https://api-docs.deepseek.com/) | DeepSeek | 0.7480 | 0.7548 | 0.7458 | 0.7222 | 0.5962 |
