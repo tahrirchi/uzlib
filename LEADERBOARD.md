@@ -2,7 +2,8 @@
 
 | **Model Name** | **Organization** | **All** | **Correct word** | **Meaning** | **Meaning in context** | **Fill in** |
 |:--------------:|:----------------:|:-------:|:----------------:|:-----------:|:----------------------:|:-----------:|
-| [Gemini 3 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-3-pro-preview) | Google | **0.8264** | **0.8215** | **0.8644** | **0.875** | **0.7308** |
+| [Gemini 4 Argon](https://aistudio.google.com/prompts/new_chat?model=gemini-4-argon) | Google | **0.8436** | **0.8414** | 0.8475 | **0.9028** | **0.8077** |
+| [Gemini 3 Pro](https://aistudio.google.com/prompts/new_chat?model=gemini-3-pro-preview) | Google | 0.8264 |*0.8215 | **0.8644** | 0.875 | 0.7308 |
 | [Gemini 3.7 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-3.7-flash) | Google | 0.8092 | 0.8061 | 0.8432 | 0.8472 | 0.6923 |
 | [GPT-6 Luna](https://platform.openai.com/playground/chat?models=gpt-6-luna) | OpenAI | 0.8087 | 0.8101 | 0.822 | 0.9028 | 0.5769 |
 | [Gemini 3 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-3-flash-preview) | Google | 0.7953 | 0.7941 | 0.8517 | 0.7083 | 0.6923 |
@@ -23,10 +24,10 @@
 | [GPT 4o](https://platform.openai.com/playground/chat?models=gpt-4o-2024-11-20) | OpenAI | 0.6319 | 0.6376 | 0.6059 | 0.6528 | 0.5577 |
 | [Mercury 2.5](https://www.inceptionlabs.ai/blog/introducing-mercury-2-5) | Inception | 0.6298 | 0.6376 | 0.6271 | 0.5972 | 0.4615 |
 | [Gemini 2.5 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash) | Google | 0.6255 | 0.6409 | 0.555 | 0.6389 | 0.4808 |
-| [GLM 5.3](https://huggingface.co/zai-org/GLM-5.3) | Zhipu AI | 0.6112 | 0.6349 | 0.5805 | 0.5417 | 0.5192 |
 | [GPT 5](https://platform.openai.com/playground/chat?models=gpt-5) | OpenAI | 0.6158 | 0.6322 | 0.5763 | 0.5417 | 0.4231 |
 | [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) | Anthropic | 0.6147 | 0.6243 | 0.5551 | 0.6806 | 0.5192 |	
 | [GLM 5.3 flash](https://huggingface.co/zai-org/GLM-5.3-Flash) | Zhipu AI | 0.6147 | 0.6282 | 0.5678 | 0.5833 | 0.4808 |
+| [GLM 5.3](https://huggingface.co/zai-org/GLM-5.3) | Zhipu AI | 0.6112 | 0.6349 | 0.5805 | 0.5417 | 0.5192 |
 | [Gemini 2.0 Flash](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-001) | Google | 0.6013 | 0.6029 | 0.5593 | 0.7361 | 0.5577 |
 | [Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) | Anthropic | 0.6002 | 0.6023 | 0.678 | 0.4306 | 0.4231 |
 | *Human voters＊* | - | *0.5894* | *0.6054* | *0.5247* | *0.5254* | *0.5094* |

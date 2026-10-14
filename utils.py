@@ -4,7 +4,6 @@ import langid
 from openai import OpenAI
 from dotenv import load_dotenv
 from google import genai
-from google.genai import types
 
 load_dotenv()
 
@@ -22,6 +21,7 @@ MODEL_NAMES = [
     "claude-3-5-sonnet-20240620",
     "claude-3-5-haiku-20241022",
     
+    "gemini-4-argon",
     "gemini-3.5-flash",
     "gemini-3.1-pro-preview",
     "gemini-3-pro-preview",
@@ -249,36 +249,18 @@ def send_request(prompt: str, model_name: str):
             return result
         
         elif 'gemini' in model_name.lower():
-            if "3" in model_name.lower():
-                thinking_config = types.ThinkingConfig(
-                    thinkingLevel = "MINIMAL",
-                    # include_thoughts=True
-                )
-
-            else:
-                thinking_config = types.ThinkingConfig(
-                    include_thoughts=True if "2.5-pro" in model_name else None,
-                    thinking_budget=128 if "2.5-pro" in model_name else 0
-                )
-
-            generate_content_config = types.GenerateContentConfig(
-                temperature=1.0,
-                top_p=0.95,
-                max_output_tokens=512,
-                thinking_config = thinking_config,
-                response_mime_type="text/plain",
+            interaction = client.interactions.create(
+                model=model_name,
+                input=prompt,
+                generation_config={
+                    "temperature": 1.0,
+                    "top_p": 0.95,
+                    "max_output_tokens": 512,
+                    "thinking_level": "low",
+                },
             )
 
-            all_result = ""
-            for chunk in client.models.generate_content_stream(
-                model = model_name,
-                contents = [types.Content(role="user", parts=[types.Part.from_text(text=prompt)])],
-                config = generate_content_config,
-            ):
-                if chunk.text:
-                    all_result += chunk.text
-            
-            return all_result
+            return interaction.output_text
         
         elif 'gpt-oss' in model_name.lower():
             response = client.chat.completions.create(
