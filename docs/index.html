@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>UzLiB — O'zbek lingvistik benchmarki | Leaderboard</title>
+<meta name="description" content="UzLiB — katta til modellarining o'zbek tilini bilishini o'lchaydigan ilk keng qamrovli benchmark. Natijalarni GitHub'ga kirmasdan shu sahifada ko'ring." />
+<meta property="og:title" content="UzLiB Leaderboard" />
+<meta property="og:description" content="LLM'larning o'zbek tili bo'yicha natijalari — 1861 savol, 70+ model." />
+<meta property="og:type" content="website" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇺🇿</text></svg>" />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#top">
+      <span class="brand-mark">Uz</span>
+      <span class="brand-text">LiB <em>leaderboard</em></span>
+    </a>
+    <nav class="topnav">
+      <a href="#leaderboard">Reyting</a>
+      <a href="#top3">Top-3</a>
+      <a href="#categories">Kategoriyalar</a>
+      <a href="#method">Metodologiya</a>
+    </nav>
+    <div class="top-links">
+      <a class="chip" href="https://huggingface.co/datasets/tahrirchi/uzlib" target="_blank" rel="noopener">🤗 Dataset</a>
+      <a class="chip" href="https://github.com/tahrirchi/uzlib" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-in">
+      <p class="kicker">O'zbek tili uchun ilk lingvistik benchmark</p>
+      <h1>Qaysi AI <span class="accent">o'zbek tilini</span> yaxshi biladi?</h1>
+      <p class="lede">
+        UzLiB katta til modellarini (LLM) o'zbek tilining to'g'ri shakllari, so'z ma'nolari
+        va qo'llanish nozikliklari bo'yicha sinaydi. Quyida barcha natijalar bitta jadvalda —
+        GitHub'ga kirmasdan ko'rish, qidirish va saralash mumkin.
+      </p>
+      <div class="stats" id="stats">
+        <div class="stat"><strong id="st-models">—</strong><span>baholangan model</span></div>
+        <div class="stat"><strong id="st-questions">—</strong><span>savol</span></div>
+        <div class="stat"><strong id="st-best">—</strong><span>eng yaxshi natija</span></div>
+        <div class="stat"><strong id="st-updated">—</strong><span>yangilangan sana</span></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn primary" href="#leaderboard">Reytingni ko'rish ↓</a>
+        <a class="btn" href="https://tilmoch.ai/uz/uzlib-ozbekcha-lingvistik-benchmark" target="_blank" rel="noopener">Loyiha haqida o'qish</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP 3 -->
+  <section class="wrap section" id="top3">
+    <div class="sec-head">
+      <h2>Eng yaxshi modellar</h2>
+      <p>Umumiy ball bo'yicha kuchli uchlik.</p>
+    </div>
+    <div class="cards" id="spot-cards">
+      <p class="muted">Yuklanmoqda…</p>
+    </div>
+  </section>
+
+  <!-- LEADERBOARD -->
+  <section class="wrap section" id="leaderboard">
+    <div class="sec-head">
+      <h2>Reyting jadvali</h2>
+      <p>Ustun sarlavhasini bossangiz — o'sha ko'rsatkich bo'yicha saralanadi. Ballar 0–100% shkalada.</p>
+    </div>
+
+    <div class="toolbar">
+      <label class="search">
+        <span aria-hidden="true">⌕</span>
+        <input id="q" type="search" placeholder="Model yoki tashkilot qidirish…" autocomplete="off" />
+      </label>
+      <select id="org" aria-label="Tashkilot bo'yicha filtr">
+        <option value="">Barcha tashkilotlar</option>
+      </select>
+      <label class="check"><input type="checkbox" id="hideBase" /> Inson/Tasodifiy qatorlarni yashirish</label>
+      <button class="btn small" id="csvBtn" type="button">CSV yuklab olish</button>
+    </div>
+    <p class="count muted" id="count"></p>
+
+    <div class="table-scroll">
+      <table id="board">
+        <thead>
+          <tr>
+            <th data-k="rank">#</th>
+            <th data-k="name">Model</th>
+            <th data-k="org">Tashkilot</th>
+            <th data-k="all" class="num sel">Umumiy</th>
+            <th data-k="correct_word" class="num">To'g'ri so'z</th>
+            <th data-k="meaning" class="num">Ma'no</th>
+            <th data-k="meaning_in_context" class="num">Kontekstda ma'no</th>
+            <th data-k="fill_in" class="num">To'ldirish</th>
+          </tr>
+        </thead>
+        <tbody id="rows">
+          <tr><td colspan="8" class="muted">Yuklanmoqda…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">＊ <b>Human voters</b> — har bir savolga ovoz bergan odamlarning o'rtacha aniqligi.</p>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="wrap section" id="categories">
+    <div class="sec-head">
+      <h2>Savol kategoriyalari</h2>
+      <p>Jami 1861 savol to'rt turga bo'lingan.</p>
+    </div>
+    <div class="cards four" id="cat-cards"></div>
+  </section>
+
+  <!-- METHOD -->
+  <section class="wrap section" id="method">
+    <div class="sec-head">
+      <h2>Metodologiya</h2>
+    </div>
+    <div class="prose">
+      <ul>
+        <li>Barcha modellar bir xil savollar asosida, bir xil sharoitda sinovdan o'tkaziladi — natijalar adolatli taqqoslanadi.</li>
+        <li>Savollar o'zbek tilshunosligiga ixtisoslashgan Telegram-kanallar testlaridan yig'ilib, qo'lda tekshirilgan va standartlashtirilgan.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <p><b>UzLiB</b> — o'zbek tili uchun ochiq lingvistik benchmark · Savollar: Telegram-kanallar (<a href="https://t.me/oriftolib" target="_blank" rel="noopener">Orif Tolib</a>, <a href="https://t.me/xatoliklar" target="_blank" rel="noopener">To'g'ri yozamiz</a>, <a href="https://t.me/tahrir_uz" target="_blank" rel="noopener">Tahrir.uz</a>, <a href="https://t.me/tahrirchi_uz" target="_blank" rel="noopener">Tahrirchi</a>)</p>
+    <p class="muted">Bog'lanish: <a href="mailto:a.shopulatov@tilmoch.ai">a.shopulatov@tilmoch.ai</a></p>
+  </div>
+</footer>
+
+<script src="./app.js" defer></script>
+</body>
+</html>
